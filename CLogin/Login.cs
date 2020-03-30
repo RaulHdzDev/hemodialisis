@@ -149,6 +149,7 @@ si tienen sugerencias o quieren cambiar algo esta bien
 
 
 
+
          
             //Descartar cuando quiten comentarios
             VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
@@ -214,7 +215,38 @@ si tienen sugerencias o quieren cambiar algo esta bien
 
         }
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
+
+        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void panel3_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void pictureBox4_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
     }
 }
