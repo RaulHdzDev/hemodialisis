@@ -16,5 +16,10 @@ namespace Talent
         {
             InitializeComponent();
         }
+
+        private void btnCancelarActualizar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
