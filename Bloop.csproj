@@ -73,6 +73,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CEmpleados\AgregarPacientesEncargados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEmpleados\AgregarPacientesEncargados.Designer.cs">
+      <DependentUpon>AgregarPacientesEncargados.cs</DependentUpon>
+    </Compile>
     <Compile Include="CLugares\ActualizarLugar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -234,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CCitas\ActualizarCita.resx">
       <DependentUpon>ActualizarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEmpleados\AgregarPacientesEncargados.resx">
+      <DependentUpon>AgregarPacientesEncargados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CLogin\RegistrarAdmin.resx">
       <DependentUpon>RegistrarAdmin.cs</DependentUpon>

@@ -19,6 +19,7 @@ namespace Talent
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Favor de revisar su correo");
             this.Hide();
         }
 
