@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Talent.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="user" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mantehostingacm_chino</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tecmante159357</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mantehostingacm_hemodialisisbd</Value>
+    </Setting>
+    <Setting Name="server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">66.198.246.118</Value>
+    </Setting>
+    <Setting Name="puerto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2082</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

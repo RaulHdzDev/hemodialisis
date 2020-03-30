@@ -1,0 +1,353 @@
+﻿namespace Talent
+{
+    partial class Login
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtLContraseña = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtLUsuario = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.btnRecuperarContraseña = new System.Windows.Forms.LinkLabel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 50;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(544, 560);
+            this.panel1.TabIndex = 11;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Talent.Properties.Resources.fondol1;
+            this.pictureBox4.Location = new System.Drawing.Point(-263, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(853, 560);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(544, 38);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(436, 136);
+            this.panel3.TabIndex = 13;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Talent.Properties.Resources.poster2_14_91331;
+            this.pictureBox1.Location = new System.Drawing.Point(98, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(224, 159);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(544, 538);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(436, 22);
+            this.panel4.TabIndex = 14;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.bunifuThinButton21);
+            this.panel5.Controls.Add(this.bunifuCustomLabel2);
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.txtLContraseña);
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Controls.Add(this.txtLUsuario);
+            this.panel5.Controls.Add(this.btnRecuperarContraseña);
+            this.panel5.Controls.Add(this.bunifuCustomLabel1);
+            this.panel5.Controls.Add(this.btnLIniciarSesion);
+            this.panel5.Controls.Add(this.pictureBox3);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(544, 174);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(436, 364);
+            this.panel5.TabIndex = 15;
+            // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Registrate aquí";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(143, 283);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(143, 41);
+            this.bunifuThinButton21.TabIndex = 107;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click_1);
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(156, 265);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(121, 13);
+            this.bunifuCustomLabel2.TabIndex = 106;
+            this.bunifuCustomLabel2.Text = "¿No tienes una cuenta?";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(98, 123);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 16);
+            this.label3.TabIndex = 105;
+            this.label3.Text = "Contraseña:";
+            // 
+            // txtLContraseña
+            // 
+            this.txtLContraseña.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtLContraseña.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtLContraseña.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtLContraseña.BorderThickness = 1;
+            this.txtLContraseña.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtLContraseña.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtLContraseña.ForeColor = System.Drawing.Color.Gray;
+            this.txtLContraseña.isPassword = true;
+            this.txtLContraseña.Location = new System.Drawing.Point(98, 134);
+            this.txtLContraseña.Margin = new System.Windows.Forms.Padding(4);
+            this.txtLContraseña.Name = "txtLContraseña";
+            this.txtLContraseña.Size = new System.Drawing.Size(244, 33);
+            this.txtLContraseña.TabIndex = 104;
+            this.txtLContraseña.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(98, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 16);
+            this.label2.TabIndex = 103;
+            this.label2.Text = "Usuario o Correo:";
+            // 
+            // txtLUsuario
+            // 
+            this.txtLUsuario.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtLUsuario.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtLUsuario.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtLUsuario.BorderThickness = 1;
+            this.txtLUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtLUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtLUsuario.ForeColor = System.Drawing.Color.Gray;
+            this.txtLUsuario.isPassword = false;
+            this.txtLUsuario.Location = new System.Drawing.Point(98, 78);
+            this.txtLUsuario.Margin = new System.Windows.Forms.Padding(4);
+            this.txtLUsuario.Name = "txtLUsuario";
+            this.txtLUsuario.Size = new System.Drawing.Size(244, 33);
+            this.txtLUsuario.TabIndex = 102;
+            this.txtLUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // btnRecuperarContraseña
+            // 
+            this.btnRecuperarContraseña.AutoSize = true;
+            this.btnRecuperarContraseña.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnRecuperarContraseña.Location = new System.Drawing.Point(257, 172);
+            this.btnRecuperarContraseña.Name = "btnRecuperarContraseña";
+            this.btnRecuperarContraseña.Size = new System.Drawing.Size(76, 13);
+            this.btnRecuperarContraseña.TabIndex = 15;
+            this.btnRecuperarContraseña.TabStop = true;
+            this.btnRecuperarContraseña.Text = "Haz click aquí";
+            this.btnRecuperarContraseña.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(106, 172);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(151, 13);
+            this.bunifuCustomLabel1.TabIndex = 14;
+            this.bunifuCustomLabel1.Text = "¿No recuerdas tu contraseña?";
+            // 
+            // btnLIniciarSesion
+            // 
+            this.btnLIniciarSesion.ActiveBorderThickness = 1;
+            this.btnLIniciarSesion.ActiveCornerRadius = 20;
+            this.btnLIniciarSesion.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnLIniciarSesion.ActiveForecolor = System.Drawing.Color.White;
+            this.btnLIniciarSesion.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnLIniciarSesion.BackColor = System.Drawing.Color.White;
+            this.btnLIniciarSesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLIniciarSesion.BackgroundImage")));
+            this.btnLIniciarSesion.ButtonText = "Iniciar Sesión";
+            this.btnLIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLIniciarSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnLIniciarSesion.IdleBorderThickness = 1;
+            this.btnLIniciarSesion.IdleCornerRadius = 20;
+            this.btnLIniciarSesion.IdleFillColor = System.Drawing.Color.White;
+            this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnLIniciarSesion.Location = new System.Drawing.Point(124, 194);
+            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLIniciarSesion.Name = "btnLIniciarSesion";
+            this.btnLIniciarSesion.Size = new System.Drawing.Size(181, 41);
+            this.btnLIniciarSesion.TabIndex = 1;
+            this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLIniciarSesion.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Talent.Properties.Resources.sesion2;
+            this.pictureBox3.Location = new System.Drawing.Point(16, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(397, 380);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(544, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(436, 38);
+            this.panel2.TabIndex = 12;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Talent.Properties.Resources.tacha;
+            this.pictureBox2.Location = new System.Drawing.Point(392, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
+            // Login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(980, 560);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.LinkLabel btnRecuperarContraseña;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnLIniciarSesion;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label2;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtLUsuario;
+        private System.Windows.Forms.Label label3;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtLContraseña;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
+    }
+}
+

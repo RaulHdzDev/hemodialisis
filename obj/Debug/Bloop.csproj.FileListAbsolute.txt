@@ -1,0 +1,248 @@
+G:\talentTopEscritorio\Talent\bin\Debug\Talent.exe.config
+G:\talentTopEscritorio\Talent\bin\Debug\Talent.exe
+G:\talentTopEscritorio\Talent\bin\Debug\Talent.pdb
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Antecedentes.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Almacen.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.ActualizarAlumno.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Horario.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.RecuperarContraseña.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Login.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Principal.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Empleados.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Lugares.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Properties.Resources.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.VerCursos.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Bloop.csproj.GenerateResource.cache
+G:\talentTopEscritorio\Talent\obj\Debug\Bloop.csproj.CopyComplete
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.exe
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.pdb
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.citas.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Talent.Paciente.resources
+G:\talentTopEscritorio\Talent\obj\Debug\Bloop.csprojAssemblyReference.cache
+F:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe.config
+F:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe
+F:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.pdb
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csprojAssemblyReference.cache
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Antecedentes.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Almacen.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Paciente.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RecuperarContraseña.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Login.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Principal.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Empleados.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Lugares.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Properties.Resources.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.citas.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.GenerateResource.cache
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.CoreCompileInputs.cache
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.CopyComplete
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.exe
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.pdb
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarAlmacen.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarAlmacen.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Antecedentes.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Almacen.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarAlumno.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Paciente.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RecuperarContraseña.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Login.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Principal.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Empleados.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Lugares.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Properties.Resources.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.citas.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.VerCursos.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.GenerateResource.cache
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.exe
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.pdb
+E:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe.config
+E:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe
+E:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.pdb
+D:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe.config
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.exe
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.pdb
+D:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe
+D:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.pdb
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarAlmacen.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Antecedentes.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Almacen.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Paciente.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RecuperarContraseña.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Login.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Principal.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Empleados.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Lugares.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Properties.Resources.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.citas.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.GenerateResource.Cache
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarPaciente.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarPaciente.resources
+G:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe.config
+G:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.exe
+G:\Proyecto Hemodialisis\Talent\bin\Debug\Talent.pdb
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csprojAssemblyReference.cache
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarAlmacen.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Antecedentes.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Almacen.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Paciente.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarPaciente.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RecuperarContraseña.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Login.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Empleados.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Lugares.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Properties.Resources.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.citas.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.GenerateResource.cache
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.CopyComplete
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.exe
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.pdb
+E:\Proyecto Hemodialisis\Talent\bin\Debug\mscorlib.dll
+E:\Proyecto Hemodialisis\Talent\bin\Debug\es\mscorlib.resources.dll
+E:\Proyecto Hemodialisis\Talent\bin\Debug\normidna.nlp
+E:\Proyecto Hemodialisis\Talent\bin\Debug\normnfc.nlp
+E:\Proyecto Hemodialisis\Talent\bin\Debug\normnfd.nlp
+E:\Proyecto Hemodialisis\Talent\bin\Debug\normnfkc.nlp
+E:\Proyecto Hemodialisis\Talent\bin\Debug\normnfkd.nlp
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csprojResolveAssemblyReference.cache
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarPaciente.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarPaciente.resources
+E:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.InformacionPaciente.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.InformacionPaciente.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarEmpleados.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarCita.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarAntecedentes.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarLugar.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarCita.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarEmpleados.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.InformacionPaciente.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarPaciente.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.ActualizarPaciente.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarAntecedentes.resources
+F:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarLugar.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarCita.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarEmpleados.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.InformacionPaciente.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarAntecedentes.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.RegistrarLugar.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Auxiliar.resources
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csprojAssemblyReference.cache
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.CoreCompileInputs.cache
+D:\Proyecto Hemodialisis\Talent\obj\Debug\Bloop.csproj.CopyComplete
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.Auxiliar.resources
+G:\Proyecto Hemodialisis\Talent\obj\Debug\Talent.InformacionEmpleado.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\bin\Debug\Talent.exe.config
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\bin\Debug\Talent.exe
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\bin\Debug\Talent.pdb
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Bloop.csprojAssemblyReference.cache
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RegistrarAdmin.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Auxiliar.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.ActualizarAlmacen.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Antecedentes.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Almacen.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RegistrarCita.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.InformacionEmpleado.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RegistrarEmpleados.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.InformacionPaciente.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Paciente.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RegistrarPaciente.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RecuperarContraseña.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Login.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Empleados.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Lugares.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.Properties.Resources.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.citas.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RegistrarAntecedentes.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.RegistrarLugar.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Bloop.csproj.GenerateResource.cache
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Bloop.csproj.CopyComplete
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.exe
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.pdb
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.ActualizarCita.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.ActualizarAntecedente.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.ActualizarArticulo.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.ActualizarLugar.resources
+C:\Users\USER\Source\Repos\RaulHdzDev\hemodialisis\obj\Debug\Talent.MenuInicio.resources
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Talent.exe.config
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Talent.exe
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Talent.pdb
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Bloop.csprojAssemblyReference.cache
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarArticulo.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarAntecedente.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarCita.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarAdmin.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarLugar.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarAlmacen.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Antecedentes.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarCita.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.InformacionEmpleado.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.MenuInicio.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.InformacionPaciente.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Paciente.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarPaciente.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RecuperarContraseña.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Login.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Empleados.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Lugares.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Properties.Resources.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.citas.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarAntecedentes.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarLugar.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Bloop.csproj.GenerateResource.cache
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Bloop.csproj.CopyComplete
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.exe
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.pdb
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.aux.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.VentanaPrincipal.resources
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Talent.exe.config
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Talent.exe
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Talent.pdb
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Bloop.csprojAssemblyReference.cache
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarArticulo.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarAntecedente.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarCita.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarAdmin.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarLugar.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarAlmacen.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Antecedentes.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.aux.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarCita.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.InformacionEmpleado.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarEmpleados.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.MenuInicio.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.InformacionPaciente.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Paciente.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarPaciente.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RecuperarContraseña.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Login.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Empleados.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Lugares.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Properties.Resources.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.citas.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarAntecedentes.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarLugar.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.VentanaPrincipal.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Bloop.csproj.GenerateResource.cache
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Bloop.csproj.CoreCompileInputs.cache
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Bloop.csproj.CopyComplete
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.exe
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.pdb
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Google.Protobuf.dll
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\MySql.Data.dll
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Renci.SshNet.dll
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Google.Protobuf.xml
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\MySql.Data.xml
+C:\Users\arman\Desktop\hemodialisis\bin\Debug\Renci.SshNet.xml
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Google.Protobuf.dll
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\MySql.Data.dll
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Renci.SshNet.dll
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Google.Protobuf.xml
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\MySql.Data.xml
+C:\Users\USER\Source\Repos\hemodialisis\bin\Debug\Renci.SshNet.xml
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.MenuInicioDoctor.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Registr.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarRH.resources
