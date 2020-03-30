@@ -33,6 +33,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label49 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label39 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label48 = new System.Windows.Forms.Label();
@@ -110,10 +112,6 @@
             this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label50 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -124,12 +122,22 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.label7 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label49 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -143,6 +151,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -155,7 +165,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1181, 560);
+            this.panel1.Size = new System.Drawing.Size(1181, 617);
             this.panel1.TabIndex = 0;
             // 
             // panel5
@@ -167,7 +177,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(379, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(802, 506);
+            this.panel5.Size = new System.Drawing.Size(802, 563);
             this.panel5.TabIndex = 2;
             // 
             // panel8
@@ -228,6 +238,33 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(777, 764);
             this.panel8.TabIndex = 8;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(408, 633);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(144, 16);
+            this.label49.TabIndex = 310;
+            this.label49.Text = "Tipo de acceso vascular:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.BackColor = System.Drawing.Color.White;
+            this.comboBox2.ForeColor = System.Drawing.Color.Black;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "+Fístula Arteriovenosa",
+            " Autologa o nativa",
+            " Injerto Goretex",
+            "+Catéter",
+            " Catéter Temporal",
+            " Catéter Permanente"});
+            this.comboBox2.Location = new System.Drawing.Point(406, 649);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(318, 21);
+            this.comboBox2.TabIndex = 309;
             // 
             // label39
             // 
@@ -542,6 +579,7 @@
             this.bunifuSeparator1.TabIndex = 250;
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = false;
+            this.bunifuSeparator1.Load += new System.EventHandler(this.bunifuSeparator1_Load);
             // 
             // label33
             // 
@@ -1139,7 +1177,7 @@
             this.panel4.Controls.Add(this.bunifuThinButton21);
             this.panel4.Controls.Add(this.btnLIniciarSesion);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(379, 506);
+            this.panel4.Location = new System.Drawing.Point(379, 563);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(802, 54);
             this.panel4.TabIndex = 1;
@@ -1194,6 +1232,7 @@
             this.bunifuThinButton21.Size = new System.Drawing.Size(109, 41);
             this.bunifuThinButton21.TabIndex = 21;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // btnLIniciarSesion
             // 
@@ -1229,71 +1268,24 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(379, 560);
+            this.panel2.Size = new System.Drawing.Size(379, 617);
             this.panel2.TabIndex = 0;
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.label58);
-            this.panel9.Controls.Add(this.label59);
-            this.panel9.Controls.Add(this.label57);
-            this.panel9.Controls.Add(this.label7);
-            this.panel9.Controls.Add(this.label56);
-            this.panel9.Controls.Add(this.label55);
-            this.panel9.Controls.Add(this.label54);
-            this.panel9.Controls.Add(this.label53);
+            this.panel9.Controls.Add(this.label64);
+            this.panel9.Controls.Add(this.label63);
+            this.panel9.Controls.Add(this.label62);
+            this.panel9.Controls.Add(this.label61);
+            this.panel9.Controls.Add(this.panel12);
+            this.panel9.Controls.Add(this.panel11);
             this.panel9.Controls.Add(this.panel10);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(0, 141);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(379, 472);
             this.panel9.TabIndex = 2;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.Color.Black;
-            this.label56.Location = new System.Drawing.Point(259, 103);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(50, 17);
-            this.label56.TabIndex = 6;
-            this.label56.Text = "104 Kg";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.Color.Black;
-            this.label55.Location = new System.Drawing.Point(259, 70);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(33, 17);
-            this.label55.TabIndex = 5;
-            this.label55.Text = "1.78";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.DeepPink;
-            this.label54.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label54.Location = new System.Drawing.Point(12, 100);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(252, 19);
-            this.label54.TabIndex = 3;
-            this.label54.Text = "Peso:...................................................";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.DarkViolet;
-            this.label53.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label53.Location = new System.Drawing.Point(12, 67);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(247, 19);
-            this.label53.TabIndex = 2;
-            this.label53.Text = "Altura:...............................................";
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint_1);
             // 
             // panel10
             // 
@@ -1387,38 +1379,32 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // label7
+            // panel11
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Crimson;
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(12, 130);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(259, 19);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Tipo de sangre:.................................";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.Black;
-            this.label57.Location = new System.Drawing.Point(259, 133);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(71, 17);
-            this.label57.TabIndex = 8;
-            this.label57.Text = "A Positivo";
+            this.panel11.Controls.Add(this.bunifuSeparator2);
+            this.panel11.Controls.Add(this.label58);
+            this.panel11.Controls.Add(this.label59);
+            this.panel11.Controls.Add(this.label57);
+            this.panel11.Controls.Add(this.label7);
+            this.panel11.Controls.Add(this.label56);
+            this.panel11.Controls.Add(this.label55);
+            this.panel11.Controls.Add(this.label54);
+            this.panel11.Controls.Add(this.label53);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(0, 60);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(379, 167);
+            this.panel11.TabIndex = 1;
             // 
             // label58
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.ForeColor = System.Drawing.Color.Black;
-            this.label58.Location = new System.Drawing.Point(259, 162);
+            this.label58.Location = new System.Drawing.Point(259, 108);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(58, 17);
-            this.label58.TabIndex = 10;
+            this.label58.TabIndex = 18;
             this.label58.Text = "Catéter";
             // 
             // label59
@@ -1427,45 +1413,167 @@
             this.label59.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label59.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label59.Location = new System.Drawing.Point(12, 159);
+            this.label59.Location = new System.Drawing.Point(12, 105);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(253, 19);
-            this.label59.TabIndex = 9;
+            this.label59.TabIndex = 17;
             this.label59.Text = "Tipo de acceso vascular:.............";
             // 
-            // comboBox2
+            // label57
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.ForeColor = System.Drawing.Color.Black;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "+Fístula Arteriovenosa",
-            " Autologa o nativa",
-            " Injerto Goretex",
-            "+Catéter",
-            " Catéter Temporal",
-            " Catéter Permanente"});
-            this.comboBox2.Location = new System.Drawing.Point(406, 649);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(318, 21);
-            this.comboBox2.TabIndex = 309;
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.Black;
+            this.label57.Location = new System.Drawing.Point(259, 79);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(71, 17);
+            this.label57.TabIndex = 16;
+            this.label57.Text = "A Positivo";
             // 
-            // label49
+            // label7
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(408, 633);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(144, 16);
-            this.label49.TabIndex = 310;
-            this.label49.Text = "Tipo de acceso vascular:";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Crimson;
+            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.Location = new System.Drawing.Point(12, 76);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(259, 19);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Tipo de sangre:.................................";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.Black;
+            this.label56.Location = new System.Drawing.Point(259, 49);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(50, 17);
+            this.label56.TabIndex = 14;
+            this.label56.Text = "104 Kg";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.Black;
+            this.label55.Location = new System.Drawing.Point(259, 16);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(33, 17);
+            this.label55.TabIndex = 13;
+            this.label55.Text = "1.78";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.DeepPink;
+            this.label54.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label54.Location = new System.Drawing.Point(12, 46);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(252, 19);
+            this.label54.TabIndex = 12;
+            this.label54.Text = "Peso:...................................................";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.DarkViolet;
+            this.label53.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label53.Location = new System.Drawing.Point(12, 13);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(247, 19);
+            this.label53.TabIndex = 11;
+            this.label53.Text = "Altura:...............................................";
+            // 
+            // bunifuSeparator2
+            // 
+            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator2.LineColor = System.Drawing.Color.DimGray;
+            this.bunifuSeparator2.LineThickness = 1;
+            this.bunifuSeparator2.Location = new System.Drawing.Point(18, 128);
+            this.bunifuSeparator2.Name = "bunifuSeparator2";
+            this.bunifuSeparator2.Size = new System.Drawing.Size(337, 35);
+            this.bunifuSeparator2.TabIndex = 2;
+            this.bunifuSeparator2.Transparency = 255;
+            this.bunifuSeparator2.Vertical = false;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.label60);
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel12.Location = new System.Drawing.Point(0, 227);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(379, 58);
+            this.panel12.TabIndex = 2;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.Black;
+            this.label60.Location = new System.Drawing.Point(116, 23);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(125, 25);
+            this.label60.TabIndex = 2;
+            this.label60.Text = "Encargado";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.Black;
+            this.label61.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label61.Location = new System.Drawing.Point(12, 294);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(77, 19);
+            this.label61.TabIndex = 18;
+            this.label61.Text = "Nombre:";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.Black;
+            this.label62.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label62.Location = new System.Drawing.Point(88, 294);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(69, 19);
+            this.label62.TabIndex = 19;
+            this.label62.Text = "El chino";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.Black;
+            this.label63.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label63.Location = new System.Drawing.Point(14, 324);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(62, 19);
+            this.label63.TabIndex = 20;
+            this.label63.Text = "Puesto:";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.ForeColor = System.Drawing.Color.Black;
+            this.label64.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label64.Location = new System.Drawing.Point(88, 324);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(87, 19);
+            this.label64.TabIndex = 21;
+            this.label64.Text = "Enfermero";
             // 
             // InformacionPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1181, 560);
+            this.ClientSize = new System.Drawing.Size(1181, 617);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InformacionPaciente";
@@ -1491,6 +1599,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1585,17 +1697,25 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
         private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Panel panel11;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
