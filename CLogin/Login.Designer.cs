@@ -37,7 +37,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnRegistrarUsuario = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.txtLContraseña = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -118,7 +118,7 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.bunifuThinButton21);
+            this.panel5.Controls.Add(this.btnRegistrarUsuario);
             this.panel5.Controls.Add(this.bunifuCustomLabel2);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.txtLContraseña);
@@ -134,31 +134,31 @@
             this.panel5.Size = new System.Drawing.Size(436, 344);
             this.panel5.TabIndex = 15;
             // 
-            // bunifuThinButton21
+            // btnRegistrarUsuario
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Registrate aquí";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(147, 267);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(143, 41);
-            this.bunifuThinButton21.TabIndex = 107;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click_1);
+            this.btnRegistrarUsuario.ActiveBorderThickness = 1;
+            this.btnRegistrarUsuario.ActiveCornerRadius = 20;
+            this.btnRegistrarUsuario.ActiveFillColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistrarUsuario.ActiveForecolor = System.Drawing.Color.White;
+            this.btnRegistrarUsuario.ActiveLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistrarUsuario.BackColor = System.Drawing.Color.White;
+            this.btnRegistrarUsuario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRegistrarUsuario.BackgroundImage")));
+            this.btnRegistrarUsuario.ButtonText = "Registrate aquí";
+            this.btnRegistrarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistrarUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarUsuario.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistrarUsuario.IdleBorderThickness = 1;
+            this.btnRegistrarUsuario.IdleCornerRadius = 20;
+            this.btnRegistrarUsuario.IdleFillColor = System.Drawing.Color.White;
+            this.btnRegistrarUsuario.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistrarUsuario.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnRegistrarUsuario.Location = new System.Drawing.Point(147, 267);
+            this.btnRegistrarUsuario.Margin = new System.Windows.Forms.Padding(5);
+            this.btnRegistrarUsuario.Name = "btnRegistrarUsuario";
+            this.btnRegistrarUsuario.Size = new System.Drawing.Size(143, 41);
+            this.btnRegistrarUsuario.TabIndex = 107;
+            this.btnRegistrarUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
             // 
             // bunifuCustomLabel2
             // 
@@ -268,7 +268,7 @@
             this.btnLIniciarSesion.Size = new System.Drawing.Size(181, 41);
             this.btnLIniciarSesion.TabIndex = 1;
             this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnLIniciarSesion.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.btnLIniciarSesion.Click += new System.EventHandler(this.btnLIniciarSesion_Click);
             // 
             // pictureBox3
             // 
@@ -366,7 +366,7 @@
         private Bunifu.Framework.UI.BunifuMetroTextbox txtLUsuario;
         private System.Windows.Forms.Label label3;
         private Bunifu.Framework.UI.BunifuMetroTextbox txtLContraseña;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnRegistrarUsuario;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;

@@ -13,11 +13,6 @@ using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using Talent.datos;
 
-/*
-Lo puse en comentario para poder correr con los cambios
-using Talent.Dominio;
-*/
-
 
 
 namespace Talent
@@ -64,106 +59,6 @@ namespace Talent
 
       
 
-
-        //lo puse en comentarios para poder correr con los cambios
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
-        {
-
-
-
-            /*
-             
--------------------------------------------------------------
-Estos son los tipos de usuarios que tendra la aplicacion
-si tienen sugerencias o quieren cambiar algo esta bien
-(A continuacion indico los botones que se van a mostrar dependiendo a el tipo de usuario)
-
-
-            ***el boton solo se pondra en visible para cada tipo de usuario****
-
-
-
-+Administrador master:
-  -Inicio(El inicio que le corresponde a RH)
-  -Citas
-  -Pacientes
-  -Empleados(Se habilitara un boton para acceder a la ventana para registrar RH)
-  -Lugares
-  -Almacen
-  -Antecedentes
-
-
-+Recursos Humanos:
-  -Inicio(El inicio que le corresponde a RH)
-  -Empleados
-  -Almacen
-
-
-+Secretaria:
-  -Inicio
-  -Citas
-  -Pacientes
-  -Lugares
-  -Antecedentes
-
-
-+Doctor:
-  -Inicio
-  -Citas
-  -Pacientes
-  -Lugares
-  -Antecedentes
-
-
-+Intendente
-+Seguridad
-
-------------------------------------------------------------------------
-             */
-
-
-
-
-
-
-            /*MetodosLogin loginB = new MetodosLogin();
-            int respuesta = loginB.Login(txtLUsuario.Text, txtLContraseña.Text);
-            switch (respuesta)
-            {
-                case 1:
-                    MessageBox.Show("Login exitoso!");
-                    VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
-                    AbrirPrincipal.Show();
-                    this.Hide();
-                    break;
-                case 2:
-                    MessageBox.Show("Credenciales incorrectas");
-                    break;
-                case 3:
-                    MessageBox.Show("Hay un error");
-                    break;
-            }
-            */
-
-
-
-
-
-
-         
-            //Descartar cuando quiten comentarios
-            VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
-            AbrirPrincipal.Show();
-            this.Hide();
-
-        }
-
-
-
-
-
-
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             RecuperarContraseña AbrirRecuperarContraseña = new RecuperarContraseña();
@@ -207,13 +102,6 @@ si tienen sugerencias o quieren cambiar algo esta bien
 
         }
 
-        private void bunifuThinButton21_Click_1(object sender, EventArgs e)
-        {
-            RegistrarAdmin abrirRegistrarAdmin = new RegistrarAdmin();
-            abrirRegistrarAdmin.Show();
-            this.Hide();
-
-        }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
@@ -248,5 +136,28 @@ si tienen sugerencias o quieren cambiar algo esta bien
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+
+        //iniciar sesion
+        private void btnLIniciarSesion_Click(object sender, EventArgs e)
+        {
+            VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
+            AbrirPrincipal.Show();
+            this.Hide();
+        }
+
+
+
+        //registrar
+        private void btnRegistrarUsuario_Click(object sender, EventArgs e)
+        {
+            RegistrarAdmin abrirRegistrarAdmin = new RegistrarAdmin();
+            abrirRegistrarAdmin.Show();
+            this.Hide();
+        }
+
+
+
+
     }
 }
