@@ -12,8 +12,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using Talent.datos;
-
-
+using MySql.Data.MySqlClient;
 
 namespace Talent
 {
@@ -141,9 +140,40 @@ namespace Talent
         //iniciar sesion
         private void btnLIniciarSesion_Click(object sender, EventArgs e)
         {
-            VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
-            AbrirPrincipal.Show();
-            this.Hide();
+            string correo = txtLUsuario.Text;
+            string contraseña = txtLContraseña.Text;
+
+            MySqlDataReader msqldr = null;
+
+            try
+            {
+                using (MySqlCommand comando = new MySqlCommand("Select nombre, correo, contra_usuario from usuarios where " +
+                    "correo = '" + correo.Trim() + "' AND contra_usuario = '" + contraseña.Trim() + "'", conexionBD.conectar))
+                {
+                    msqldr = comando.ExecuteReader();
+
+                    if (msqldr.Read())
+                    {
+                        VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
+                        AbrirPrincipal.Show();
+                        this.Hide();
+                    }
+                    else if (correo == "" || contraseña == "")
+                    {
+                        MessageBox.Show("Ingrese un Usuario o una Contraseña");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o Contraseña incorrecta");
+                    }
+                    msqldr.Close();
+                }
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+            
         }
 
 

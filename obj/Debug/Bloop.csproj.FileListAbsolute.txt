@@ -208,7 +208,6 @@ C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Antecedentes.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.aux.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarCita.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.InformacionEmpleado.resources
-C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarEmpleados.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.MenuInicio.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.InformacionPaciente.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Paciente.resources
@@ -290,3 +289,7 @@ C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\D
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Talent.exe
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Talent.pdb
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.AgregarPacientesEncargados.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.AgregarPacientesEncargados.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Registr.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.MenuInicioDoctor.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarRH.resources
