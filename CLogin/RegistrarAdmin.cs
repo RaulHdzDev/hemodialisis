@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
+using Talent.datos;
+
 namespace Talent
 {
     public partial class RegistrarAdmin : Form
@@ -81,5 +84,44 @@ namespace Talent
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void BunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            conexionBD.abrir();
+
+            string nombre =          txtLUsuario.Text;
+            string apeliidoPaterno = txtApellidoP.Text;
+            string apellidoMaterno = txtApellidoM.Text;
+            string correo =          txtCorreo.Text;
+            string contraseña =      txtContraseña.Text;
+            string numEmpleado =     txtNum.Text;
+            int idempleado =         Int32.Parse(numEmpleado);
+            string tipoEmpleado =    comboBox1.Text;
+
+            MySqlDataReader mysqldr = null;
+            
+                using (MySqlCommand comando = new MySqlCommand("Insert Into usuarios (id_empleados, nombre, " +
+                    "ape_pat, ape_mat, tipo_empleado, correo, contra_usuario) Values (" + idempleado + 
+                    ",'" + nombre + "','" + apeliidoPaterno + "','" + apellidoMaterno + "','" + tipoEmpleado + "','"
+                    + correo + "','" + contraseña + "')", conexionBD.conectar)) {
+
+                mysqldr = comando.ExecuteReader();
+
+                    if (mysqldr.RecordsAffected == 1)
+                    {
+                        MessageBox.Show("Se a registrado con éxito");
+                        
+                        Login AbrirPrincipal = new Login();
+                        AbrirPrincipal.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se pudo insertar");
+                    }
+                }
+            
+
+         }
     }
 }
