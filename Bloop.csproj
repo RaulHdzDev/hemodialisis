@@ -188,6 +188,9 @@
     <Compile Include="CMenu\MenuInicioDoctor.Designer.cs">
       <DependentUpon>MenuInicioDoctor.cs</DependentUpon>
     </Compile>
+    <Compile Include="negocios\MasterMailServer.cs" />
+    <Compile Include="negocios\MetodoRecuperarContraseña.cs" />
+    <Compile Include="negocios\SystemSupportMail.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CCitas\Citas.cs">
