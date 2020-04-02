@@ -300,6 +300,7 @@
             this.btnLIniciarSesion.Size = new System.Drawing.Size(104, 41);
             this.btnLIniciarSesion.TabIndex = 22;
             this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLIniciarSesion.Click += new System.EventHandler(this.btnLIniciarSesion_Click);
             // 
             // RegistrarRH
             // 

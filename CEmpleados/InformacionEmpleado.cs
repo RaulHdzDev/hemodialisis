@@ -34,14 +34,12 @@ namespace Talent
 
         private void bunifuThinButton24_Click(object sender, EventArgs e)
         {
-            AgregarPacientesEncargados abrirEncargados = new AgregarPacientesEncargados();
-            abrirEncargados.Show();
+
         }
 
         private void bunifuThinButton24_Click_1(object sender, EventArgs e)
         {
-            AgregarPacientesEncargados abrirEncargados = new AgregarPacientesEncargados();
-            abrirEncargados.Show();
+        
         }
     }
 }

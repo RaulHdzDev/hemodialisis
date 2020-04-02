@@ -37,30 +37,32 @@
             this.label9 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox7 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtCedulaProfesional = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox11 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox12 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox13 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtNumeroExterior = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtNInterior = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtCalle = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panelInterno1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox4 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtEdad = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox6 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox5 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox3 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtColonia = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtCorreo = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtApellidoMaterno = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtApellidoPaterno = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtNombre = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label2 = new System.Windows.Forms.Label();
             this.panelSuperior = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtTelefono = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panel1.SuspendLayout();
             this.panelInferior.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -74,7 +76,7 @@
             this.panel1.Controls.Add(this.bunifuThinButton21);
             this.panel1.Controls.Add(this.btnAAgregar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 619);
+            this.panel1.Location = new System.Drawing.Point(0, 633);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(662, 51);
             this.panel1.TabIndex = 9;
@@ -104,6 +106,7 @@
             this.bunifuThinButton21.Size = new System.Drawing.Size(113, 41);
             this.bunifuThinButton21.TabIndex = 22;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // btnAAgregar
             // 
@@ -144,28 +147,30 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.txtTelefono);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.bunifuMetroTextbox7);
+            this.panel2.Controls.Add(this.txtCedulaProfesional);
             this.panel2.Controls.Add(this.bunifuSeparator1);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.bunifuMetroTextbox11);
-            this.panel2.Controls.Add(this.bunifuMetroTextbox12);
-            this.panel2.Controls.Add(this.bunifuMetroTextbox13);
+            this.panel2.Controls.Add(this.txtNumeroExterior);
+            this.panel2.Controls.Add(this.txtNInterior);
+            this.panel2.Controls.Add(this.txtCalle);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 329);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(645, 325);
+            this.panel2.Size = new System.Drawing.Size(645, 337);
             this.panel2.TabIndex = 1;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(147, 202);
+            this.label9.Location = new System.Drawing.Point(147, 258);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 16);
             this.label9.TabIndex = 308;
@@ -185,7 +190,7 @@
             "Intendente",
             "Seguridad",
             ""});
-            this.comboBox1.Location = new System.Drawing.Point(149, 215);
+            this.comboBox1.Location = new System.Drawing.Point(149, 271);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(367, 21);
             this.comboBox1.TabIndex = 307;
@@ -200,29 +205,29 @@
             this.label8.TabIndex = 219;
             this.label8.Text = "Cedula profesional:";
             // 
-            // bunifuMetroTextbox7
+            // txtCedulaProfesional
             // 
-            this.bunifuMetroTextbox7.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox7.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox7.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox7.BorderThickness = 1;
-            this.bunifuMetroTextbox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox7.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox7.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox7.isPassword = false;
-            this.bunifuMetroTextbox7.Location = new System.Drawing.Point(146, 162);
-            this.bunifuMetroTextbox7.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox7.Name = "bunifuMetroTextbox7";
-            this.bunifuMetroTextbox7.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox7.TabIndex = 218;
-            this.bunifuMetroTextbox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtCedulaProfesional.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtCedulaProfesional.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtCedulaProfesional.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtCedulaProfesional.BorderThickness = 1;
+            this.txtCedulaProfesional.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCedulaProfesional.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtCedulaProfesional.ForeColor = System.Drawing.Color.Gray;
+            this.txtCedulaProfesional.isPassword = false;
+            this.txtCedulaProfesional.Location = new System.Drawing.Point(146, 162);
+            this.txtCedulaProfesional.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCedulaProfesional.Name = "txtCedulaProfesional";
+            this.txtCedulaProfesional.Size = new System.Drawing.Size(370, 33);
+            this.txtCedulaProfesional.TabIndex = 218;
+            this.txtCedulaProfesional.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuSeparator1
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(103, 285);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(103, 295);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(454, 35);
             this.bunifuSeparator1.TabIndex = 217;
@@ -259,71 +264,71 @@
             this.label14.TabIndex = 214;
             this.label14.Text = "Calle:";
             // 
-            // bunifuMetroTextbox11
+            // txtNumeroExterior
             // 
-            this.bunifuMetroTextbox11.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox11.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox11.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox11.BorderThickness = 1;
-            this.bunifuMetroTextbox11.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox11.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox11.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox11.isPassword = false;
-            this.bunifuMetroTextbox11.Location = new System.Drawing.Point(146, 109);
-            this.bunifuMetroTextbox11.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox11.Name = "bunifuMetroTextbox11";
-            this.bunifuMetroTextbox11.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox11.TabIndex = 210;
-            this.bunifuMetroTextbox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNumeroExterior.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtNumeroExterior.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtNumeroExterior.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtNumeroExterior.BorderThickness = 1;
+            this.txtNumeroExterior.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNumeroExterior.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtNumeroExterior.ForeColor = System.Drawing.Color.Gray;
+            this.txtNumeroExterior.isPassword = false;
+            this.txtNumeroExterior.Location = new System.Drawing.Point(146, 109);
+            this.txtNumeroExterior.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNumeroExterior.Name = "txtNumeroExterior";
+            this.txtNumeroExterior.Size = new System.Drawing.Size(370, 33);
+            this.txtNumeroExterior.TabIndex = 210;
+            this.txtNumeroExterior.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox12
+            // txtNInterior
             // 
-            this.bunifuMetroTextbox12.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox12.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox12.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox12.BorderThickness = 1;
-            this.bunifuMetroTextbox12.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox12.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox12.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox12.isPassword = false;
-            this.bunifuMetroTextbox12.Location = new System.Drawing.Point(146, 62);
-            this.bunifuMetroTextbox12.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox12.Name = "bunifuMetroTextbox12";
-            this.bunifuMetroTextbox12.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox12.TabIndex = 209;
-            this.bunifuMetroTextbox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNInterior.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtNInterior.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtNInterior.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtNInterior.BorderThickness = 1;
+            this.txtNInterior.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNInterior.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtNInterior.ForeColor = System.Drawing.Color.Gray;
+            this.txtNInterior.isPassword = false;
+            this.txtNInterior.Location = new System.Drawing.Point(146, 62);
+            this.txtNInterior.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNInterior.Name = "txtNInterior";
+            this.txtNInterior.Size = new System.Drawing.Size(370, 33);
+            this.txtNInterior.TabIndex = 209;
+            this.txtNInterior.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox13
+            // txtCalle
             // 
-            this.bunifuMetroTextbox13.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox13.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox13.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox13.BorderThickness = 1;
-            this.bunifuMetroTextbox13.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox13.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox13.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox13.isPassword = false;
-            this.bunifuMetroTextbox13.Location = new System.Drawing.Point(146, 13);
-            this.bunifuMetroTextbox13.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox13.Name = "bunifuMetroTextbox13";
-            this.bunifuMetroTextbox13.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox13.TabIndex = 208;
-            this.bunifuMetroTextbox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtCalle.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtCalle.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtCalle.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtCalle.BorderThickness = 1;
+            this.txtCalle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCalle.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtCalle.ForeColor = System.Drawing.Color.Gray;
+            this.txtCalle.isPassword = false;
+            this.txtCalle.Location = new System.Drawing.Point(146, 13);
+            this.txtCalle.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCalle.Name = "txtCalle";
+            this.txtCalle.Size = new System.Drawing.Size(370, 33);
+            this.txtCalle.TabIndex = 208;
+            this.txtCalle.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // panelInterno1
             // 
             this.panelInterno1.Controls.Add(this.label5);
-            this.panelInterno1.Controls.Add(this.bunifuMetroTextbox4);
+            this.panelInterno1.Controls.Add(this.txtEdad);
             this.panelInterno1.Controls.Add(this.label7);
             this.panelInterno1.Controls.Add(this.label6);
             this.panelInterno1.Controls.Add(this.label4);
             this.panelInterno1.Controls.Add(this.label3);
             this.panelInterno1.Controls.Add(this.label1);
-            this.panelInterno1.Controls.Add(this.bunifuMetroTextbox6);
-            this.panelInterno1.Controls.Add(this.bunifuMetroTextbox5);
-            this.panelInterno1.Controls.Add(this.bunifuMetroTextbox3);
-            this.panelInterno1.Controls.Add(this.bunifuMetroTextbox2);
-            this.panelInterno1.Controls.Add(this.bunifuMetroTextbox1);
+            this.panelInterno1.Controls.Add(this.txtColonia);
+            this.panelInterno1.Controls.Add(this.txtCorreo);
+            this.panelInterno1.Controls.Add(this.txtApellidoMaterno);
+            this.panelInterno1.Controls.Add(this.txtApellidoPaterno);
+            this.panelInterno1.Controls.Add(this.txtNombre);
             this.panelInterno1.Controls.Add(this.label2);
             this.panelInterno1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelInterno1.Location = new System.Drawing.Point(0, 0);
@@ -341,22 +346,22 @@
             this.label5.TabIndex = 225;
             this.label5.Text = "Edad:";
             // 
-            // bunifuMetroTextbox4
+            // txtEdad
             // 
-            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox4.BorderThickness = 1;
-            this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox4.isPassword = false;
-            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(147, 191);
-            this.bunifuMetroTextbox4.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox4.Name = "bunifuMetroTextbox4";
-            this.bunifuMetroTextbox4.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox4.TabIndex = 224;
-            this.bunifuMetroTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtEdad.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtEdad.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtEdad.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtEdad.BorderThickness = 1;
+            this.txtEdad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEdad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtEdad.ForeColor = System.Drawing.Color.Gray;
+            this.txtEdad.isPassword = false;
+            this.txtEdad.Location = new System.Drawing.Point(147, 191);
+            this.txtEdad.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(370, 33);
+            this.txtEdad.TabIndex = 224;
+            this.txtEdad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label7
             // 
@@ -408,90 +413,90 @@
             this.label1.TabIndex = 214;
             this.label1.Text = "Nombre:";
             // 
-            // bunifuMetroTextbox6
+            // txtColonia
             // 
-            this.bunifuMetroTextbox6.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox6.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox6.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox6.BorderThickness = 1;
-            this.bunifuMetroTextbox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox6.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox6.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox6.isPassword = false;
-            this.bunifuMetroTextbox6.Location = new System.Drawing.Point(146, 288);
-            this.bunifuMetroTextbox6.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox6.Name = "bunifuMetroTextbox6";
-            this.bunifuMetroTextbox6.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox6.TabIndex = 213;
-            this.bunifuMetroTextbox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtColonia.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtColonia.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtColonia.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtColonia.BorderThickness = 1;
+            this.txtColonia.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtColonia.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtColonia.ForeColor = System.Drawing.Color.Gray;
+            this.txtColonia.isPassword = false;
+            this.txtColonia.Location = new System.Drawing.Point(146, 288);
+            this.txtColonia.Margin = new System.Windows.Forms.Padding(4);
+            this.txtColonia.Name = "txtColonia";
+            this.txtColonia.Size = new System.Drawing.Size(370, 33);
+            this.txtColonia.TabIndex = 213;
+            this.txtColonia.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox5
+            // txtCorreo
             // 
-            this.bunifuMetroTextbox5.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox5.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox5.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox5.BorderThickness = 1;
-            this.bunifuMetroTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox5.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox5.isPassword = false;
-            this.bunifuMetroTextbox5.Location = new System.Drawing.Point(146, 240);
-            this.bunifuMetroTextbox5.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox5.Name = "bunifuMetroTextbox5";
-            this.bunifuMetroTextbox5.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox5.TabIndex = 212;
-            this.bunifuMetroTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtCorreo.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtCorreo.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtCorreo.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtCorreo.BorderThickness = 1;
+            this.txtCorreo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtCorreo.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtCorreo.ForeColor = System.Drawing.Color.Gray;
+            this.txtCorreo.isPassword = false;
+            this.txtCorreo.Location = new System.Drawing.Point(146, 240);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(370, 33);
+            this.txtCorreo.TabIndex = 212;
+            this.txtCorreo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox3
+            // txtApellidoMaterno
             // 
-            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderThickness = 1;
-            this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox3.isPassword = false;
-            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(146, 143);
-            this.bunifuMetroTextbox3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox3.Name = "bunifuMetroTextbox3";
-            this.bunifuMetroTextbox3.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox3.TabIndex = 210;
-            this.bunifuMetroTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtApellidoMaterno.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtApellidoMaterno.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtApellidoMaterno.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtApellidoMaterno.BorderThickness = 1;
+            this.txtApellidoMaterno.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtApellidoMaterno.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtApellidoMaterno.ForeColor = System.Drawing.Color.Gray;
+            this.txtApellidoMaterno.isPassword = false;
+            this.txtApellidoMaterno.Location = new System.Drawing.Point(146, 143);
+            this.txtApellidoMaterno.Margin = new System.Windows.Forms.Padding(4);
+            this.txtApellidoMaterno.Name = "txtApellidoMaterno";
+            this.txtApellidoMaterno.Size = new System.Drawing.Size(370, 33);
+            this.txtApellidoMaterno.TabIndex = 210;
+            this.txtApellidoMaterno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox2
+            // txtApellidoPaterno
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderThickness = 1;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(146, 96);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox2.TabIndex = 209;
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtApellidoPaterno.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtApellidoPaterno.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtApellidoPaterno.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtApellidoPaterno.BorderThickness = 1;
+            this.txtApellidoPaterno.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtApellidoPaterno.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtApellidoPaterno.ForeColor = System.Drawing.Color.Gray;
+            this.txtApellidoPaterno.isPassword = false;
+            this.txtApellidoPaterno.Location = new System.Drawing.Point(146, 96);
+            this.txtApellidoPaterno.Margin = new System.Windows.Forms.Padding(4);
+            this.txtApellidoPaterno.Name = "txtApellidoPaterno";
+            this.txtApellidoPaterno.Size = new System.Drawing.Size(370, 33);
+            this.txtApellidoPaterno.TabIndex = 209;
+            this.txtApellidoPaterno.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox1
+            // txtNombre
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderThickness = 1;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(146, 47);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(370, 33);
-            this.bunifuMetroTextbox1.TabIndex = 208;
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNombre.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtNombre.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtNombre.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtNombre.BorderThickness = 1;
+            this.txtNombre.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtNombre.ForeColor = System.Drawing.Color.Gray;
+            this.txtNombre.isPassword = false;
+            this.txtNombre.Location = new System.Drawing.Point(146, 47);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(370, 33);
+            this.txtNombre.TabIndex = 208;
+            this.txtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label2
             // 
@@ -522,12 +527,39 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(146, 204);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(118, 16);
+            this.label10.TabIndex = 310;
+            this.label10.Text = "Numero de teléfono:";
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtTelefono.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.txtTelefono.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtTelefono.BorderThickness = 1;
+            this.txtTelefono.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTelefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtTelefono.ForeColor = System.Drawing.Color.Gray;
+            this.txtTelefono.isPassword = false;
+            this.txtTelefono.Location = new System.Drawing.Point(146, 214);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(370, 33);
+            this.txtTelefono.TabIndex = 309;
+            this.txtTelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // Registr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(662, 670);
+            this.ClientSize = new System.Drawing.Size(662, 684);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelInferior);
             this.Controls.Add(this.panelSuperior);
@@ -558,29 +590,31 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox11;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox12;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox13;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtNumeroExterior;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtNInterior;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtCalle;
         private System.Windows.Forms.Panel panelInterno1;
         private System.Windows.Forms.Label label5;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox4;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtEdad;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox6;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox5;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox3;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtColonia;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtCorreo;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtApellidoMaterno;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtApellidoPaterno;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtNombre;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelSuperior;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.Label label8;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox7;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtCedulaProfesional;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label10;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtTelefono;
     }
 }
