@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Talent.datos;
+using MySql.Data.MySqlClient;
 
 namespace Talent
 {
@@ -56,7 +58,45 @@ namespace Talent
 
         private void btnLIniciarSesion_Click(object sender, EventArgs e)
         {
+            Registrar();
+        }
 
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        public void Registrar()
+        {
+            try
+            {
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("insert into empleados(nombre, ape_pat, ape_mat, correo) values('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "', '" + correo.Text + "')", conexionBD.conectar);
+
+                comando.ExecuteNonQuery();
+
+                conexionBD.cerrar();
+
+                MessageBox.Show("Registro exitoso");
+
+                Limpiar();
+
+                this.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error al solicitar el registro. Por favor intentelo mas tarde");
+            }
+        }
+
+        public void Limpiar()
+        {
+            nombre.Text = "";
+            apellidoP.Text = "";
+            apellidoM.Text = "";
+            correo.Text = "";
+            password.Text = "";
         }
     }
 }
