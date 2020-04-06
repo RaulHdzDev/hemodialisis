@@ -51,9 +51,8 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1557, 49);
+            this.panel1.Size = new System.Drawing.Size(1035, 40);
             this.panel1.TabIndex = 18;
             // 
             // label1
@@ -61,10 +60,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(51, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(38, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 32);
+            this.label1.Size = new System.Drawing.Size(125, 25);
             this.label1.TabIndex = 17;
             this.label1.Text = "Empleados";
             // 
@@ -72,10 +70,9 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Talent.Properties.Resources.cerrarsesion;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(28, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
@@ -92,12 +89,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.datos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datos.Cursor = System.Windows.Forms.Cursors.Default;
-            this.datos.Location = new System.Drawing.Point(0, 122);
-            this.datos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datos.Location = new System.Drawing.Point(0, 99);
             this.datos.Name = "datos";
             this.datos.RowHeadersWidth = 51;
             this.datos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datos.Size = new System.Drawing.Size(1557, 577);
+            this.datos.Size = new System.Drawing.Size(1168, 469);
             this.datos.TabIndex = 221;
             // 
             // btnLIniciarSesion
@@ -119,10 +115,10 @@
             this.btnLIniciarSesion.IdleFillColor = System.Drawing.Color.White;
             this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnLIniciarSesion.Location = new System.Drawing.Point(8, 709);
-            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnLIniciarSesion.Location = new System.Drawing.Point(6, 576);
+            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnLIniciarSesion.Name = "btnLIniciarSesion";
-            this.btnLIniciarSesion.Size = new System.Drawing.Size(209, 50);
+            this.btnLIniciarSesion.Size = new System.Drawing.Size(157, 41);
             this.btnLIniciarSesion.TabIndex = 228;
             this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLIniciarSesion.Click += new System.EventHandler(this.btnLIniciarSesion_Click);
@@ -131,10 +127,9 @@
             // 
             this.buscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buscar.Image = global::Talent.Properties.Resources.buscar;
-            this.buscar.Location = new System.Drawing.Point(339, 74);
-            this.buscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buscar.Location = new System.Drawing.Point(254, 60);
             this.buscar.Name = "buscar";
-            this.buscar.Size = new System.Drawing.Size(31, 27);
+            this.buscar.Size = new System.Drawing.Size(23, 22);
             this.buscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.buscar.TabIndex = 227;
             this.buscar.TabStop = false;
@@ -148,10 +143,10 @@
             this.empleado.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.empleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.empleado.Icon = ((System.Drawing.Image)(resources.GetObject("empleado.Icon")));
-            this.empleado.Location = new System.Drawing.Point(8, 66);
-            this.empleado.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.empleado.Location = new System.Drawing.Point(6, 54);
+            this.empleado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.empleado.Name = "empleado";
-            this.empleado.Size = new System.Drawing.Size(323, 38);
+            this.empleado.Size = new System.Drawing.Size(242, 31);
             this.empleado.TabIndex = 226;
             this.empleado.text = "";
             // 
@@ -174,10 +169,10 @@
             this.btnAAgregar.IdleFillColor = System.Drawing.Color.White;
             this.btnAAgregar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnAAgregar.Location = new System.Drawing.Point(1316, 55);
-            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnAAgregar.Location = new System.Drawing.Point(853, 45);
+            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnAAgregar.Name = "btnAAgregar";
-            this.btnAAgregar.Size = new System.Drawing.Size(233, 50);
+            this.btnAAgregar.Size = new System.Drawing.Size(175, 41);
             this.btnAAgregar.TabIndex = 222;
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAAgregar.Click += new System.EventHandler(this.btnAAgregar_Click);
@@ -201,20 +196,20 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(231, 708);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(173, 575);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(160, 50);
+            this.bunifuThinButton21.Size = new System.Drawing.Size(120, 41);
             this.bunifuThinButton21.TabIndex = 229;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // Empleados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1557, 775);
+            this.ClientSize = new System.Drawing.Size(1035, 630);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.btnLIniciarSesion);
             this.Controls.Add(this.buscar);
@@ -223,7 +218,6 @@
             this.Controls.Add(this.datos);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Empleados";
             this.Text = "Empleados";
             this.Load += new System.EventHandler(this.Empleados_Load);

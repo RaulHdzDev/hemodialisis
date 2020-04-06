@@ -111,5 +111,10 @@ namespace Talent
         {
 
         }
+
+        private void bunifuThinButton21_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
