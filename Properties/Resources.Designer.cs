@@ -203,6 +203,16 @@ namespace Talent.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CerrarBlanco {
+            get {
+                object obj = ResourceManager.GetObject("CerrarBlanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cerrarsesion {
             get {
                 object obj = ResourceManager.GetObject("cerrarsesion", resourceCulture);
@@ -616,6 +626,16 @@ namespace Talent.Properties {
         internal static System.Drawing.Bitmap minimizarAPP {
             get {
                 object obj = ResourceManager.GetObject("minimizarAPP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MinimizarBlanco {
+            get {
+                object obj = ResourceManager.GetObject("MinimizarBlanco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

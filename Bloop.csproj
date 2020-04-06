@@ -550,5 +550,11 @@
   <ItemGroup>
     <None Include="Resources\mini.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CerrarBlanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimizarBlanco.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
