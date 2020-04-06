@@ -62,12 +62,18 @@
             this.nombre = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label2 = new System.Windows.Forms.Label();
             this.panelSuperior = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelInferior.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelInterno1.SuspendLayout();
             this.panelSuperior.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -100,7 +106,7 @@
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.Location = new System.Drawing.Point(412, 3);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(113, 41);
             this.bunifuThinButton21.TabIndex = 22;
@@ -127,7 +133,7 @@
             this.btnAAgregar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.Location = new System.Drawing.Point(535, 3);
-            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAAgregar.Name = "btnAAgregar";
             this.btnAAgregar.Size = new System.Drawing.Size(113, 41);
             this.btnAAgregar.TabIndex = 21;
@@ -187,7 +193,7 @@
             this.telefono.ForeColor = System.Drawing.Color.Gray;
             this.telefono.isPassword = false;
             this.telefono.Location = new System.Drawing.Point(146, 214);
-            this.telefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.telefono.Margin = new System.Windows.Forms.Padding(4);
             this.telefono.Name = "telefono";
             this.telefono.Size = new System.Drawing.Size(370, 33);
             this.telefono.TabIndex = 309;
@@ -243,7 +249,7 @@
             this.cedulaP.ForeColor = System.Drawing.Color.Gray;
             this.cedulaP.isPassword = false;
             this.cedulaP.Location = new System.Drawing.Point(146, 162);
-            this.cedulaP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
             this.cedulaP.Name = "cedulaP";
             this.cedulaP.Size = new System.Drawing.Size(370, 33);
             this.cedulaP.TabIndex = 218;
@@ -255,7 +261,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(103, 295);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(454, 35);
             this.bunifuSeparator1.TabIndex = 217;
@@ -303,7 +309,7 @@
             this.numeroE.ForeColor = System.Drawing.Color.Gray;
             this.numeroE.isPassword = false;
             this.numeroE.Location = new System.Drawing.Point(146, 109);
-            this.numeroE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeroE.Margin = new System.Windows.Forms.Padding(4);
             this.numeroE.Name = "numeroE";
             this.numeroE.Size = new System.Drawing.Size(370, 33);
             this.numeroE.TabIndex = 210;
@@ -320,7 +326,7 @@
             this.numeroI.ForeColor = System.Drawing.Color.Gray;
             this.numeroI.isPassword = false;
             this.numeroI.Location = new System.Drawing.Point(146, 62);
-            this.numeroI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeroI.Margin = new System.Windows.Forms.Padding(4);
             this.numeroI.Name = "numeroI";
             this.numeroI.Size = new System.Drawing.Size(370, 33);
             this.numeroI.TabIndex = 209;
@@ -337,7 +343,7 @@
             this.calle.ForeColor = System.Drawing.Color.Gray;
             this.calle.isPassword = false;
             this.calle.Location = new System.Drawing.Point(146, 13);
-            this.calle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calle.Margin = new System.Windows.Forms.Padding(4);
             this.calle.Name = "calle";
             this.calle.Size = new System.Drawing.Size(370, 33);
             this.calle.TabIndex = 208;
@@ -385,7 +391,7 @@
             this.edad.ForeColor = System.Drawing.Color.Gray;
             this.edad.isPassword = false;
             this.edad.Location = new System.Drawing.Point(147, 191);
-            this.edad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.edad.Margin = new System.Windows.Forms.Padding(4);
             this.edad.Name = "edad";
             this.edad.Size = new System.Drawing.Size(370, 33);
             this.edad.TabIndex = 224;
@@ -452,7 +458,7 @@
             this.colonia.ForeColor = System.Drawing.Color.Gray;
             this.colonia.isPassword = false;
             this.colonia.Location = new System.Drawing.Point(146, 288);
-            this.colonia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.colonia.Margin = new System.Windows.Forms.Padding(4);
             this.colonia.Name = "colonia";
             this.colonia.Size = new System.Drawing.Size(370, 33);
             this.colonia.TabIndex = 213;
@@ -469,7 +475,7 @@
             this.correo.ForeColor = System.Drawing.Color.Gray;
             this.correo.isPassword = false;
             this.correo.Location = new System.Drawing.Point(146, 240);
-            this.correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(370, 33);
             this.correo.TabIndex = 212;
@@ -486,7 +492,7 @@
             this.apellidoM.ForeColor = System.Drawing.Color.Gray;
             this.apellidoM.isPassword = false;
             this.apellidoM.Location = new System.Drawing.Point(146, 143);
-            this.apellidoM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
             this.apellidoM.Size = new System.Drawing.Size(370, 33);
             this.apellidoM.TabIndex = 210;
@@ -503,7 +509,7 @@
             this.apellidoP.ForeColor = System.Drawing.Color.Gray;
             this.apellidoP.isPassword = false;
             this.apellidoP.Location = new System.Drawing.Point(146, 96);
-            this.apellidoP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
             this.apellidoP.Size = new System.Drawing.Size(370, 33);
             this.apellidoP.TabIndex = 209;
@@ -520,7 +526,7 @@
             this.nombre.ForeColor = System.Drawing.Color.Gray;
             this.nombre.isPassword = false;
             this.nombre.Location = new System.Drawing.Point(146, 47);
-            this.nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(370, 33);
             this.nombre.TabIndex = 208;
@@ -530,6 +536,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label2.Location = new System.Drawing.Point(12, 3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(228, 24);
@@ -539,12 +546,51 @@
             // panelSuperior
             // 
             this.panelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.panelSuperior.Controls.Add(this.panel3);
             this.panelSuperior.Controls.Add(this.label11);
             this.panelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSuperior.Location = new System.Drawing.Point(0, 0);
             this.panelSuperior.Name = "panelSuperior";
             this.panelSuperior.Size = new System.Drawing.Size(662, 208);
             this.panelSuperior.TabIndex = 7;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.panel3.Controls.Add(this.pictureBox5);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(662, 35);
+            this.panel3.TabIndex = 308;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::Talent.Properties.Resources.CerrarBlanco;
+            this.pictureBox5.Location = new System.Drawing.Point(631, 5);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Talent.Properties.Resources.MinimizarBlanco;
+            this.pictureBox2.Location = new System.Drawing.Point(600, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // label11
             // 
@@ -566,6 +612,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelInferior);
             this.Controls.Add(this.panelSuperior);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registr";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -579,6 +626,9 @@
             this.panelInterno1.PerformLayout();
             this.panelSuperior.ResumeLayout(false);
             this.panelSuperior.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -619,5 +669,8 @@
         private System.Windows.Forms.Label label10;
         private Bunifu.Framework.UI.BunifuMetroTextbox telefono;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

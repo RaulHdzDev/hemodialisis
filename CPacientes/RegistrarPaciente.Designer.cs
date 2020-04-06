@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarPaciente));
             this.panelSuperior = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.panelInferior = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label39 = new System.Windows.Forms.Label();
@@ -62,6 +63,10 @@
             this.bunifuMetroTextbox18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label37 = new System.Windows.Forms.Label();
             this.panelInterno1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.bunifuMetroTextbox16 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.bunifuMetroTextbox14 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label33 = new System.Windows.Forms.Label();
             this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
@@ -91,21 +96,23 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.label6 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox14 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox16 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelSuperior.SuspendLayout();
             this.panelInferior.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelInterno1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSuperior
             // 
             this.panelSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.panelSuperior.Controls.Add(this.panel3);
             this.panelSuperior.Controls.Add(this.label8);
             this.panelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSuperior.Location = new System.Drawing.Point(0, 0);
@@ -113,6 +120,17 @@
             this.panelSuperior.Size = new System.Drawing.Size(752, 208);
             this.panelSuperior.TabIndex = 4;
             this.panelSuperior.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSuperior_Paint);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(3, 173);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(298, 32);
+            this.label8.TabIndex = 306;
+            this.label8.Text = "Registro de pacientes";
             // 
             // panelInferior
             // 
@@ -585,6 +603,60 @@
             this.panelInterno1.TabIndex = 0;
             this.panelInterno1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelInterno1_Paint);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(386, 175);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(147, 16);
+            this.label7.TabIndex = 305;
+            this.label7.Text = "Número de contacto(Tel):";
+            // 
+            // bunifuMetroTextbox16
+            // 
+            this.bunifuMetroTextbox16.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox16.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox16.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox16.BorderThickness = 1;
+            this.bunifuMetroTextbox16.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox16.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox16.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox16.isPassword = false;
+            this.bunifuMetroTextbox16.Location = new System.Drawing.Point(386, 186);
+            this.bunifuMetroTextbox16.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox16.Name = "bunifuMetroTextbox16";
+            this.bunifuMetroTextbox16.Size = new System.Drawing.Size(333, 33);
+            this.bunifuMetroTextbox16.TabIndex = 304;
+            this.bunifuMetroTextbox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(16, 329);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 16);
+            this.label6.TabIndex = 303;
+            this.label6.Text = "Edad:";
+            // 
+            // bunifuMetroTextbox14
+            // 
+            this.bunifuMetroTextbox14.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox14.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox14.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox14.BorderThickness = 1;
+            this.bunifuMetroTextbox14.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox14.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox14.isPassword = false;
+            this.bunifuMetroTextbox14.Location = new System.Drawing.Point(15, 339);
+            this.bunifuMetroTextbox14.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox14.Name = "bunifuMetroTextbox14";
+            this.bunifuMetroTextbox14.Size = new System.Drawing.Size(332, 33);
+            this.bunifuMetroTextbox14.TabIndex = 302;
+            this.bunifuMetroTextbox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // bunifuSeparator1
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
@@ -991,70 +1063,43 @@
             this.btnAAgregar.TabIndex = 21;
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // panel3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 329);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 16);
-            this.label6.TabIndex = 303;
-            this.label6.Text = "Edad:";
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.panel3.Controls.Add(this.pictureBox5);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(752, 35);
+            this.panel3.TabIndex = 309;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
             // 
-            // bunifuMetroTextbox14
+            // pictureBox5
             // 
-            this.bunifuMetroTextbox14.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox14.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox14.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox14.BorderThickness = 1;
-            this.bunifuMetroTextbox14.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox14.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox14.isPassword = false;
-            this.bunifuMetroTextbox14.Location = new System.Drawing.Point(15, 339);
-            this.bunifuMetroTextbox14.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox14.Name = "bunifuMetroTextbox14";
-            this.bunifuMetroTextbox14.Size = new System.Drawing.Size(332, 33);
-            this.bunifuMetroTextbox14.TabIndex = 302;
-            this.bunifuMetroTextbox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::Talent.Properties.Resources.CerrarBlanco;
+            this.pictureBox5.Location = new System.Drawing.Point(721, 5);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
-            // label7
+            // pictureBox2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(386, 175);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(147, 16);
-            this.label7.TabIndex = 305;
-            this.label7.Text = "Número de contacto(Tel):";
-            // 
-            // bunifuMetroTextbox16
-            // 
-            this.bunifuMetroTextbox16.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox16.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox16.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox16.BorderThickness = 1;
-            this.bunifuMetroTextbox16.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox16.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox16.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox16.isPassword = false;
-            this.bunifuMetroTextbox16.Location = new System.Drawing.Point(386, 186);
-            this.bunifuMetroTextbox16.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox16.Name = "bunifuMetroTextbox16";
-            this.bunifuMetroTextbox16.Size = new System.Drawing.Size(333, 33);
-            this.bunifuMetroTextbox16.TabIndex = 304;
-            this.bunifuMetroTextbox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(3, 173);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(298, 32);
-            this.label8.TabIndex = 306;
-            this.label8.Text = "Registro de pacientes";
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Talent.Properties.Resources.MinimizarBlanco;
+            this.pictureBox2.Location = new System.Drawing.Point(690, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // RegistrarPaciente
             // 
@@ -1065,7 +1110,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelInferior);
             this.Controls.Add(this.panelSuperior);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegistrarPaciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1079,6 +1124,9 @@
             this.panelInterno1.ResumeLayout(false);
             this.panelInterno1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1152,5 +1200,8 @@
         private System.Windows.Forms.Label label6;
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox14;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
