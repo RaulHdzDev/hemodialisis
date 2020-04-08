@@ -151,7 +151,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(340, 227);
+            this.label10.Location = new System.Drawing.Point(353, 230);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(118, 16);
             this.label10.TabIndex = 310;
@@ -167,7 +167,7 @@
             this.telefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.telefono.ForeColor = System.Drawing.Color.Gray;
             this.telefono.isPassword = false;
-            this.telefono.Location = new System.Drawing.Point(340, 237);
+            this.telefono.Location = new System.Drawing.Point(353, 240);
             this.telefono.Margin = new System.Windows.Forms.Padding(4);
             this.telefono.Name = "telefono";
             this.telefono.Size = new System.Drawing.Size(285, 33);
@@ -178,7 +178,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(338, 284);
+            this.label9.Location = new System.Drawing.Point(351, 287);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 16);
             this.label9.TabIndex = 308;
@@ -198,7 +198,7 @@
             "Intendente",
             "Seguridad",
             ""});
-            this.tipoE.Location = new System.Drawing.Point(340, 297);
+            this.tipoE.Location = new System.Drawing.Point(353, 300);
             this.tipoE.Name = "tipoE";
             this.tipoE.Size = new System.Drawing.Size(282, 21);
             this.tipoE.TabIndex = 307;
@@ -207,7 +207,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(340, 178);
+            this.label8.Location = new System.Drawing.Point(353, 181);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 16);
             this.label8.TabIndex = 219;
@@ -223,7 +223,7 @@
             this.cedulaP.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.cedulaP.ForeColor = System.Drawing.Color.Gray;
             this.cedulaP.isPassword = false;
-            this.cedulaP.Location = new System.Drawing.Point(340, 188);
+            this.cedulaP.Location = new System.Drawing.Point(353, 191);
             this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
             this.cedulaP.Name = "cedulaP";
             this.cedulaP.Size = new System.Drawing.Size(285, 33);
@@ -234,7 +234,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(340, 130);
+            this.label12.Location = new System.Drawing.Point(353, 133);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(64, 16);
             this.label12.TabIndex = 216;
@@ -244,7 +244,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(340, 82);
+            this.label13.Location = new System.Drawing.Point(353, 85);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(62, 16);
             this.label13.TabIndex = 215;
@@ -254,7 +254,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(340, 33);
+            this.label14.Location = new System.Drawing.Point(353, 36);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(39, 16);
             this.label14.TabIndex = 214;
@@ -270,7 +270,7 @@
             this.numeroE.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.numeroE.ForeColor = System.Drawing.Color.Gray;
             this.numeroE.isPassword = false;
-            this.numeroE.Location = new System.Drawing.Point(340, 140);
+            this.numeroE.Location = new System.Drawing.Point(353, 143);
             this.numeroE.Margin = new System.Windows.Forms.Padding(4);
             this.numeroE.Name = "numeroE";
             this.numeroE.Size = new System.Drawing.Size(285, 33);
@@ -287,7 +287,7 @@
             this.numeroI.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.numeroI.ForeColor = System.Drawing.Color.Gray;
             this.numeroI.isPassword = false;
-            this.numeroI.Location = new System.Drawing.Point(340, 93);
+            this.numeroI.Location = new System.Drawing.Point(353, 96);
             this.numeroI.Margin = new System.Windows.Forms.Padding(4);
             this.numeroI.Name = "numeroI";
             this.numeroI.Size = new System.Drawing.Size(285, 33);
@@ -304,7 +304,7 @@
             this.calle.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.calle.ForeColor = System.Drawing.Color.Gray;
             this.calle.isPassword = false;
-            this.calle.Location = new System.Drawing.Point(340, 44);
+            this.calle.Location = new System.Drawing.Point(353, 47);
             this.calle.Margin = new System.Windows.Forms.Padding(4);
             this.calle.Name = "calle";
             this.calle.Size = new System.Drawing.Size(285, 33);
@@ -349,7 +349,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(13, 179);
+            this.label5.Location = new System.Drawing.Point(26, 182);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 16);
             this.label5.TabIndex = 225;
@@ -365,7 +365,7 @@
             this.edad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.edad.ForeColor = System.Drawing.Color.Gray;
             this.edad.isPassword = false;
-            this.edad.Location = new System.Drawing.Point(14, 188);
+            this.edad.Location = new System.Drawing.Point(27, 191);
             this.edad.Margin = new System.Windows.Forms.Padding(4);
             this.edad.Name = "edad";
             this.edad.Size = new System.Drawing.Size(285, 33);
@@ -376,7 +376,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(13, 274);
+            this.label7.Location = new System.Drawing.Point(26, 277);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(50, 16);
             this.label7.TabIndex = 219;
@@ -386,7 +386,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(13, 226);
+            this.label6.Location = new System.Drawing.Point(26, 229);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 16);
             this.label6.TabIndex = 218;
@@ -396,7 +396,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 130);
+            this.label4.Location = new System.Drawing.Point(26, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 16);
             this.label4.TabIndex = 216;
@@ -406,7 +406,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 82);
+            this.label3.Location = new System.Drawing.Point(26, 85);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 16);
             this.label3.TabIndex = 215;
@@ -416,7 +416,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 33);
+            this.label1.Location = new System.Drawing.Point(26, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 214;
@@ -432,7 +432,7 @@
             this.colonia.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.colonia.ForeColor = System.Drawing.Color.Gray;
             this.colonia.isPassword = false;
-            this.colonia.Location = new System.Drawing.Point(13, 285);
+            this.colonia.Location = new System.Drawing.Point(26, 288);
             this.colonia.Margin = new System.Windows.Forms.Padding(4);
             this.colonia.Name = "colonia";
             this.colonia.Size = new System.Drawing.Size(285, 33);
@@ -449,7 +449,7 @@
             this.correo.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.correo.ForeColor = System.Drawing.Color.Gray;
             this.correo.isPassword = false;
-            this.correo.Location = new System.Drawing.Point(13, 237);
+            this.correo.Location = new System.Drawing.Point(26, 240);
             this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(285, 33);
@@ -466,7 +466,7 @@
             this.apellidoM.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.apellidoM.ForeColor = System.Drawing.Color.Gray;
             this.apellidoM.isPassword = false;
-            this.apellidoM.Location = new System.Drawing.Point(13, 140);
+            this.apellidoM.Location = new System.Drawing.Point(26, 143);
             this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
             this.apellidoM.Size = new System.Drawing.Size(285, 33);
@@ -483,7 +483,7 @@
             this.apellidoP.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.apellidoP.ForeColor = System.Drawing.Color.Gray;
             this.apellidoP.isPassword = false;
-            this.apellidoP.Location = new System.Drawing.Point(13, 93);
+            this.apellidoP.Location = new System.Drawing.Point(26, 96);
             this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
             this.apellidoP.Size = new System.Drawing.Size(285, 33);
@@ -500,7 +500,7 @@
             this.nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.nombre.ForeColor = System.Drawing.Color.Gray;
             this.nombre.isPassword = false;
-            this.nombre.Location = new System.Drawing.Point(13, 44);
+            this.nombre.Location = new System.Drawing.Point(26, 47);
             this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(285, 33);
