@@ -33,14 +33,12 @@
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panelInferior = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.telefono = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label9 = new System.Windows.Forms.Label();
             this.tipoE = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.cedulaP = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -68,7 +66,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelInferior.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panelInterno1.SuspendLayout();
             this.panelSuperior.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -90,21 +87,21 @@
             // 
             this.bunifuThinButton21.ActiveBorderThickness = 1;
             this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Green;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Green;
             this.bunifuThinButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "Registrar";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.Green;
             this.bunifuThinButton21.IdleBorderThickness = 1;
             this.bunifuThinButton21.IdleCornerRadius = 20;
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Green;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Green;
             this.bunifuThinButton21.Location = new System.Drawing.Point(412, 3);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
@@ -143,7 +140,6 @@
             // panelInferior
             // 
             this.panelInferior.AutoScroll = true;
-            this.panelInferior.Controls.Add(this.panel2);
             this.panelInferior.Controls.Add(this.panelInterno1);
             this.panelInferior.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelInferior.Location = new System.Drawing.Point(0, 208);
@@ -151,32 +147,11 @@
             this.panelInferior.Size = new System.Drawing.Size(662, 383);
             this.panelInferior.TabIndex = 8;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.telefono);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.tipoE);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.cedulaP);
-            this.panel2.Controls.Add(this.bunifuSeparator1);
-            this.panel2.Controls.Add(this.label12);
-            this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.numeroE);
-            this.panel2.Controls.Add(this.numeroI);
-            this.panel2.Controls.Add(this.calle);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 329);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(645, 337);
-            this.panel2.TabIndex = 1;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(146, 204);
+            this.label10.Location = new System.Drawing.Point(340, 227);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(118, 16);
             this.label10.TabIndex = 310;
@@ -192,10 +167,10 @@
             this.telefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.telefono.ForeColor = System.Drawing.Color.Gray;
             this.telefono.isPassword = false;
-            this.telefono.Location = new System.Drawing.Point(146, 214);
+            this.telefono.Location = new System.Drawing.Point(340, 237);
             this.telefono.Margin = new System.Windows.Forms.Padding(4);
             this.telefono.Name = "telefono";
-            this.telefono.Size = new System.Drawing.Size(370, 33);
+            this.telefono.Size = new System.Drawing.Size(285, 33);
             this.telefono.TabIndex = 309;
             this.telefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -203,7 +178,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(147, 258);
+            this.label9.Location = new System.Drawing.Point(338, 284);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 16);
             this.label9.TabIndex = 308;
@@ -223,16 +198,16 @@
             "Intendente",
             "Seguridad",
             ""});
-            this.tipoE.Location = new System.Drawing.Point(149, 271);
+            this.tipoE.Location = new System.Drawing.Point(340, 297);
             this.tipoE.Name = "tipoE";
-            this.tipoE.Size = new System.Drawing.Size(367, 21);
+            this.tipoE.Size = new System.Drawing.Size(282, 21);
             this.tipoE.TabIndex = 307;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(146, 152);
+            this.label8.Location = new System.Drawing.Point(340, 178);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 16);
             this.label8.TabIndex = 219;
@@ -248,31 +223,18 @@
             this.cedulaP.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.cedulaP.ForeColor = System.Drawing.Color.Gray;
             this.cedulaP.isPassword = false;
-            this.cedulaP.Location = new System.Drawing.Point(146, 162);
+            this.cedulaP.Location = new System.Drawing.Point(340, 188);
             this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
             this.cedulaP.Name = "cedulaP";
-            this.cedulaP.Size = new System.Drawing.Size(370, 33);
+            this.cedulaP.Size = new System.Drawing.Size(285, 33);
             this.cedulaP.TabIndex = 218;
             this.cedulaP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(103, 295);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(454, 35);
-            this.bunifuSeparator1.TabIndex = 217;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(146, 99);
+            this.label12.Location = new System.Drawing.Point(340, 130);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(64, 16);
             this.label12.TabIndex = 216;
@@ -282,7 +244,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(146, 51);
+            this.label13.Location = new System.Drawing.Point(340, 82);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(62, 16);
             this.label13.TabIndex = 215;
@@ -292,7 +254,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(146, 2);
+            this.label14.Location = new System.Drawing.Point(340, 33);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(39, 16);
             this.label14.TabIndex = 214;
@@ -308,10 +270,10 @@
             this.numeroE.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.numeroE.ForeColor = System.Drawing.Color.Gray;
             this.numeroE.isPassword = false;
-            this.numeroE.Location = new System.Drawing.Point(146, 109);
+            this.numeroE.Location = new System.Drawing.Point(340, 140);
             this.numeroE.Margin = new System.Windows.Forms.Padding(4);
             this.numeroE.Name = "numeroE";
-            this.numeroE.Size = new System.Drawing.Size(370, 33);
+            this.numeroE.Size = new System.Drawing.Size(285, 33);
             this.numeroE.TabIndex = 210;
             this.numeroE.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -325,10 +287,10 @@
             this.numeroI.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.numeroI.ForeColor = System.Drawing.Color.Gray;
             this.numeroI.isPassword = false;
-            this.numeroI.Location = new System.Drawing.Point(146, 62);
+            this.numeroI.Location = new System.Drawing.Point(340, 93);
             this.numeroI.Margin = new System.Windows.Forms.Padding(4);
             this.numeroI.Name = "numeroI";
-            this.numeroI.Size = new System.Drawing.Size(370, 33);
+            this.numeroI.Size = new System.Drawing.Size(285, 33);
             this.numeroI.TabIndex = 209;
             this.numeroI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -342,39 +304,52 @@
             this.calle.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.calle.ForeColor = System.Drawing.Color.Gray;
             this.calle.isPassword = false;
-            this.calle.Location = new System.Drawing.Point(146, 13);
+            this.calle.Location = new System.Drawing.Point(340, 44);
             this.calle.Margin = new System.Windows.Forms.Padding(4);
             this.calle.Name = "calle";
-            this.calle.Size = new System.Drawing.Size(370, 33);
+            this.calle.Size = new System.Drawing.Size(285, 33);
             this.calle.TabIndex = 208;
             this.calle.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // panelInterno1
             // 
+            this.panelInterno1.BackColor = System.Drawing.Color.White;
+            this.panelInterno1.Controls.Add(this.label10);
             this.panelInterno1.Controls.Add(this.label5);
+            this.panelInterno1.Controls.Add(this.telefono);
             this.panelInterno1.Controls.Add(this.edad);
+            this.panelInterno1.Controls.Add(this.label9);
             this.panelInterno1.Controls.Add(this.label7);
+            this.panelInterno1.Controls.Add(this.tipoE);
             this.panelInterno1.Controls.Add(this.label6);
+            this.panelInterno1.Controls.Add(this.label8);
             this.panelInterno1.Controls.Add(this.label4);
+            this.panelInterno1.Controls.Add(this.cedulaP);
             this.panelInterno1.Controls.Add(this.label3);
             this.panelInterno1.Controls.Add(this.label1);
+            this.panelInterno1.Controls.Add(this.label12);
             this.panelInterno1.Controls.Add(this.colonia);
+            this.panelInterno1.Controls.Add(this.label13);
             this.panelInterno1.Controls.Add(this.correo);
+            this.panelInterno1.Controls.Add(this.label14);
             this.panelInterno1.Controls.Add(this.apellidoM);
+            this.panelInterno1.Controls.Add(this.numeroE);
             this.panelInterno1.Controls.Add(this.apellidoP);
+            this.panelInterno1.Controls.Add(this.numeroI);
             this.panelInterno1.Controls.Add(this.nombre);
+            this.panelInterno1.Controls.Add(this.calle);
             this.panelInterno1.Controls.Add(this.label2);
             this.panelInterno1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelInterno1.Location = new System.Drawing.Point(0, 0);
             this.panelInterno1.Name = "panelInterno1";
-            this.panelInterno1.Size = new System.Drawing.Size(645, 329);
+            this.panelInterno1.Size = new System.Drawing.Size(662, 352);
             this.panelInterno1.TabIndex = 0;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(146, 182);
+            this.label5.Location = new System.Drawing.Point(13, 179);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 16);
             this.label5.TabIndex = 225;
@@ -390,10 +365,10 @@
             this.edad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.edad.ForeColor = System.Drawing.Color.Gray;
             this.edad.isPassword = false;
-            this.edad.Location = new System.Drawing.Point(147, 191);
+            this.edad.Location = new System.Drawing.Point(14, 188);
             this.edad.Margin = new System.Windows.Forms.Padding(4);
             this.edad.Name = "edad";
-            this.edad.Size = new System.Drawing.Size(370, 33);
+            this.edad.Size = new System.Drawing.Size(285, 33);
             this.edad.TabIndex = 224;
             this.edad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -401,7 +376,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(146, 277);
+            this.label7.Location = new System.Drawing.Point(13, 274);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(50, 16);
             this.label7.TabIndex = 219;
@@ -411,7 +386,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(146, 229);
+            this.label6.Location = new System.Drawing.Point(13, 226);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 16);
             this.label6.TabIndex = 218;
@@ -421,7 +396,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(146, 133);
+            this.label4.Location = new System.Drawing.Point(13, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 16);
             this.label4.TabIndex = 216;
@@ -431,7 +406,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(146, 85);
+            this.label3.Location = new System.Drawing.Point(13, 82);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 16);
             this.label3.TabIndex = 215;
@@ -441,7 +416,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(146, 36);
+            this.label1.Location = new System.Drawing.Point(13, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 214;
@@ -457,10 +432,10 @@
             this.colonia.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.colonia.ForeColor = System.Drawing.Color.Gray;
             this.colonia.isPassword = false;
-            this.colonia.Location = new System.Drawing.Point(146, 288);
+            this.colonia.Location = new System.Drawing.Point(13, 285);
             this.colonia.Margin = new System.Windows.Forms.Padding(4);
             this.colonia.Name = "colonia";
-            this.colonia.Size = new System.Drawing.Size(370, 33);
+            this.colonia.Size = new System.Drawing.Size(285, 33);
             this.colonia.TabIndex = 213;
             this.colonia.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -474,10 +449,10 @@
             this.correo.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.correo.ForeColor = System.Drawing.Color.Gray;
             this.correo.isPassword = false;
-            this.correo.Location = new System.Drawing.Point(146, 240);
+            this.correo.Location = new System.Drawing.Point(13, 237);
             this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
-            this.correo.Size = new System.Drawing.Size(370, 33);
+            this.correo.Size = new System.Drawing.Size(285, 33);
             this.correo.TabIndex = 212;
             this.correo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -491,10 +466,10 @@
             this.apellidoM.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.apellidoM.ForeColor = System.Drawing.Color.Gray;
             this.apellidoM.isPassword = false;
-            this.apellidoM.Location = new System.Drawing.Point(146, 143);
+            this.apellidoM.Location = new System.Drawing.Point(13, 140);
             this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
-            this.apellidoM.Size = new System.Drawing.Size(370, 33);
+            this.apellidoM.Size = new System.Drawing.Size(285, 33);
             this.apellidoM.TabIndex = 210;
             this.apellidoM.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -508,10 +483,10 @@
             this.apellidoP.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.apellidoP.ForeColor = System.Drawing.Color.Gray;
             this.apellidoP.isPassword = false;
-            this.apellidoP.Location = new System.Drawing.Point(146, 96);
+            this.apellidoP.Location = new System.Drawing.Point(13, 93);
             this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
-            this.apellidoP.Size = new System.Drawing.Size(370, 33);
+            this.apellidoP.Size = new System.Drawing.Size(285, 33);
             this.apellidoP.TabIndex = 209;
             this.apellidoP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -525,10 +500,10 @@
             this.nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.nombre.ForeColor = System.Drawing.Color.Gray;
             this.nombre.isPassword = false;
-            this.nombre.Location = new System.Drawing.Point(146, 47);
+            this.nombre.Location = new System.Drawing.Point(13, 44);
             this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
-            this.nombre.Size = new System.Drawing.Size(370, 33);
+            this.nombre.Size = new System.Drawing.Size(285, 33);
             this.nombre.TabIndex = 208;
             this.nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -620,8 +595,6 @@
             this.Load += new System.EventHandler(this.RegistrarEmpleados_Load);
             this.panel1.ResumeLayout(false);
             this.panelInferior.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panelInterno1.ResumeLayout(false);
             this.panelInterno1.PerformLayout();
             this.panelSuperior.ResumeLayout(false);
@@ -639,7 +612,6 @@
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuThinButton2 btnAAgregar;
         private System.Windows.Forms.Panel panelInferior;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
@@ -661,7 +633,6 @@
         private Bunifu.Framework.UI.BunifuMetroTextbox nombre;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelSuperior;
-        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
         private System.Windows.Forms.Label label8;
         private Bunifu.Framework.UI.BunifuMetroTextbox cedulaP;
         private System.Windows.Forms.Label label9;

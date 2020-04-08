@@ -214,7 +214,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 371);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(735, 484);
+            this.panel2.Size = new System.Drawing.Size(735, 481);
             this.panel2.TabIndex = 1;
             // 
             // label39
@@ -266,12 +266,10 @@
             this.comboBox2.ForeColor = System.Drawing.Color.Black;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "+Fístula Arteriovenosa",
-            " Autologa o nativa",
-            " Injerto Goretex",
-            "+Catéter",
-            " Catéter Temporal",
-            " Catéter Permanente"});
+            "Autologa o nativa",
+            "Injerto Goretex",
+            "Catéter Temporal",
+            "Catéter Permanente"});
             this.comboBox2.Location = new System.Drawing.Point(405, 274);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(318, 21);
