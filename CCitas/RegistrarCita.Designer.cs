@@ -44,6 +44,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnCancelarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAgregarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.label5 = new System.Windows.Forms.Label();
+            this.bunifuMetroTextbox4 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -233,7 +235,7 @@
             this.btnCancelarActualizar.IdleFillColor = System.Drawing.Color.White;
             this.btnCancelarActualizar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnCancelarActualizar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.Location = new System.Drawing.Point(674, 345);
+            this.btnCancelarActualizar.Location = new System.Drawing.Point(673, 390);
             this.btnCancelarActualizar.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelarActualizar.Name = "btnCancelarActualizar";
             this.btnCancelarActualizar.Size = new System.Drawing.Size(113, 41);
@@ -259,19 +261,48 @@
             this.btnAgregarActualizar.IdleFillColor = System.Drawing.Color.White;
             this.btnAgregarActualizar.IdleForecolor = System.Drawing.Color.Green;
             this.btnAgregarActualizar.IdleLineColor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.Location = new System.Drawing.Point(549, 345);
+            this.btnAgregarActualizar.Location = new System.Drawing.Point(548, 390);
             this.btnAgregarActualizar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAgregarActualizar.Name = "btnAgregarActualizar";
             this.btnAgregarActualizar.Size = new System.Drawing.Size(113, 41);
             this.btnAgregarActualizar.TabIndex = 228;
             this.btnAgregarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(38, 332);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 16);
+            this.label5.TabIndex = 232;
+            this.label5.Text = "ID Encargado:";
+            // 
+            // bunifuMetroTextbox4
+            // 
+            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox4.BorderThickness = 1;
+            this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox4.isPassword = false;
+            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(38, 343);
+            this.bunifuMetroTextbox4.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox4.Name = "bunifuMetroTextbox4";
+            this.bunifuMetroTextbox4.Size = new System.Drawing.Size(370, 33);
+            this.bunifuMetroTextbox4.TabIndex = 231;
+            this.bunifuMetroTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // RegistrarCita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(832, 398);
+            this.ClientSize = new System.Drawing.Size(832, 435);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.bunifuMetroTextbox4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCancelarActualizar);
             this.Controls.Add(this.btnAgregarActualizar);
@@ -316,5 +347,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox4;
     }
 }
