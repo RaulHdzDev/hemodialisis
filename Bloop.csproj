@@ -556,5 +556,29 @@
   <ItemGroup>
     <None Include="Resources\MinimizarBlanco.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enfermeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pasante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intendente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seguridad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secretaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intendente1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
