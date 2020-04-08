@@ -170,11 +170,11 @@
             // 
             this.fecha.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.fecha.AutoSize = true;
-            this.fecha.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fecha.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fecha.ForeColor = System.Drawing.Color.Black;
             this.fecha.Location = new System.Drawing.Point(826, 24);
             this.fecha.Name = "fecha";
-            this.fecha.Size = new System.Drawing.Size(0, 15);
+            this.fecha.Size = new System.Drawing.Size(0, 16);
             this.fecha.TabIndex = 1;
             // 
             // hora
@@ -255,7 +255,7 @@
             this.btnAntecedentes.IconZoom = 90D;
             this.btnAntecedentes.IsTab = false;
             this.btnAntecedentes.Location = new System.Drawing.Point(0, 469);
-            this.btnAntecedentes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAntecedentes.Margin = new System.Windows.Forms.Padding(4);
             this.btnAntecedentes.Name = "btnAntecedentes";
             this.btnAntecedentes.Normalcolor = System.Drawing.Color.Transparent;
             this.btnAntecedentes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -293,7 +293,7 @@
             this.btnAlmacen.IconZoom = 90D;
             this.btnAlmacen.IsTab = false;
             this.btnAlmacen.Location = new System.Drawing.Point(0, 414);
-            this.btnAlmacen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlmacen.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlmacen.Name = "btnAlmacen";
             this.btnAlmacen.Normalcolor = System.Drawing.Color.Transparent;
             this.btnAlmacen.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -331,7 +331,7 @@
             this.btnLugares.IconZoom = 90D;
             this.btnLugares.IsTab = false;
             this.btnLugares.Location = new System.Drawing.Point(0, 359);
-            this.btnLugares.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLugares.Margin = new System.Windows.Forms.Padding(4);
             this.btnLugares.Name = "btnLugares";
             this.btnLugares.Normalcolor = System.Drawing.Color.Transparent;
             this.btnLugares.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -369,7 +369,7 @@
             this.btnEmpleados.IconZoom = 90D;
             this.btnEmpleados.IsTab = false;
             this.btnEmpleados.Location = new System.Drawing.Point(0, 304);
-            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(4);
             this.btnEmpleados.Name = "btnEmpleados";
             this.btnEmpleados.Normalcolor = System.Drawing.Color.Transparent;
             this.btnEmpleados.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -407,7 +407,7 @@
             this.btnPacientes.IconZoom = 90D;
             this.btnPacientes.IsTab = false;
             this.btnPacientes.Location = new System.Drawing.Point(0, 249);
-            this.btnPacientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPacientes.Margin = new System.Windows.Forms.Padding(4);
             this.btnPacientes.Name = "btnPacientes";
             this.btnPacientes.Normalcolor = System.Drawing.Color.Transparent;
             this.btnPacientes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -445,7 +445,7 @@
             this.btnCitas.IconZoom = 90D;
             this.btnCitas.IsTab = false;
             this.btnCitas.Location = new System.Drawing.Point(0, 194);
-            this.btnCitas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCitas.Margin = new System.Windows.Forms.Padding(4);
             this.btnCitas.Name = "btnCitas";
             this.btnCitas.Normalcolor = System.Drawing.Color.Transparent;
             this.btnCitas.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -483,7 +483,7 @@
             this.btnInicio.IconZoom = 90D;
             this.btnInicio.IsTab = false;
             this.btnInicio.Location = new System.Drawing.Point(0, 139);
-            this.btnInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(4);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Normalcolor = System.Drawing.Color.Transparent;
             this.btnInicio.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -521,7 +521,7 @@
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 556);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
