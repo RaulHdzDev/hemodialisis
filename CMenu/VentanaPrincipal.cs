@@ -177,8 +177,10 @@ namespace Talent
             ocultarPaneles();
         }
 
+        private void panelHora_Paint(object sender, PaintEventArgs e)
+        {
 
-
+        }
     }
 
 }
