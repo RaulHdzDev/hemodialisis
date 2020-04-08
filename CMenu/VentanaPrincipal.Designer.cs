@@ -170,20 +170,20 @@
             // 
             this.fecha.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.fecha.AutoSize = true;
-            this.fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fecha.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fecha.ForeColor = System.Drawing.Color.Black;
-            this.fecha.Location = new System.Drawing.Point(817, 24);
+            this.fecha.Location = new System.Drawing.Point(826, 24);
             this.fecha.Name = "fecha";
-            this.fecha.Size = new System.Drawing.Size(0, 13);
+            this.fecha.Size = new System.Drawing.Size(0, 15);
             this.fecha.TabIndex = 1;
             // 
             // hora
             // 
             this.hora.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.hora.AutoSize = true;
-            this.hora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hora.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hora.ForeColor = System.Drawing.Color.Black;
-            this.hora.Location = new System.Drawing.Point(887, 0);
+            this.hora.Location = new System.Drawing.Point(894, 0);
             this.hora.Name = "hora";
             this.hora.Size = new System.Drawing.Size(0, 25);
             this.hora.TabIndex = 0;
@@ -241,7 +241,7 @@
             this.btnAntecedentes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAntecedentes.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAntecedentes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAntecedentes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAntecedentes.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAntecedentes.Iconcolor = System.Drawing.Color.Transparent;
             this.btnAntecedentes.Iconimage = global::Talent.Properties.Resources.expediente1;
             this.btnAntecedentes.Iconimage_right = null;
@@ -266,7 +266,7 @@
             this.btnAntecedentes.Text = "Antecedentes";
             this.btnAntecedentes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAntecedentes.Textcolor = System.Drawing.Color.Black;
-            this.btnAntecedentes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAntecedentes.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAntecedentes.Click += new System.EventHandler(this.btnAntecedentes_Click);
             // 
             // btnAlmacen
@@ -279,7 +279,7 @@
             this.btnAlmacen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlmacen.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAlmacen.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAlmacen.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlmacen.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlmacen.Iconcolor = System.Drawing.Color.Transparent;
             this.btnAlmacen.Iconimage = global::Talent.Properties.Resources.almacen1;
             this.btnAlmacen.Iconimage_right = null;
@@ -304,7 +304,7 @@
             this.btnAlmacen.Text = "Almacen";
             this.btnAlmacen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlmacen.Textcolor = System.Drawing.Color.Black;
-            this.btnAlmacen.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlmacen.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlmacen.Click += new System.EventHandler(this.btnAlmacen_Click);
             // 
             // btnLugares
@@ -317,7 +317,7 @@
             this.btnLugares.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLugares.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnLugares.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLugares.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLugares.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLugares.Iconcolor = System.Drawing.Color.Transparent;
             this.btnLugares.Iconimage = global::Talent.Properties.Resources.CAMILLA_BLANCA;
             this.btnLugares.Iconimage_right = null;
@@ -342,7 +342,7 @@
             this.btnLugares.Text = "Lugares";
             this.btnLugares.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLugares.Textcolor = System.Drawing.Color.Black;
-            this.btnLugares.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLugares.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLugares.Click += new System.EventHandler(this.btnLugares_Click);
             // 
             // btnEmpleados
@@ -355,7 +355,7 @@
             this.btnEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEmpleados.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnEmpleados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEmpleados.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleados.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpleados.Iconcolor = System.Drawing.Color.Transparent;
             this.btnEmpleados.Iconimage = global::Talent.Properties.Resources.empleados;
             this.btnEmpleados.Iconimage_right = null;
@@ -380,7 +380,7 @@
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpleados.Textcolor = System.Drawing.Color.Black;
-            this.btnEmpleados.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpleados.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // btnPacientes
@@ -393,7 +393,7 @@
             this.btnPacientes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPacientes.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnPacientes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPacientes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPacientes.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacientes.Iconcolor = System.Drawing.Color.Transparent;
             this.btnPacientes.Iconimage = global::Talent.Properties.Resources.pacientes1;
             this.btnPacientes.Iconimage_right = null;
@@ -418,7 +418,7 @@
             this.btnPacientes.Text = "Pacientes";
             this.btnPacientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPacientes.Textcolor = System.Drawing.Color.Black;
-            this.btnPacientes.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPacientes.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPacientes.Click += new System.EventHandler(this.btnPacientes_Click);
             // 
             // btnCitas
@@ -431,7 +431,7 @@
             this.btnCitas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCitas.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnCitas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCitas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCitas.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCitas.Iconcolor = System.Drawing.Color.Transparent;
             this.btnCitas.Iconimage = global::Talent.Properties.Resources.citas1;
             this.btnCitas.Iconimage_right = null;
@@ -456,7 +456,7 @@
             this.btnCitas.Text = "Citas";
             this.btnCitas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCitas.Textcolor = System.Drawing.Color.Black;
-            this.btnCitas.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCitas.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCitas.Click += new System.EventHandler(this.btnCitas_Click);
             // 
             // btnInicio
@@ -469,7 +469,7 @@
             this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInicio.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnInicio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnInicio.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Iconcolor = System.Drawing.Color.Transparent;
             this.btnInicio.Iconimage = global::Talent.Properties.Resources.inicio;
             this.btnInicio.Iconimage_right = null;
@@ -494,7 +494,7 @@
             this.btnInicio.Text = "Inicio";
             this.btnInicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInicio.Textcolor = System.Drawing.Color.Black;
-            this.btnInicio.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // bunifuFlatButton1
@@ -507,7 +507,7 @@
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
             this.bunifuFlatButton1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Font = new System.Drawing.Font("Ancient", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton1.Iconimage = global::Talent.Properties.Resources.cerrarsesion1;
             this.bunifuFlatButton1.Iconimage_right = null;
@@ -532,7 +532,7 @@
             this.bunifuFlatButton1.Text = "Cerrar Sesión";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // panel2
             // 
