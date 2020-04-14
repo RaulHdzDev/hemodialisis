@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paciente));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txt_user = new Bunifu.Framework.UI.BunifuTextbox();
             this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -65,18 +65,6 @@
             this.label1.Size = new System.Drawing.Size(110, 25);
             this.label1.TabIndex = 17;
             this.label1.Text = "Pacientes";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Talent.Properties.Resources.cerrarsesion;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // dataGridView1
             // 
@@ -122,6 +110,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Talent.Properties.Resources.buscar;
             this.pictureBox2.Location = new System.Drawing.Point(254, 60);
             this.pictureBox2.Name = "pictureBox2";
@@ -165,10 +154,22 @@
             this.btnLIniciarSesion.Location = new System.Drawing.Point(6, 578);
             this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
             this.btnLIniciarSesion.Name = "btnLIniciarSesion";
-            this.btnLIniciarSesion.Size = new System.Drawing.Size(181, 41);
+            this.btnLIniciarSesion.Size = new System.Drawing.Size(142, 41);
             this.btnLIniciarSesion.TabIndex = 19;
             this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLIniciarSesion.Click += new System.EventHandler(this.btnLIniciarSesion_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::Talent.Properties.Resources.cerrarsesion;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Paciente
             // 
@@ -189,9 +190,9 @@
             this.Load += new System.EventHandler(this.Grafica_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

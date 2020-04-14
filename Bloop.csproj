@@ -182,6 +182,12 @@
     <Compile Include="CMenu\MenuInicioDoctor.Designer.cs">
       <DependentUpon>MenuInicioDoctor.cs</DependentUpon>
     </Compile>
+    <Compile Include="CPacientes\InformacionMedica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPacientes\InformacionMedica.Designer.cs">
+      <DependentUpon>InformacionMedica.cs</DependentUpon>
+    </Compile>
     <Compile Include="negocios\MasterMailServer.cs" />
     <Compile Include="negocios\MetodoRecuperarContraseña.cs" />
     <Compile Include="negocios\SystemSupportMail.cs" />
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CMenu\MenuInicioDoctor.resx">
       <DependentUpon>MenuInicioDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPacientes\InformacionMedica.resx">
+      <DependentUpon>InformacionMedica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CPacientes\InformacionPaciente.resx">
       <DependentUpon>InformacionPaciente.cs</DependentUpon>

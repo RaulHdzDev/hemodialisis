@@ -143,5 +143,17 @@ namespace Talent
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void bunifuThinButton22_Click_2(object sender, EventArgs e)
+        {
+            InformacionMedica abrirInformacionMedica = new InformacionMedica();
+            abrirInformacionMedica.Show();
+            this.Hide();
+        }
+
+        private void btnAAgregar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
