@@ -171,7 +171,6 @@ C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarArticulo.reso
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarAntecedente.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarCita.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarAdmin.resources
-C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarLugar.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.ActualizarAlmacen.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.Antecedentes.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.RegistrarCita.resources

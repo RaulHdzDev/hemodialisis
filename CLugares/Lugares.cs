@@ -35,8 +35,7 @@ namespace Talent
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            ActualizarLugar abrirActualizarLugar = new ActualizarLugar();
-            abrirActualizarLugar.Show();
+          
         }
     }
 }

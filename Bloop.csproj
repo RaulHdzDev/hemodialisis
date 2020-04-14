@@ -73,12 +73,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CLugares\ActualizarLugar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CLugares\ActualizarLugar.Designer.cs">
-      <DependentUpon>ActualizarLugar.cs</DependentUpon>
-    </Compile>
     <Compile Include="CAlmacen\ActualizarArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -264,9 +258,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CLogin\RegistrarAdmin.resx">
       <DependentUpon>RegistrarAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CLugares\ActualizarLugar.resx">
-      <DependentUpon>ActualizarLugar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAlmacen\RegistrarArticulo.resx">
       <DependentUpon>RegistrarArticulo.cs</DependentUpon>
