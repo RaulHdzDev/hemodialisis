@@ -113,9 +113,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(3, 172);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(169, 32);
+            this.label4.Size = new System.Drawing.Size(192, 32);
             this.label4.TabIndex = 231;
-            this.label4.Text = "Editar Lugar";
+            this.label4.Text = "Editar camilla";
             // 
             // label3
             // 

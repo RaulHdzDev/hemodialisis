@@ -61,9 +61,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(38, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 25);
+            this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Lugares";
+            this.label1.Text = "Camillas";
             // 
             // pictureBox1
             // 
@@ -124,7 +124,7 @@
             this.btnAAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAAgregar.BackColor = System.Drawing.Color.White;
             this.btnAAgregar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAAgregar.BackgroundImage")));
-            this.btnAAgregar.ButtonText = "Registrar lugar";
+            this.btnAAgregar.ButtonText = "Registrar camilla";
             this.btnAAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAAgregar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAAgregar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
@@ -133,10 +133,10 @@
             this.btnAAgregar.IdleFillColor = System.Drawing.Color.White;
             this.btnAAgregar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnAAgregar.Location = new System.Drawing.Point(987, 45);
+            this.btnAAgregar.Location = new System.Drawing.Point(1019, 45);
             this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAAgregar.Name = "btnAAgregar";
-            this.btnAAgregar.Size = new System.Drawing.Size(175, 41);
+            this.btnAAgregar.Size = new System.Drawing.Size(143, 41);
             this.btnAAgregar.TabIndex = 230;
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAAgregar.Click += new System.EventHandler(this.btnAAgregar_Click);

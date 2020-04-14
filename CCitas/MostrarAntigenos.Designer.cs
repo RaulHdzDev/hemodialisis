@@ -151,19 +151,6 @@
             this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.ForeColor = System.Drawing.Color.Black;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Tipo A",
-            "Tipo B",
-            "Tipo AB",
-            "Tipo O",
-            "O negativo",
-            "O positivo",
-            "A negativo",
-            "A positivo",
-            "B negativo",
-            "B positivo",
-            "AB negativo",
-            "AB positivo"});
             this.comboBox1.Location = new System.Drawing.Point(28, 65);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(398, 24);
@@ -187,19 +174,6 @@
             this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.ForeColor = System.Drawing.Color.Black;
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Tipo A",
-            "Tipo B",
-            "Tipo AB",
-            "Tipo O",
-            "O negativo",
-            "O positivo",
-            "A negativo",
-            "A positivo",
-            "B negativo",
-            "B positivo",
-            "AB negativo",
-            "AB positivo"});
             this.comboBox2.Location = new System.Drawing.Point(27, 114);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(398, 24);
@@ -277,7 +251,7 @@
             this.bunifuThinButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Aceptar";
+            this.bunifuThinButton21.ButtonText = "Cancelar";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
