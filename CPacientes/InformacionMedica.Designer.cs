@@ -112,18 +112,13 @@
             this.checkedListBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Estornudos",
-            "Picazón en la nariz, en los ojos o el paladar",
-            "Mocos, nariz congestionada",
-            "Ojos llorosos, irritados o hinchados (conjuntivitis)",
-            "Hormigueo en la boca",
-            "Hinchazón en los labios, lengua, rostro o garganta",
+            "Rinitis",
+            "Asma",
             "Urticaria",
-            "Anafilaxia",
-            "Una zona de una gran hinchazón (edema) en el lugar de la picadura",
-            "Picazón o urticaria en todo el cuerpo",
-            "Tos, opresión en el pecho, sibilancia o falta de aire",
-            "Anafilaxia"});
+            "Dermatitis atópica",
+            "Dermatitis por contacto",
+            "Alimenticias",
+            "Desconocido"});
             this.checkedListBox1.Location = new System.Drawing.Point(13, 45);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(203, 180);
@@ -164,11 +159,26 @@
             this.checkedListBox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
+            "Gripa",
             "Diabetes",
-            "Hipertensión",
-            "Obesidad ",
-            "Cáncer",
-            "Enfermedades cardiovasculares"});
+            "Vitíligo",
+            "Arritmia",
+            "Aneurisma",
+            "Lupus",
+            "Menopausia",
+            "Cáncer de mama",
+            "Vaginitis",
+            "Acné",
+            "Ampollas",
+            "Herpes",
+            "Melanoma",
+            "Urticaria",
+            "Anemia",
+            "Leucemia",
+            "Cataratas",
+            "Miopía",
+            "SIDA",
+            "Desconocido"});
             this.checkedListBox2.Location = new System.Drawing.Point(15, 45);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(203, 180);
@@ -209,16 +219,27 @@
             this.checkedListBox3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox3.FormattingEnabled = true;
             this.checkedListBox3.Items.AddRange(new object[] {
-            "Enfermedades del Corazón",
-            "Diabetes Mellitus",
-            "Tumores Malignos (cáncer)",
-            "Enfermedades Cerebrovasculares",
-            "Enfermedades del Hígado",
-            "Enfermedades Pulmonares Obstructivas Crónicas",
-            "Accidentes",
-            "Insuficiencia Renal",
-            "Afecciones originadas en el periodo perinatal",
-            "Malformaciones congénitas del sistema circulatorio"});
+            "Hipertensión",
+            "Rinosinusitis crónica",
+            "Malformaciones congénitas de oído\'),",
+            "Vértigo de cualquier etiología\'),",
+            "Amigdalitis obstructiva\'),",
+            "Parálisis facial\'),",
+            "Tumores\'),",
+            "Parafimosis",
+            "Hemorroides",
+            "Ginecomastia",
+            "Lipomas",
+            "Insuficiencia venosa",
+            "Embarazo",
+            "Cáncer",
+            "Discromatopsia",
+            "Hipertiroidismo",
+            "Hipotiroidismo",
+            "Disfemias",
+            "Escotomas",
+            "Cistitis",
+            "Desconocido"});
             this.checkedListBox3.Location = new System.Drawing.Point(14, 45);
             this.checkedListBox3.Name = "checkedListBox3";
             this.checkedListBox3.Size = new System.Drawing.Size(203, 180);
