@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrarRH));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -124,7 +126,7 @@
             this.nombre.ForeColor = System.Drawing.Color.Gray;
             this.nombre.isPassword = false;
             this.nombre.Location = new System.Drawing.Point(59, 89);
-            this.nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(244, 33);
             this.nombre.TabIndex = 1;
@@ -151,7 +153,7 @@
             this.apellidoM.ForeColor = System.Drawing.Color.Gray;
             this.apellidoM.isPassword = false;
             this.apellidoM.Location = new System.Drawing.Point(59, 206);
-            this.apellidoM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
             this.apellidoM.Size = new System.Drawing.Size(244, 33);
             this.apellidoM.TabIndex = 3;
@@ -178,7 +180,7 @@
             this.correo.ForeColor = System.Drawing.Color.Gray;
             this.correo.isPassword = false;
             this.correo.Location = new System.Drawing.Point(59, 265);
-            this.correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(244, 33);
             this.correo.TabIndex = 4;
@@ -205,7 +207,7 @@
             this.apellidoP.ForeColor = System.Drawing.Color.Gray;
             this.apellidoP.isPassword = false;
             this.apellidoP.Location = new System.Drawing.Point(59, 149);
-            this.apellidoP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
             this.apellidoP.Size = new System.Drawing.Size(244, 33);
             this.apellidoP.TabIndex = 2;
@@ -232,7 +234,7 @@
             this.password.ForeColor = System.Drawing.Color.Gray;
             this.password.isPassword = false;
             this.password.Location = new System.Drawing.Point(59, 328);
-            this.password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.password.Margin = new System.Windows.Forms.Padding(4);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(244, 33);
             this.password.TabIndex = 5;
@@ -269,7 +271,7 @@
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.Location = new System.Drawing.Point(249, 6);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(109, 41);
             this.bunifuThinButton21.TabIndex = 23;
@@ -296,12 +298,17 @@
             this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
             this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
             this.btnLIniciarSesion.Location = new System.Drawing.Point(135, 6);
-            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
             this.btnLIniciarSesion.Name = "btnLIniciarSesion";
             this.btnLIniciarSesion.Size = new System.Drawing.Size(104, 41);
             this.btnLIniciarSesion.TabIndex = 22;
             this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLIniciarSesion.Click += new System.EventHandler(this.btnLIniciarSesion_Click);
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 25;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // RegistrarRH
             // 
@@ -326,6 +333,7 @@
             this.Name = "RegistrarRH";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.RegistrarRH_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RegistrarRH_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -355,5 +363,6 @@
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuThinButton2 btnLIniciarSesion;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

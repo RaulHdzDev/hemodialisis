@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registr));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -64,6 +65,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             this.panelInferior.SuspendLayout();
             this.panelInterno1.SuspendLayout();
@@ -530,6 +532,7 @@
             this.panelSuperior.Name = "panelSuperior";
             this.panelSuperior.Size = new System.Drawing.Size(662, 208);
             this.panelSuperior.TabIndex = 7;
+            this.panelSuperior.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelSuperior_MouseDown);
             // 
             // panel3
             // 
@@ -579,6 +582,11 @@
             this.label11.Size = new System.Drawing.Size(317, 32);
             this.label11.TabIndex = 307;
             this.label11.Text = "Registro de empleados";
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 25;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // Registr
             // 
@@ -645,5 +653,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

@@ -28,31 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InformacionMedica));
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,86 +107,6 @@
             this.panel1.Size = new System.Drawing.Size(231, 242);
             this.panel1.TabIndex = 237;
             // 
-            // panel3
-            // 
-            this.panel3.AutoScroll = true;
-            this.panel3.Controls.Add(this.checkedListBox2);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Location = new System.Drawing.Point(252, 63);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(231, 242);
-            this.panel3.TabIndex = 238;
-            // 
-            // panel4
-            // 
-            this.panel4.AutoScroll = true;
-            this.panel4.Controls.Add(this.checkedListBox3);
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Location = new System.Drawing.Point(502, 63);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(231, 242);
-            this.panel4.TabIndex = 239;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.label1);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(231, 39);
-            this.panel5.TabIndex = 0;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.label2);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(231, 39);
-            this.panel6.TabIndex = 1;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label3);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(231, 39);
-            this.panel7.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
-            this.label1.Location = new System.Drawing.Point(73, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Alergias";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
-            this.label2.Location = new System.Drawing.Point(55, 8);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Enfermedades";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
-            this.label3.Location = new System.Drawing.Point(51, 8);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 19);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Padecimientos";
-            // 
             // checkedListBox1
             // 
             this.checkedListBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -204,8 +126,38 @@
             "Anafilaxia"});
             this.checkedListBox1.Location = new System.Drawing.Point(13, 45);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(203, 184);
+            this.checkedListBox1.Size = new System.Drawing.Size(203, 180);
             this.checkedListBox1.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(231, 39);
+            this.panel5.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.label1.Location = new System.Drawing.Point(73, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 19);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Alergias";
+            // 
+            // panel3
+            // 
+            this.panel3.AutoScroll = true;
+            this.panel3.Controls.Add(this.checkedListBox2);
+            this.panel3.Controls.Add(this.panel6);
+            this.panel3.Location = new System.Drawing.Point(252, 63);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(231, 242);
+            this.panel3.TabIndex = 238;
             // 
             // checkedListBox2
             // 
@@ -219,8 +171,38 @@
             "Enfermedades cardiovasculares"});
             this.checkedListBox2.Location = new System.Drawing.Point(15, 45);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(203, 184);
+            this.checkedListBox2.Size = new System.Drawing.Size(203, 180);
             this.checkedListBox2.TabIndex = 2;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(231, 39);
+            this.panel6.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.label2.Location = new System.Drawing.Point(55, 8);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(121, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Enfermedades";
+            // 
+            // panel4
+            // 
+            this.panel4.AutoScroll = true;
+            this.panel4.Controls.Add(this.checkedListBox3);
+            this.panel4.Controls.Add(this.panel7);
+            this.panel4.Location = new System.Drawing.Point(502, 63);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(231, 242);
+            this.panel4.TabIndex = 239;
             // 
             // checkedListBox3
             // 
@@ -239,8 +221,28 @@
             "Malformaciones congénitas del sistema circulatorio"});
             this.checkedListBox3.Location = new System.Drawing.Point(14, 45);
             this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(203, 184);
+            this.checkedListBox3.Size = new System.Drawing.Size(203, 180);
             this.checkedListBox3.TabIndex = 3;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label3);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(231, 39);
+            this.panel7.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.label3.Location = new System.Drawing.Point(51, 8);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(124, 19);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Padecimientos";
             // 
             // btnAAgregar
             // 
@@ -269,6 +271,11 @@
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAAgregar.Click += new System.EventHandler(this.btnAAgregar_Click);
             // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 25;
+            this.bunifuElipse1.TargetControl = this;
+            // 
             // InformacionMedica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -285,16 +292,17 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InformacionMedica";
             this.Load += new System.EventHandler(this.InformacionMedica_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.InformacionMedica_MouseDown);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);
@@ -319,5 +327,6 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label3;
         private Bunifu.Framework.UI.BunifuThinButton2 btnAAgregar;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

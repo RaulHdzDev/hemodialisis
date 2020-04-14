@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MostrarAntigenos));
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -41,11 +42,29 @@
             this.label33 = new System.Windows.Forms.Label();
             this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.bunifuMetroTextbox8 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuMetroTextbox9 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.bunifuMetroTextbox17 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuMetroTextbox18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.bunifuMetroTextbox10 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuMetroTextbox11 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuMetroTextbox12 = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -56,41 +75,24 @@
             this.bunifuMetroTextbox5 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuMetroTextbox3 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.bunifuMetroTextbox17 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox18 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.bunifuMetroTextbox8 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox9 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -265,6 +267,58 @@
             this.panel1.Size = new System.Drawing.Size(462, 432);
             this.panel1.TabIndex = 323;
             // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Aceptar";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuThinButton21.Location = new System.Drawing.Point(315, 377);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(109, 41);
+            this.bunifuThinButton21.TabIndex = 241;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnLIniciarSesion
+            // 
+            this.btnLIniciarSesion.ActiveBorderThickness = 1;
+            this.btnLIniciarSesion.ActiveCornerRadius = 20;
+            this.btnLIniciarSesion.ActiveFillColor = System.Drawing.Color.Green;
+            this.btnLIniciarSesion.ActiveForecolor = System.Drawing.Color.White;
+            this.btnLIniciarSesion.ActiveLineColor = System.Drawing.Color.Green;
+            this.btnLIniciarSesion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnLIniciarSesion.BackColor = System.Drawing.Color.White;
+            this.btnLIniciarSesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLIniciarSesion.BackgroundImage")));
+            this.btnLIniciarSesion.ButtonText = "Aceptar";
+            this.btnLIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLIniciarSesion.ForeColor = System.Drawing.Color.Green;
+            this.btnLIniciarSesion.IdleBorderThickness = 1;
+            this.btnLIniciarSesion.IdleCornerRadius = 20;
+            this.btnLIniciarSesion.IdleFillColor = System.Drawing.Color.White;
+            this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.Green;
+            this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.Green;
+            this.btnLIniciarSesion.Location = new System.Drawing.Point(198, 377);
+            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLIniciarSesion.Name = "btnLIniciarSesion";
+            this.btnLIniciarSesion.Size = new System.Drawing.Size(109, 41);
+            this.btnLIniciarSesion.TabIndex = 240;
+            this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -275,37 +329,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(401, 344);
             this.panel3.TabIndex = 239;
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label1);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(399, 39);
-            this.panel5.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
-            this.label1.Location = new System.Drawing.Point(111, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Articulos usados";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.panel8);
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 39);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(399, 49);
-            this.panel4.TabIndex = 1;
             // 
             // panel6
             // 
@@ -344,6 +367,240 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(399, 254);
             this.panel6.TabIndex = 2;
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.bunifuSeparator1.LineThickness = 1;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(20, 504);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(346, 35);
+            this.bunifuSeparator1.TabIndex = 377;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox14.Location = new System.Drawing.Point(38, 455);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(78, 20);
+            this.checkBox14.TabIndex = 376;
+            this.checkBox14.Text = "Heparina";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox13.Location = new System.Drawing.Point(38, 422);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(50, 20);
+            this.checkBox13.TabIndex = 375;
+            this.checkBox13.Text = "Filtro";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // bunifuMetroTextbox8
+            // 
+            this.bunifuMetroTextbox8.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox8.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox8.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox8.BorderThickness = 1;
+            this.bunifuMetroTextbox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox8.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox8.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox8.isPassword = false;
+            this.bunifuMetroTextbox8.Location = new System.Drawing.Point(218, 447);
+            this.bunifuMetroTextbox8.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox8.Name = "bunifuMetroTextbox8";
+            this.bunifuMetroTextbox8.Size = new System.Drawing.Size(149, 25);
+            this.bunifuMetroTextbox8.TabIndex = 371;
+            this.bunifuMetroTextbox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // bunifuMetroTextbox9
+            // 
+            this.bunifuMetroTextbox9.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox9.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox9.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox9.BorderThickness = 1;
+            this.bunifuMetroTextbox9.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox9.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox9.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox9.isPassword = false;
+            this.bunifuMetroTextbox9.Location = new System.Drawing.Point(218, 414);
+            this.bunifuMetroTextbox9.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox9.Name = "bunifuMetroTextbox9";
+            this.bunifuMetroTextbox9.Size = new System.Drawing.Size(149, 25);
+            this.bunifuMetroTextbox9.TabIndex = 370;
+            this.bunifuMetroTextbox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox12.Location = new System.Drawing.Point(38, 391);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(72, 20);
+            this.checkBox12.TabIndex = 369;
+            this.checkBox12.Text = "Circuitos";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox11.Location = new System.Drawing.Point(38, 356);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(74, 20);
+            this.checkBox11.TabIndex = 368;
+            this.checkBox11.Text = "Guantes";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // bunifuMetroTextbox17
+            // 
+            this.bunifuMetroTextbox17.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox17.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox17.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox17.BorderThickness = 1;
+            this.bunifuMetroTextbox17.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox17.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox17.isPassword = false;
+            this.bunifuMetroTextbox17.Location = new System.Drawing.Point(217, 381);
+            this.bunifuMetroTextbox17.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox17.Name = "bunifuMetroTextbox17";
+            this.bunifuMetroTextbox17.Size = new System.Drawing.Size(149, 25);
+            this.bunifuMetroTextbox17.TabIndex = 361;
+            this.bunifuMetroTextbox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // bunifuMetroTextbox18
+            // 
+            this.bunifuMetroTextbox18.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox18.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox18.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox18.BorderThickness = 1;
+            this.bunifuMetroTextbox18.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox18.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox18.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox18.isPassword = false;
+            this.bunifuMetroTextbox18.Location = new System.Drawing.Point(217, 348);
+            this.bunifuMetroTextbox18.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox18.Name = "bunifuMetroTextbox18";
+            this.bunifuMetroTextbox18.Size = new System.Drawing.Size(149, 25);
+            this.bunifuMetroTextbox18.TabIndex = 360;
+            this.bunifuMetroTextbox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox10.Location = new System.Drawing.Point(38, 318);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(104, 20);
+            this.checkBox10.TabIndex = 359;
+            this.checkBox10.Text = "Tela adhesiva";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox9.Location = new System.Drawing.Point(38, 285);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(82, 20);
+            this.checkBox9.TabIndex = 358;
+            this.checkBox9.Text = "Micropore";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox8.Location = new System.Drawing.Point(38, 251);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(106, 20);
+            this.checkBox8.TabIndex = 357;
+            this.checkBox8.Text = "Solución salina";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox7.Location = new System.Drawing.Point(38, 218);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(117, 20);
+            this.checkBox7.TabIndex = 356;
+            this.checkBox7.Text = "Agujas para FAVI";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox6.Location = new System.Drawing.Point(38, 185);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(105, 20);
+            this.checkBox6.TabIndex = 355;
+            this.checkBox6.Text = "Jeringas del 20";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5.Location = new System.Drawing.Point(38, 152);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(105, 20);
+            this.checkBox5.TabIndex = 354;
+            this.checkBox5.Text = "Jeringas del 10";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(38, 119);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(99, 20);
+            this.checkBox4.TabIndex = 353;
+            this.checkBox4.Text = "Jeringas del 3";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.Location = new System.Drawing.Point(38, 86);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(61, 20);
+            this.checkBox3.TabIndex = 352;
+            this.checkBox3.Text = "Gasas";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(38, 52);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(93, 20);
+            this.checkBox2.TabIndex = 351;
+            this.checkBox2.Text = "Microdacyn";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(38, 19);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(98, 20);
+            this.checkBox1.TabIndex = 350;
+            this.checkBox1.Text = "Cubre bocas";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // bunifuMetroTextbox10
             // 
@@ -515,14 +772,15 @@
             this.bunifuMetroTextbox2.TabIndex = 340;
             this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // panel7
+            // panel4
             // 
-            this.panel7.Controls.Add(this.label4);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(200, 49);
-            this.panel7.TabIndex = 0;
+            this.panel4.Controls.Add(this.panel8);
+            this.panel4.Controls.Add(this.panel7);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 39);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(399, 49);
+            this.panel4.TabIndex = 1;
             // 
             // panel8
             // 
@@ -532,17 +790,6 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(199, 49);
             this.panel8.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
-            this.label4.Location = new System.Drawing.Point(57, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 19);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Articulos ";
             // 
             // label5
             // 
@@ -555,277 +802,51 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "Cantidad";
             // 
-            // checkBox1
+            // panel7
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(38, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(86, 17);
-            this.checkBox1.TabIndex = 350;
-            this.checkBox1.Text = "Cubre bocas";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.panel7.Controls.Add(this.label4);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(200, 49);
+            this.panel7.TabIndex = 0;
             // 
-            // checkBox2
+            // label4
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(38, 52);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(81, 17);
-            this.checkBox2.TabIndex = 351;
-            this.checkBox2.Text = "Microdacyn";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.label4.Location = new System.Drawing.Point(57, 14);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(78, 19);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Articulos ";
             // 
-            // checkBox3
+            // panel5
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(38, 86);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(56, 17);
-            this.checkBox3.TabIndex = 352;
-            this.checkBox3.Text = "Gasas";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(399, 39);
+            this.panel5.TabIndex = 0;
             // 
-            // checkBox4
+            // label1
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(38, 119);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(91, 17);
-            this.checkBox4.TabIndex = 353;
-            this.checkBox4.Text = "Jeringas del 3";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
+            this.label1.Location = new System.Drawing.Point(111, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(177, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Articulos usados";
             // 
-            // checkBox5
+            // bunifuElipse1
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(38, 152);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(97, 17);
-            this.checkBox5.TabIndex = 354;
-            this.checkBox5.Text = "Jeringas del 10";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(38, 185);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(97, 17);
-            this.checkBox6.TabIndex = 355;
-            this.checkBox6.Text = "Jeringas del 20";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(38, 218);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(108, 17);
-            this.checkBox7.TabIndex = 356;
-            this.checkBox7.Text = "Agujas para FAVI";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(38, 251);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(97, 17);
-            this.checkBox8.TabIndex = 357;
-            this.checkBox8.Text = "Solución salina";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(38, 285);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(73, 17);
-            this.checkBox9.TabIndex = 358;
-            this.checkBox9.Text = "Micropore";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(38, 318);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(93, 17);
-            this.checkBox10.TabIndex = 359;
-            this.checkBox10.Text = "Tela adhesiva";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // bunifuMetroTextbox17
-            // 
-            this.bunifuMetroTextbox17.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox17.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox17.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox17.BorderThickness = 1;
-            this.bunifuMetroTextbox17.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox17.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox17.isPassword = false;
-            this.bunifuMetroTextbox17.Location = new System.Drawing.Point(217, 381);
-            this.bunifuMetroTextbox17.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox17.Name = "bunifuMetroTextbox17";
-            this.bunifuMetroTextbox17.Size = new System.Drawing.Size(149, 25);
-            this.bunifuMetroTextbox17.TabIndex = 361;
-            this.bunifuMetroTextbox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // bunifuMetroTextbox18
-            // 
-            this.bunifuMetroTextbox18.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox18.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox18.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox18.BorderThickness = 1;
-            this.bunifuMetroTextbox18.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox18.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox18.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox18.isPassword = false;
-            this.bunifuMetroTextbox18.Location = new System.Drawing.Point(217, 348);
-            this.bunifuMetroTextbox18.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox18.Name = "bunifuMetroTextbox18";
-            this.bunifuMetroTextbox18.Size = new System.Drawing.Size(149, 25);
-            this.bunifuMetroTextbox18.TabIndex = 360;
-            this.bunifuMetroTextbox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(38, 356);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(66, 17);
-            this.checkBox11.TabIndex = 368;
-            this.checkBox11.Text = "Guantes";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(38, 391);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(66, 17);
-            this.checkBox12.TabIndex = 369;
-            this.checkBox12.Text = "Circuitos";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // bunifuMetroTextbox8
-            // 
-            this.bunifuMetroTextbox8.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox8.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox8.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox8.BorderThickness = 1;
-            this.bunifuMetroTextbox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox8.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox8.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox8.isPassword = false;
-            this.bunifuMetroTextbox8.Location = new System.Drawing.Point(218, 447);
-            this.bunifuMetroTextbox8.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox8.Name = "bunifuMetroTextbox8";
-            this.bunifuMetroTextbox8.Size = new System.Drawing.Size(149, 25);
-            this.bunifuMetroTextbox8.TabIndex = 371;
-            this.bunifuMetroTextbox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // bunifuMetroTextbox9
-            // 
-            this.bunifuMetroTextbox9.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox9.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox9.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox9.BorderThickness = 1;
-            this.bunifuMetroTextbox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox9.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox9.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox9.isPassword = false;
-            this.bunifuMetroTextbox9.Location = new System.Drawing.Point(218, 414);
-            this.bunifuMetroTextbox9.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox9.Name = "bunifuMetroTextbox9";
-            this.bunifuMetroTextbox9.Size = new System.Drawing.Size(149, 25);
-            this.bunifuMetroTextbox9.TabIndex = 370;
-            this.bunifuMetroTextbox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(38, 422);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(48, 17);
-            this.checkBox13.TabIndex = 375;
-            this.checkBox13.Text = "Filtro";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(38, 455);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(69, 17);
-            this.checkBox14.TabIndex = 376;
-            this.checkBox14.Text = "Heparina";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.DimGray;
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(20, 504);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(346, 35);
-            this.bunifuSeparator1.TabIndex = 377;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
-            // 
-            // btnLIniciarSesion
-            // 
-            this.btnLIniciarSesion.ActiveBorderThickness = 1;
-            this.btnLIniciarSesion.ActiveCornerRadius = 20;
-            this.btnLIniciarSesion.ActiveFillColor = System.Drawing.Color.Green;
-            this.btnLIniciarSesion.ActiveForecolor = System.Drawing.Color.White;
-            this.btnLIniciarSesion.ActiveLineColor = System.Drawing.Color.Green;
-            this.btnLIniciarSesion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnLIniciarSesion.BackColor = System.Drawing.Color.White;
-            this.btnLIniciarSesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLIniciarSesion.BackgroundImage")));
-            this.btnLIniciarSesion.ButtonText = "Aceptar";
-            this.btnLIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLIniciarSesion.ForeColor = System.Drawing.Color.Green;
-            this.btnLIniciarSesion.IdleBorderThickness = 1;
-            this.btnLIniciarSesion.IdleCornerRadius = 20;
-            this.btnLIniciarSesion.IdleFillColor = System.Drawing.Color.White;
-            this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.Green;
-            this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.Green;
-            this.btnLIniciarSesion.Location = new System.Drawing.Point(198, 377);
-            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
-            this.btnLIniciarSesion.Name = "btnLIniciarSesion";
-            this.btnLIniciarSesion.Size = new System.Drawing.Size(109, 41);
-            this.btnLIniciarSesion.TabIndex = 240;
-            this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Aceptar";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(315, 377);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(109, 41);
-            this.bunifuThinButton21.TabIndex = 241;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuElipse1.ElipseRadius = 25;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // MostrarAntigenos
             // 
@@ -848,20 +869,21 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MostrarAntigenos";
             this.Load += new System.EventHandler(this.MostrarAntigenos_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MostrarAntigenos_MouseDown);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -921,5 +943,6 @@
         private System.Windows.Forms.Label label4;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuThinButton2 btnLIniciarSesion;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

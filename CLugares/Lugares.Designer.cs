@@ -33,7 +33,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txt_user = new Bunifu.Framework.UI.BunifuTextbox();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -91,32 +90,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1168, 469);
             this.dataGridView1.TabIndex = 229;
-            // 
-            // btnLIniciarSesion
-            // 
-            this.btnLIniciarSesion.ActiveBorderThickness = 1;
-            this.btnLIniciarSesion.ActiveCornerRadius = 20;
-            this.btnLIniciarSesion.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnLIniciarSesion.ActiveForecolor = System.Drawing.Color.White;
-            this.btnLIniciarSesion.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnLIniciarSesion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnLIniciarSesion.BackColor = System.Drawing.Color.White;
-            this.btnLIniciarSesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLIniciarSesion.BackgroundImage")));
-            this.btnLIniciarSesion.ButtonText = "Ver Información";
-            this.btnLIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLIniciarSesion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLIniciarSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnLIniciarSesion.IdleBorderThickness = 1;
-            this.btnLIniciarSesion.IdleCornerRadius = 20;
-            this.btnLIniciarSesion.IdleFillColor = System.Drawing.Color.White;
-            this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnLIniciarSesion.Location = new System.Drawing.Point(6, 578);
-            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
-            this.btnLIniciarSesion.Name = "btnLIniciarSesion";
-            this.btnLIniciarSesion.Size = new System.Drawing.Size(141, 41);
-            this.btnLIniciarSesion.TabIndex = 233;
-            this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
             // 
@@ -187,7 +160,7 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(157, 578);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(14, 576);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(91, 41);
@@ -202,7 +175,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1168, 630);
             this.Controls.Add(this.bunifuThinButton21);
-            this.Controls.Add(this.btnLIniciarSesion);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txt_user);
             this.Controls.Add(this.btnAAgregar);
@@ -225,7 +197,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Bunifu.Framework.UI.BunifuThinButton2 btnLIniciarSesion;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuTextbox txt_user;
         private Bunifu.Framework.UI.BunifuThinButton2 btnAAgregar;

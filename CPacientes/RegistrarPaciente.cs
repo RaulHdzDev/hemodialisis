@@ -16,6 +16,7 @@ namespace Talent
         public RegistrarPaciente()
         {
             InitializeComponent();
+            panelVerNEmergencias.Visible = false;
      
         }
 
@@ -168,6 +169,32 @@ namespace Talent
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void panelSuperior_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void panelVerNEmergencias_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuThinButton23_Click(object sender, EventArgs e)
+        {
+       
+
+            if (panelVerNEmergencias.Visible == false)
+            {
+                panelVerNEmergencias.Visible = true;
+            }
+            else
+            {
+                panelVerNEmergencias.Visible = false;
+            }
 
         }
     }

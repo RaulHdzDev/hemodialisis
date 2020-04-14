@@ -58,5 +58,11 @@ namespace Talent
         {
 
         }
+
+        private void InformacionMedica_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
     }
 }

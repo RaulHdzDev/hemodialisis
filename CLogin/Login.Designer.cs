@@ -163,9 +163,10 @@
             // bunifuCustomLabel2
             // 
             this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(160, 249);
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(151, 249);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(121, 13);
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(139, 16);
             this.bunifuCustomLabel2.TabIndex = 106;
             this.bunifuCustomLabel2.Text = "¿No tienes una cuenta?";
             // 
@@ -226,10 +227,11 @@
             // btnRecuperarContraseña
             // 
             this.btnRecuperarContraseña.AutoSize = true;
+            this.btnRecuperarContraseña.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRecuperarContraseña.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnRecuperarContraseña.Location = new System.Drawing.Point(261, 156);
+            this.btnRecuperarContraseña.Location = new System.Drawing.Point(272, 157);
             this.btnRecuperarContraseña.Name = "btnRecuperarContraseña";
-            this.btnRecuperarContraseña.Size = new System.Drawing.Size(76, 13);
+            this.btnRecuperarContraseña.Size = new System.Drawing.Size(83, 16);
             this.btnRecuperarContraseña.TabIndex = 15;
             this.btnRecuperarContraseña.TabStop = true;
             this.btnRecuperarContraseña.Text = "Haz click aquí";
@@ -238,9 +240,10 @@
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(110, 156);
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(100, 156);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(151, 13);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(173, 16);
             this.bunifuCustomLabel1.TabIndex = 14;
             this.bunifuCustomLabel1.Text = "¿No recuerdas tu contraseña?";
             // 

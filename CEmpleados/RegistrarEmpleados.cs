@@ -96,5 +96,11 @@ namespace Talent
         {
 
         }
+
+        private void panelSuperior_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
     }
 }
