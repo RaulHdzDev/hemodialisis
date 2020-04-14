@@ -288,7 +288,6 @@ C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\D
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Bloop.csproj.CopyComplete
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Talent.exe
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Talent.pdb
-C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.AgregarPacientesEncargados.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Registr.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.MenuInicioDoctor.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarRH.resources

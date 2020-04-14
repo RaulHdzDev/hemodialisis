@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
+using Talent.datos;
 
 namespace Talent
 {
@@ -125,7 +127,128 @@ namespace Talent
 
         private void bunifuThinButton21_Click_2(object sender, EventArgs e)
         {
+            conexionBD.abrir();
 
+            //table pacientes
+            string nombre = nombreTxt.Text;
+            string apellidoPaterno = apellidoPaternoTxt.Text;
+            string apellidoMaterno = apellidoMaternoTxt.Text;
+            //int edad = Int32.Parse(edadTxt.Text);
+            string peso = pesoTxt.Text;
+            int estatura = Int32.Parse(estaturaTxt.Text);
+            string numeroIne = IneTxt.Text;
+
+
+            string fechaIngreso = ingreso.Value.ToString("yyyy-MM-dd");
+            //fechaIngreso.ToString("yyyy-MM-dd");
+            string fechaNacimiento = fechaNac.Value.ToString("yyyy-MM-dd");
+            //fechaNacimiento.ToString("yyyy-MM-dd");
+            string fechaExamen = examen.Value.ToString("yyyy-MM-dd");
+
+            string hospitalOrigen = hospitalTxt.Text;
+            string diagnostico = diagnosticoTxt.Text;
+            string observaciones = observacionesTxt.Text;
+            int numeroSeguroSocial = Int32.Parse(numero.Text);
+            string curp = curpTxt.Text;
+            string numContactoCel = cel.Text;
+            string numContactoTel = tel.Text;
+            string correo = correoTxt.Text;
+            string codigo = codigoTxt.Text;
+            string tipoSangre = sangreTxt.Text;
+
+            /*table accesos
+            string fechaInstalacion = instalacion.Value.ToString("yyyy-MM-dd");
+            //fechaInstalacion.ToString("yyyy-MM-dd");
+
+            //table alergias 
+            string alergias = alergiasTxt.Text;
+
+            //table padecimientos
+            string padecimientos = padecimientosTxt.Text;
+
+            //table tipos_accesos
+            string tipoAccesoVascular = accesoVascular.Text;
+
+            //tipos_sangres
+
+            //table antigenos
+            string antigenosTomados = antigenosTomadosTxt.Text;
+            //fechaExamen.ToString("yyyy-MM-dd");
+
+            //table enfermedades
+            string enfermedades = enfermedadesTxt.Text; */
+
+            using (MySqlCommand comandoPacientes = new MySqlCommand("Insert Into pacientes (nombre, ape_pat, ape_mat, peso," +
+                "estatura, tipo_sangre, num_ine, fecha_nacimiento, hospital_origen, diagnostico, observaciones, num_seg, " +
+                "curp, num_contacto_cel, num_contacto_tel, correo_electronico, codigo) Values ('" + nombre + "','" + apellidoPaterno
+                + "','" + apellidoMaterno + "','" + peso + "'," + estatura + ",'" + tipoSangre + "','" + numeroIne + "','"
+                + fechaNacimiento + "','" + hospitalOrigen + "','" + diagnostico + "','" + observaciones
+                + "'," + numeroSeguroSocial + ",'" + curp + "','" + numContactoCel + "','" + numContactoTel + "','" + correo + "','" + codigo + "')",
+                conexionBD.conectar))
+            {
+                comandoPacientes.ExecuteNonQuery();
+                this.Hide();
+                /*if(mysqldrPacientes.RecordsAffected == 1)
+                {
+                    this.Hide();
+
+                }
+                else
+                {
+                    MessageBox.Show("No registrado");
+                }
+                mysqldrPacientes.Close();*/
+
+            }
+
+            /* using (MySqlCommand comandoAccesos = new MySqlCommand("Insert Into accesos (fecha_instalacion) Values ('" + fechaInstalacion + "')", 
+                   conexionBD.conectar))
+            {
+                comandoAccesos.ExecuteNonQuery();
+                
+            } 
+
+            using (MySqlCommand comandoAlergias = new MySqlCommand ("Insert Into alergias (alergia) Values ('" + alergias + "')",
+                conexionBD.conectar))
+            {
+                comandoAlergias.ExecuteNonQuery();
+                
+            }
+
+            using (MySqlCommand comandoPadecimientos = new MySqlCommand ("Insert Into padecimientos (padecimiento) Values ('" + padecimientos + "')",
+                conexionBD.conectar))
+            {
+                comandoPadecimientos.ExecuteNonQuery();
+                
+            }
+
+            using (MySqlCommand comandoTiposAccesos = new MySqlCommand("Insert Into tipos_accesos (acceso) Values ('" + tipoAccesoVascular + "')",
+                conexionBD.conectar))
+            {
+                comandoTiposAccesos.ExecuteNonQuery();
+                
+            }
+
+            using (MySqlCommand comandoSangres = new MySqlCommand("Insert Into tipos_sangres (tipos_sangres) Values ('" + tipoSangre + "')",
+                conexionBD.conectar))
+            {
+                comandoSangres.ExecuteNonQuery();
+                
+            }
+
+            using (MySqlCommand comandoAntigenos = new MySqlCommand("Insert Into antigenos (nom_antigeno) Values ('" + antigenosTomados + "')",
+                conexionBD.conectar))
+            {
+                comandoAntigenos.ExecuteNonQuery();
+                
+            }
+
+            using (MySqlCommand comandoEnfermedades = new MySqlCommand("Insert Into enfermedades (enfermedad) Values ('" + enfermedades + "')",
+                conexionBD.conectar))
+            {
+                comandoEnfermedades.ExecuteNonQuery();
+                
+            } */
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
