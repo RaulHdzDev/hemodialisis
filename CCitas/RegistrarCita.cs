@@ -16,6 +16,7 @@ namespace Talent
         public RegistrarCita()
         {
             InitializeComponent();
+          
         }
 
 
@@ -85,6 +86,23 @@ namespace Talent
         private void btnAgregarActualizar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+        
+           
+        }
+
+        private void panelVerArticulos_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+     
         }
     }
 }

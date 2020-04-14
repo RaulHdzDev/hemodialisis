@@ -16,7 +16,7 @@ namespace Talent
         public RegistrarPaciente()
         {
             InitializeComponent();
-            panelVer.Visible = false;
+     
         }
 
         //codigo para poder arrastrar la ventana por la pantalla
@@ -149,7 +149,6 @@ namespace Talent
         {
             InformacionMedica abrirInformacionMedica = new InformacionMedica();
             abrirInformacionMedica.Show();
-            this.Hide();
         }
 
         private void btnAAgregar_Click(object sender, EventArgs e)

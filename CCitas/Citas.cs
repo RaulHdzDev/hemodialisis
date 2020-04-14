@@ -94,5 +94,13 @@ namespace Talent
         {
 
         }
+
+       
+
+        private void bunifuThinButton22_Click_1(object sender, EventArgs e)
+        {
+            MostrarAntigenos abrirMostrarAntigenos = new MostrarAntigenos();
+            abrirMostrarAntigenos.Show();
+        }
     }
 }

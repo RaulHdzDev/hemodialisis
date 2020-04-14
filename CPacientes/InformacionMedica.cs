@@ -35,8 +35,7 @@ namespace Talent
         private void btnAAgregar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegistrarPaciente AbrirRegistrar = new RegistrarPaciente();
-            AbrirRegistrar.Show();
+            
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)

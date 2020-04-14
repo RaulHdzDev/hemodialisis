@@ -336,3 +336,5 @@ C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Bl
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.exe
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.pdb
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.InformacionMedica.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.InformacionCita.resources
+C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.MostrarAntigenos.resources

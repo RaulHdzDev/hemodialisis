@@ -188,6 +188,18 @@
     <Compile Include="CPacientes\InformacionMedica.Designer.cs">
       <DependentUpon>InformacionMedica.cs</DependentUpon>
     </Compile>
+    <Compile Include="CCitas\InformacionCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCitas\InformacionCita.Designer.cs">
+      <DependentUpon>InformacionCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCitas\MostrarAntigenos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCitas\MostrarAntigenos.Designer.cs">
+      <DependentUpon>MostrarAntigenos.cs</DependentUpon>
+    </Compile>
     <Compile Include="negocios\MasterMailServer.cs" />
     <Compile Include="negocios\MetodoRecuperarContraseña.cs" />
     <Compile Include="negocios\SystemSupportMail.cs" />
@@ -243,6 +255,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CCitas\ActualizarCita.resx">
       <DependentUpon>ActualizarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCitas\InformacionCita.resx">
+      <DependentUpon>InformacionCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCitas\MostrarAntigenos.resx">
+      <DependentUpon>MostrarAntigenos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CLogin\RegistrarAdmin.resx">
       <DependentUpon>RegistrarAdmin.cs</DependentUpon>
