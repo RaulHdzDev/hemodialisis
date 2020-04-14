@@ -215,7 +215,7 @@
             this.telefono.Margin = new System.Windows.Forms.Padding(4);
             this.telefono.Name = "telefono";
             this.telefono.Size = new System.Drawing.Size(285, 33);
-            this.telefono.TabIndex = 309;
+            this.telefono.TabIndex = 11;
             this.telefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // edad
@@ -232,7 +232,7 @@
             this.edad.Margin = new System.Windows.Forms.Padding(4);
             this.edad.Name = "edad";
             this.edad.Size = new System.Drawing.Size(285, 33);
-            this.edad.TabIndex = 224;
+            this.edad.TabIndex = 4;
             this.edad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label9
@@ -274,7 +274,7 @@
             this.tipoE.Location = new System.Drawing.Point(353, 300);
             this.tipoE.Name = "tipoE";
             this.tipoE.Size = new System.Drawing.Size(282, 24);
-            this.tipoE.TabIndex = 307;
+            this.tipoE.TabIndex = 12;
             // 
             // label6
             // 
@@ -320,7 +320,7 @@
             this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
             this.cedulaP.Name = "cedulaP";
             this.cedulaP.Size = new System.Drawing.Size(285, 33);
-            this.cedulaP.TabIndex = 218;
+            this.cedulaP.TabIndex = 10;
             this.cedulaP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label3
@@ -367,7 +367,7 @@
             this.colonia.Margin = new System.Windows.Forms.Padding(4);
             this.colonia.Name = "colonia";
             this.colonia.Size = new System.Drawing.Size(285, 33);
-            this.colonia.TabIndex = 213;
+            this.colonia.TabIndex = 6;
             this.colonia.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label13
@@ -394,7 +394,7 @@
             this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(285, 33);
-            this.correo.TabIndex = 212;
+            this.correo.TabIndex = 5;
             this.correo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label14
@@ -421,7 +421,7 @@
             this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
             this.apellidoM.Size = new System.Drawing.Size(285, 33);
-            this.apellidoM.TabIndex = 210;
+            this.apellidoM.TabIndex = 3;
             this.apellidoM.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // numeroE
@@ -438,7 +438,7 @@
             this.numeroE.Margin = new System.Windows.Forms.Padding(4);
             this.numeroE.Name = "numeroE";
             this.numeroE.Size = new System.Drawing.Size(285, 33);
-            this.numeroE.TabIndex = 210;
+            this.numeroE.TabIndex = 9;
             this.numeroE.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // apellidoP
@@ -455,7 +455,7 @@
             this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
             this.apellidoP.Size = new System.Drawing.Size(285, 33);
-            this.apellidoP.TabIndex = 209;
+            this.apellidoP.TabIndex = 2;
             this.apellidoP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // numeroI
@@ -472,7 +472,7 @@
             this.numeroI.Margin = new System.Windows.Forms.Padding(4);
             this.numeroI.Name = "numeroI";
             this.numeroI.Size = new System.Drawing.Size(285, 33);
-            this.numeroI.TabIndex = 209;
+            this.numeroI.TabIndex = 8;
             this.numeroI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // nombre
@@ -489,7 +489,7 @@
             this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(285, 33);
-            this.nombre.TabIndex = 208;
+            this.nombre.TabIndex = 1;
             this.nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // calle
@@ -506,7 +506,7 @@
             this.calle.Margin = new System.Windows.Forms.Padding(4);
             this.calle.Name = "calle";
             this.calle.Size = new System.Drawing.Size(285, 33);
-            this.calle.TabIndex = 208;
+            this.calle.TabIndex = 7;
             this.calle.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label2

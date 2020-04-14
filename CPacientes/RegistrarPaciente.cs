@@ -155,5 +155,10 @@ namespace Talent
         {
             this.Hide();
         }
+
+        private void bunifuDatepicker2_onValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
