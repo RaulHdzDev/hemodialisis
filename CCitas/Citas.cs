@@ -102,5 +102,11 @@ namespace Talent
             MostrarAntigenos abrirMostrarAntigenos = new MostrarAntigenos();
             abrirMostrarAntigenos.Show();
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            InformacionCita abrirMostrarInfoCita = new InformacionCita();
+            abrirMostrarInfoCita.Show();
+        }
     }
 }
