@@ -313,7 +313,7 @@
             this.btnLugares.BackColor = System.Drawing.Color.Transparent;
             this.btnLugares.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLugares.BorderRadius = 0;
-            this.btnLugares.ButtonText = "Lugares";
+            this.btnLugares.ButtonText = "Camillas";
             this.btnLugares.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLugares.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnLugares.Dock = System.Windows.Forms.DockStyle.Top;
@@ -339,7 +339,7 @@
             this.btnLugares.selected = false;
             this.btnLugares.Size = new System.Drawing.Size(180, 55);
             this.btnLugares.TabIndex = 31;
-            this.btnLugares.Text = "Lugares";
+            this.btnLugares.Text = "Camillas";
             this.btnLugares.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLugares.Textcolor = System.Drawing.Color.Black;
             this.btnLugares.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
