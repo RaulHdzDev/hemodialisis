@@ -81,5 +81,10 @@ namespace Talent
         {
             this.Hide();
         }
+
+        private void btnAgregarActualizar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

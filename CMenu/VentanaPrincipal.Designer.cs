@@ -172,7 +172,7 @@
             this.fecha.AutoSize = true;
             this.fecha.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fecha.ForeColor = System.Drawing.Color.Black;
-            this.fecha.Location = new System.Drawing.Point(826, 24);
+            this.fecha.Location = new System.Drawing.Point(829, 24);
             this.fecha.Name = "fecha";
             this.fecha.Size = new System.Drawing.Size(0, 16);
             this.fecha.TabIndex = 1;

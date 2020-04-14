@@ -31,12 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InformacionEmpleado));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.PanelPacientesEncargados = new System.Windows.Forms.Panel();
-            this.btnEliminar = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.telefono = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -77,9 +71,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.PanelPacientesEncargados.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -103,94 +94,12 @@
             // panel5
             // 
             this.panel5.AutoScroll = true;
-            this.panel5.Controls.Add(this.PanelPacientesEncargados);
             this.panel5.Controls.Add(this.panel8);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(310, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(853, 454);
             this.panel5.TabIndex = 2;
-            // 
-            // PanelPacientesEncargados
-            // 
-            this.PanelPacientesEncargados.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PanelPacientesEncargados.BackColor = System.Drawing.Color.White;
-            this.PanelPacientesEncargados.Controls.Add(this.btnEliminar);
-            this.PanelPacientesEncargados.Controls.Add(this.dataGridView1);
-            this.PanelPacientesEncargados.Controls.Add(this.panel7);
-            this.PanelPacientesEncargados.Controls.Add(this.bunifuSeparator2);
-            this.PanelPacientesEncargados.Location = new System.Drawing.Point(6, 429);
-            this.PanelPacientesEncargados.Name = "PanelPacientesEncargados";
-            this.PanelPacientesEncargados.Size = new System.Drawing.Size(830, 411);
-            this.PanelPacientesEncargados.TabIndex = 9;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.ActiveBorderThickness = 1;
-            this.btnEliminar.ActiveCornerRadius = 20;
-            this.btnEliminar.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnEliminar.ActiveForecolor = System.Drawing.Color.White;
-            this.btnEliminar.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnEliminar.BackColor = System.Drawing.Color.White;
-            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
-            this.btnEliminar.ButtonText = "Eliminar paciente";
-            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnEliminar.IdleBorderThickness = 1;
-            this.btnEliminar.IdleCornerRadius = 20;
-            this.btnEliminar.IdleFillColor = System.Drawing.Color.White;
-            this.btnEliminar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnEliminar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnEliminar.Location = new System.Drawing.Point(25, 330);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(147, 41);
-            this.btnEliminar.TabIndex = 24;
-            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 55);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(807, 267);
-            this.dataGridView1.TabIndex = 252;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label10);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(830, 49);
-            this.panel7.TabIndex = 251;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label10.Location = new System.Drawing.Point(8, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(217, 22);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "Pacientes encargados";
-            // 
-            // bunifuSeparator2
-            // 
-            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
-            this.bunifuSeparator2.LineThickness = 1;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(33, 370);
-            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSeparator2.Name = "bunifuSeparator2";
-            this.bunifuSeparator2.Size = new System.Drawing.Size(781, 35);
-            this.bunifuSeparator2.TabIndex = 250;
-            this.bunifuSeparator2.Transparency = 255;
-            this.bunifuSeparator2.Vertical = false;
             // 
             // panel8
             // 
@@ -225,7 +134,7 @@
             this.panel8.Controls.Add(this.label24);
             this.panel8.Location = new System.Drawing.Point(7, 12);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(829, 411);
+            this.panel8.Size = new System.Drawing.Size(846, 436);
             this.panel8.TabIndex = 8;
             // 
             // label7
@@ -249,7 +158,7 @@
             this.telefono.ForeColor = System.Drawing.Color.Gray;
             this.telefono.isPassword = false;
             this.telefono.Location = new System.Drawing.Point(459, 321);
-            this.telefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.telefono.Margin = new System.Windows.Forms.Padding(4);
             this.telefono.Name = "telefono";
             this.telefono.Size = new System.Drawing.Size(333, 33);
             this.telefono.TabIndex = 313;
@@ -305,7 +214,7 @@
             this.cedulaP.ForeColor = System.Drawing.Color.Gray;
             this.cedulaP.isPassword = false;
             this.cedulaP.Location = new System.Drawing.Point(460, 266);
-            this.cedulaP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
             this.cedulaP.Name = "cedulaP";
             this.cedulaP.Size = new System.Drawing.Size(333, 33);
             this.cedulaP.TabIndex = 251;
@@ -317,7 +226,7 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(33, 370);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(780, 35);
             this.bunifuSeparator1.TabIndex = 250;
@@ -345,7 +254,7 @@
             this.correo.ForeColor = System.Drawing.Color.Gray;
             this.correo.isPassword = false;
             this.correo.Location = new System.Drawing.Point(64, 266);
-            this.correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(332, 33);
             this.correo.TabIndex = 242;
@@ -382,7 +291,7 @@
             this.numeroI.ForeColor = System.Drawing.Color.Gray;
             this.numeroI.isPassword = false;
             this.numeroI.Location = new System.Drawing.Point(460, 211);
-            this.numeroI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeroI.Margin = new System.Windows.Forms.Padding(4);
             this.numeroI.Name = "numeroI";
             this.numeroI.Size = new System.Drawing.Size(333, 33);
             this.numeroI.TabIndex = 239;
@@ -399,7 +308,7 @@
             this.numeroE.ForeColor = System.Drawing.Color.Gray;
             this.numeroE.isPassword = false;
             this.numeroE.Location = new System.Drawing.Point(460, 162);
-            this.numeroE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeroE.Margin = new System.Windows.Forms.Padding(4);
             this.numeroE.Name = "numeroE";
             this.numeroE.Size = new System.Drawing.Size(333, 33);
             this.numeroE.TabIndex = 238;
@@ -426,7 +335,7 @@
             this.colonia.ForeColor = System.Drawing.Color.Gray;
             this.colonia.isPassword = false;
             this.colonia.Location = new System.Drawing.Point(458, 66);
-            this.colonia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.colonia.Margin = new System.Windows.Forms.Padding(4);
             this.colonia.Name = "colonia";
             this.colonia.Size = new System.Drawing.Size(332, 33);
             this.colonia.TabIndex = 236;
@@ -493,7 +402,7 @@
             this.edad.ForeColor = System.Drawing.Color.Gray;
             this.edad.isPassword = false;
             this.edad.Location = new System.Drawing.Point(64, 211);
-            this.edad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.edad.Margin = new System.Windows.Forms.Padding(4);
             this.edad.Name = "edad";
             this.edad.Size = new System.Drawing.Size(332, 33);
             this.edad.TabIndex = 230;
@@ -510,7 +419,7 @@
             this.calle.ForeColor = System.Drawing.Color.Gray;
             this.calle.isPassword = false;
             this.calle.Location = new System.Drawing.Point(460, 115);
-            this.calle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calle.Margin = new System.Windows.Forms.Padding(4);
             this.calle.Name = "calle";
             this.calle.Size = new System.Drawing.Size(332, 33);
             this.calle.TabIndex = 229;
@@ -527,7 +436,7 @@
             this.apellidoM.ForeColor = System.Drawing.Color.Gray;
             this.apellidoM.isPassword = false;
             this.apellidoM.Location = new System.Drawing.Point(64, 162);
-            this.apellidoM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
             this.apellidoM.Size = new System.Drawing.Size(332, 33);
             this.apellidoM.TabIndex = 228;
@@ -544,7 +453,7 @@
             this.apellidoP.ForeColor = System.Drawing.Color.Gray;
             this.apellidoP.isPassword = false;
             this.apellidoP.Location = new System.Drawing.Point(64, 115);
-            this.apellidoP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
             this.apellidoP.Size = new System.Drawing.Size(332, 33);
             this.apellidoP.TabIndex = 227;
@@ -561,7 +470,7 @@
             this.nombre.ForeColor = System.Drawing.Color.Gray;
             this.nombre.isPassword = false;
             this.nombre.Location = new System.Drawing.Point(64, 66);
-            this.nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(332, 33);
             this.nombre.TabIndex = 226;
@@ -609,7 +518,7 @@
             this.btnCancelar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnCancelar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnCancelar.Location = new System.Drawing.Point(729, 5);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(109, 41);
             this.btnCancelar.TabIndex = 21;
@@ -636,7 +545,7 @@
             this.guardar.IdleForecolor = System.Drawing.Color.DeepSkyBlue;
             this.guardar.IdleLineColor = System.Drawing.Color.DeepSkyBlue;
             this.guardar.Location = new System.Drawing.Point(615, 5);
-            this.guardar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.guardar.Margin = new System.Windows.Forms.Padding(5);
             this.guardar.Name = "guardar";
             this.guardar.Size = new System.Drawing.Size(104, 41);
             this.guardar.TabIndex = 20;
@@ -675,7 +584,7 @@
             this.eliminar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.eliminar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.eliminar.Location = new System.Drawing.Point(5, 459);
-            this.eliminar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.eliminar.Margin = new System.Windows.Forms.Padding(5);
             this.eliminar.Name = "eliminar";
             this.eliminar.Size = new System.Drawing.Size(157, 41);
             this.eliminar.TabIndex = 21;
@@ -762,10 +671,6 @@
             this.Load += new System.EventHandler(this.InformacionEmpleado_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.PanelPacientesEncargados.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -814,14 +719,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private Bunifu.Framework.UI.BunifuMetroTextbox cedulaP;
-        private System.Windows.Forms.Panel PanelPacientesEncargados;
-        private System.Windows.Forms.Panel panel7;
-        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox tipoE;
-        private Bunifu.Framework.UI.BunifuThinButton2 btnEliminar;
         private Bunifu.Framework.UI.BunifuThinButton2 eliminar;
         private System.Windows.Forms.Label label7;
         private Bunifu.Framework.UI.BunifuMetroTextbox telefono;

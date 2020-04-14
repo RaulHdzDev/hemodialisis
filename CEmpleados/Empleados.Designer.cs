@@ -87,13 +87,16 @@
             this.datos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.datos.BackgroundColor = System.Drawing.Color.White;
             this.datos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datos.Cursor = System.Windows.Forms.Cursors.Default;
+            this.datos.GridColor = System.Drawing.SystemColors.AppWorkspace;
             this.datos.Location = new System.Drawing.Point(0, 99);
             this.datos.Name = "datos";
+            this.datos.ReadOnly = true;
             this.datos.RowHeadersWidth = 51;
             this.datos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datos.Size = new System.Drawing.Size(1168, 469);
+            this.datos.Size = new System.Drawing.Size(1035, 469);
             this.datos.TabIndex = 221;
             // 
             // btnLIniciarSesion
@@ -116,7 +119,7 @@
             this.btnLIniciarSesion.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnLIniciarSesion.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnLIniciarSesion.Location = new System.Drawing.Point(6, 576);
-            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnLIniciarSesion.Margin = new System.Windows.Forms.Padding(5);
             this.btnLIniciarSesion.Name = "btnLIniciarSesion";
             this.btnLIniciarSesion.Size = new System.Drawing.Size(157, 41);
             this.btnLIniciarSesion.TabIndex = 228;
@@ -144,7 +147,7 @@
             this.empleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.empleado.Icon = ((System.Drawing.Image)(resources.GetObject("empleado.Icon")));
             this.empleado.Location = new System.Drawing.Point(6, 54);
-            this.empleado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.empleado.Margin = new System.Windows.Forms.Padding(4);
             this.empleado.Name = "empleado";
             this.empleado.Size = new System.Drawing.Size(242, 31);
             this.empleado.TabIndex = 226;
@@ -170,7 +173,7 @@
             this.btnAAgregar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.Location = new System.Drawing.Point(853, 45);
-            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAAgregar.Name = "btnAAgregar";
             this.btnAAgregar.Size = new System.Drawing.Size(175, 41);
             this.btnAAgregar.TabIndex = 222;
@@ -197,7 +200,7 @@
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.Location = new System.Drawing.Point(173, 575);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(120, 41);
             this.bunifuThinButton21.TabIndex = 229;

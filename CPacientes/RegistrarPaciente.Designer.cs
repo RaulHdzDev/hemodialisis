@@ -36,6 +36,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.panelInferior = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.bunifuMetroTextbox9 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label39 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label49 = new System.Windows.Forms.Label();
@@ -48,6 +50,8 @@
             this.bunifuDatepicker4 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label46 = new System.Windows.Forms.Label();
             this.bunifuDatepicker3 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.label47 = new System.Windows.Forms.Label();
+            this.bunifuMetroTextbox25 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label42 = new System.Windows.Forms.Label();
             this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label43 = new System.Windows.Forms.Label();
@@ -91,10 +95,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuMetroTextbox25 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox9 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panelSuperior.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -217,6 +217,33 @@
             this.panel2.Size = new System.Drawing.Size(735, 481);
             this.panel2.TabIndex = 1;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(41, 421);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 16);
+            this.label9.TabIndex = 316;
+            this.label9.Text = "Código:";
+            // 
+            // bunifuMetroTextbox9
+            // 
+            this.bunifuMetroTextbox9.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox9.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox9.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox9.BorderThickness = 1;
+            this.bunifuMetroTextbox9.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox9.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox9.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox9.isPassword = false;
+            this.bunifuMetroTextbox9.Location = new System.Drawing.Point(41, 432);
+            this.bunifuMetroTextbox9.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox9.Name = "bunifuMetroTextbox9";
+            this.bunifuMetroTextbox9.Size = new System.Drawing.Size(323, 33);
+            this.bunifuMetroTextbox9.TabIndex = 315;
+            this.bunifuMetroTextbox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // label39
             // 
             this.label39.AutoSize = true;
@@ -230,6 +257,9 @@
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.ForeColor = System.Drawing.Color.Black;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
@@ -247,7 +277,7 @@
             "AB positivo"});
             this.comboBox1.Location = new System.Drawing.Point(40, 168);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(324, 21);
+            this.comboBox1.Size = new System.Drawing.Size(324, 24);
             this.comboBox1.TabIndex = 313;
             // 
             // label49
@@ -263,6 +293,9 @@
             // comboBox2
             // 
             this.comboBox2.BackColor = System.Drawing.Color.White;
+            this.comboBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.ForeColor = System.Drawing.Color.Black;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
@@ -272,7 +305,7 @@
             "Catéter Permanente"});
             this.comboBox2.Location = new System.Drawing.Point(405, 274);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(318, 21);
+            this.comboBox2.Size = new System.Drawing.Size(318, 24);
             this.comboBox2.TabIndex = 311;
             // 
             // label5
@@ -374,6 +407,33 @@
             this.bunifuDatepicker3.Size = new System.Drawing.Size(324, 34);
             this.bunifuDatepicker3.TabIndex = 295;
             this.bunifuDatepicker3.Value = new System.DateTime(2020, 3, 6, 21, 9, 22, 842);
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(40, 258);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(114, 16);
+            this.label47.TabIndex = 294;
+            this.label47.Text = "Antígenos tomados:";
+            // 
+            // bunifuMetroTextbox25
+            // 
+            this.bunifuMetroTextbox25.BorderColorFocused = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox25.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.bunifuMetroTextbox25.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.bunifuMetroTextbox25.BorderThickness = 1;
+            this.bunifuMetroTextbox25.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox25.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox25.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuMetroTextbox25.isPassword = false;
+            this.bunifuMetroTextbox25.Location = new System.Drawing.Point(37, 269);
+            this.bunifuMetroTextbox25.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox25.Name = "bunifuMetroTextbox25";
+            this.bunifuMetroTextbox25.Size = new System.Drawing.Size(326, 33);
+            this.bunifuMetroTextbox25.TabIndex = 293;
+            this.bunifuMetroTextbox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label42
             // 
@@ -982,60 +1042,6 @@
             this.btnAAgregar.Size = new System.Drawing.Size(113, 41);
             this.btnAAgregar.TabIndex = 21;
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuMetroTextbox25
-            // 
-            this.bunifuMetroTextbox25.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox25.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox25.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox25.BorderThickness = 1;
-            this.bunifuMetroTextbox25.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox25.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox25.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox25.isPassword = false;
-            this.bunifuMetroTextbox25.Location = new System.Drawing.Point(37, 269);
-            this.bunifuMetroTextbox25.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox25.Name = "bunifuMetroTextbox25";
-            this.bunifuMetroTextbox25.Size = new System.Drawing.Size(326, 33);
-            this.bunifuMetroTextbox25.TabIndex = 293;
-            this.bunifuMetroTextbox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(40, 258);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(114, 16);
-            this.label47.TabIndex = 294;
-            this.label47.Text = "Antígenos tomados:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(41, 421);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 16);
-            this.label9.TabIndex = 316;
-            this.label9.Text = "Código:";
-            // 
-            // bunifuMetroTextbox9
-            // 
-            this.bunifuMetroTextbox9.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox9.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox9.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox9.BorderThickness = 1;
-            this.bunifuMetroTextbox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox9.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox9.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox9.isPassword = false;
-            this.bunifuMetroTextbox9.Location = new System.Drawing.Point(41, 432);
-            this.bunifuMetroTextbox9.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox9.Name = "bunifuMetroTextbox9";
-            this.bunifuMetroTextbox9.Size = new System.Drawing.Size(323, 33);
-            this.bunifuMetroTextbox9.TabIndex = 315;
-            this.bunifuMetroTextbox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // RegistrarPaciente
             // 

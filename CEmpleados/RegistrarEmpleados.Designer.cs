@@ -33,31 +33,31 @@
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panelInferior = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.telefono = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.tipoE = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.cedulaP = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.numeroE = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.numeroI = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.calle = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panelInterno1 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.telefono = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.edad = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.tipoE = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.cedulaP = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.colonia = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label13 = new System.Windows.Forms.Label();
             this.correo = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.label14 = new System.Windows.Forms.Label();
             this.apellidoM = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.numeroE = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.apellidoP = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.numeroI = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.nombre = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.calle = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label2 = new System.Windows.Forms.Label();
             this.panelSuperior = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -147,170 +147,6 @@
             this.panelInferior.Size = new System.Drawing.Size(662, 383);
             this.panelInferior.TabIndex = 8;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(353, 230);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(118, 16);
-            this.label10.TabIndex = 310;
-            this.label10.Text = "Numero de teléfono:";
-            // 
-            // telefono
-            // 
-            this.telefono.BorderColorFocused = System.Drawing.Color.Blue;
-            this.telefono.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.telefono.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.telefono.BorderThickness = 1;
-            this.telefono.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.telefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.telefono.ForeColor = System.Drawing.Color.Gray;
-            this.telefono.isPassword = false;
-            this.telefono.Location = new System.Drawing.Point(353, 240);
-            this.telefono.Margin = new System.Windows.Forms.Padding(4);
-            this.telefono.Name = "telefono";
-            this.telefono.Size = new System.Drawing.Size(285, 33);
-            this.telefono.TabIndex = 309;
-            this.telefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(351, 287);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 16);
-            this.label9.TabIndex = 308;
-            this.label9.Text = "Tipo de empleado:";
-            // 
-            // tipoE
-            // 
-            this.tipoE.BackColor = System.Drawing.Color.White;
-            this.tipoE.ForeColor = System.Drawing.Color.Black;
-            this.tipoE.FormattingEnabled = true;
-            this.tipoE.Items.AddRange(new object[] {
-            "Doctor",
-            "Enfermera",
-            "Pasante",
-            "Medico",
-            "Secretaria",
-            "Intendente",
-            "Seguridad",
-            ""});
-            this.tipoE.Location = new System.Drawing.Point(353, 300);
-            this.tipoE.Name = "tipoE";
-            this.tipoE.Size = new System.Drawing.Size(282, 21);
-            this.tipoE.TabIndex = 307;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(353, 181);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(113, 16);
-            this.label8.TabIndex = 219;
-            this.label8.Text = "Cedula profesional:";
-            // 
-            // cedulaP
-            // 
-            this.cedulaP.BorderColorFocused = System.Drawing.Color.Blue;
-            this.cedulaP.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.cedulaP.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.cedulaP.BorderThickness = 1;
-            this.cedulaP.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.cedulaP.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.cedulaP.ForeColor = System.Drawing.Color.Gray;
-            this.cedulaP.isPassword = false;
-            this.cedulaP.Location = new System.Drawing.Point(353, 191);
-            this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
-            this.cedulaP.Name = "cedulaP";
-            this.cedulaP.Size = new System.Drawing.Size(285, 33);
-            this.cedulaP.TabIndex = 218;
-            this.cedulaP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(353, 133);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(64, 16);
-            this.label12.TabIndex = 216;
-            this.label12.Text = "Nº Exterior:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(353, 85);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(62, 16);
-            this.label13.TabIndex = 215;
-            this.label13.Text = "Nº Interior:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(353, 36);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(39, 16);
-            this.label14.TabIndex = 214;
-            this.label14.Text = "Calle:";
-            // 
-            // numeroE
-            // 
-            this.numeroE.BorderColorFocused = System.Drawing.Color.Blue;
-            this.numeroE.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.numeroE.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.numeroE.BorderThickness = 1;
-            this.numeroE.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.numeroE.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.numeroE.ForeColor = System.Drawing.Color.Gray;
-            this.numeroE.isPassword = false;
-            this.numeroE.Location = new System.Drawing.Point(353, 143);
-            this.numeroE.Margin = new System.Windows.Forms.Padding(4);
-            this.numeroE.Name = "numeroE";
-            this.numeroE.Size = new System.Drawing.Size(285, 33);
-            this.numeroE.TabIndex = 210;
-            this.numeroE.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // numeroI
-            // 
-            this.numeroI.BorderColorFocused = System.Drawing.Color.Blue;
-            this.numeroI.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.numeroI.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.numeroI.BorderThickness = 1;
-            this.numeroI.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.numeroI.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.numeroI.ForeColor = System.Drawing.Color.Gray;
-            this.numeroI.isPassword = false;
-            this.numeroI.Location = new System.Drawing.Point(353, 96);
-            this.numeroI.Margin = new System.Windows.Forms.Padding(4);
-            this.numeroI.Name = "numeroI";
-            this.numeroI.Size = new System.Drawing.Size(285, 33);
-            this.numeroI.TabIndex = 209;
-            this.numeroI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // calle
-            // 
-            this.calle.BorderColorFocused = System.Drawing.Color.Blue;
-            this.calle.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.calle.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.calle.BorderThickness = 1;
-            this.calle.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.calle.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.calle.ForeColor = System.Drawing.Color.Gray;
-            this.calle.isPassword = false;
-            this.calle.Location = new System.Drawing.Point(353, 47);
-            this.calle.Margin = new System.Windows.Forms.Padding(4);
-            this.calle.Name = "calle";
-            this.calle.Size = new System.Drawing.Size(285, 33);
-            this.calle.TabIndex = 208;
-            this.calle.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
             // panelInterno1
             // 
             this.panelInterno1.BackColor = System.Drawing.Color.White;
@@ -345,6 +181,16 @@
             this.panelInterno1.Size = new System.Drawing.Size(662, 352);
             this.panelInterno1.TabIndex = 0;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(353, 230);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(118, 16);
+            this.label10.TabIndex = 310;
+            this.label10.Text = "Numero de teléfono:";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -354,6 +200,23 @@
             this.label5.Size = new System.Drawing.Size(41, 16);
             this.label5.TabIndex = 225;
             this.label5.Text = "Edad:";
+            // 
+            // telefono
+            // 
+            this.telefono.BorderColorFocused = System.Drawing.Color.Blue;
+            this.telefono.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.telefono.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.telefono.BorderThickness = 1;
+            this.telefono.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.telefono.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.telefono.ForeColor = System.Drawing.Color.Gray;
+            this.telefono.isPassword = false;
+            this.telefono.Location = new System.Drawing.Point(353, 240);
+            this.telefono.Margin = new System.Windows.Forms.Padding(4);
+            this.telefono.Name = "telefono";
+            this.telefono.Size = new System.Drawing.Size(285, 33);
+            this.telefono.TabIndex = 309;
+            this.telefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // edad
             // 
@@ -372,6 +235,16 @@
             this.edad.TabIndex = 224;
             this.edad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(351, 287);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(111, 16);
+            this.label9.TabIndex = 308;
+            this.label9.Text = "Tipo de empleado:";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -381,6 +254,27 @@
             this.label7.Size = new System.Drawing.Size(50, 16);
             this.label7.TabIndex = 219;
             this.label7.Text = "Colonia";
+            // 
+            // tipoE
+            // 
+            this.tipoE.BackColor = System.Drawing.Color.White;
+            this.tipoE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tipoE.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipoE.ForeColor = System.Drawing.Color.Black;
+            this.tipoE.FormattingEnabled = true;
+            this.tipoE.Items.AddRange(new object[] {
+            "Doctor",
+            "Enfermera",
+            "Pasante",
+            "Medico",
+            "Secretaria",
+            "Intendente",
+            "Seguridad",
+            ""});
+            this.tipoE.Location = new System.Drawing.Point(353, 300);
+            this.tipoE.Name = "tipoE";
+            this.tipoE.Size = new System.Drawing.Size(282, 24);
+            this.tipoE.TabIndex = 307;
             // 
             // label6
             // 
@@ -392,6 +286,16 @@
             this.label6.TabIndex = 218;
             this.label6.Text = "Correo:";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(353, 181);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 16);
+            this.label8.TabIndex = 219;
+            this.label8.Text = "Cedula profesional:";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -401,6 +305,23 @@
             this.label4.Size = new System.Drawing.Size(103, 16);
             this.label4.TabIndex = 216;
             this.label4.Text = "Apellido materno:";
+            // 
+            // cedulaP
+            // 
+            this.cedulaP.BorderColorFocused = System.Drawing.Color.Blue;
+            this.cedulaP.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.cedulaP.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.cedulaP.BorderThickness = 1;
+            this.cedulaP.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cedulaP.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.cedulaP.ForeColor = System.Drawing.Color.Gray;
+            this.cedulaP.isPassword = false;
+            this.cedulaP.Location = new System.Drawing.Point(353, 191);
+            this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
+            this.cedulaP.Name = "cedulaP";
+            this.cedulaP.Size = new System.Drawing.Size(285, 33);
+            this.cedulaP.TabIndex = 218;
+            this.cedulaP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label3
             // 
@@ -422,6 +343,16 @@
             this.label1.TabIndex = 214;
             this.label1.Text = "Nombre:";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(353, 133);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(64, 16);
+            this.label12.TabIndex = 216;
+            this.label12.Text = "Nº Exterior:";
+            // 
             // colonia
             // 
             this.colonia.BorderColorFocused = System.Drawing.Color.Blue;
@@ -438,6 +369,16 @@
             this.colonia.Size = new System.Drawing.Size(285, 33);
             this.colonia.TabIndex = 213;
             this.colonia.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(353, 85);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(62, 16);
+            this.label13.TabIndex = 215;
+            this.label13.Text = "Nº Interior:";
             // 
             // correo
             // 
@@ -456,6 +397,16 @@
             this.correo.TabIndex = 212;
             this.correo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(353, 36);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(39, 16);
+            this.label14.TabIndex = 214;
+            this.label14.Text = "Calle:";
+            // 
             // apellidoM
             // 
             this.apellidoM.BorderColorFocused = System.Drawing.Color.Blue;
@@ -472,6 +423,23 @@
             this.apellidoM.Size = new System.Drawing.Size(285, 33);
             this.apellidoM.TabIndex = 210;
             this.apellidoM.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // numeroE
+            // 
+            this.numeroE.BorderColorFocused = System.Drawing.Color.Blue;
+            this.numeroE.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.numeroE.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.numeroE.BorderThickness = 1;
+            this.numeroE.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.numeroE.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.numeroE.ForeColor = System.Drawing.Color.Gray;
+            this.numeroE.isPassword = false;
+            this.numeroE.Location = new System.Drawing.Point(353, 143);
+            this.numeroE.Margin = new System.Windows.Forms.Padding(4);
+            this.numeroE.Name = "numeroE";
+            this.numeroE.Size = new System.Drawing.Size(285, 33);
+            this.numeroE.TabIndex = 210;
+            this.numeroE.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // apellidoP
             // 
@@ -490,6 +458,23 @@
             this.apellidoP.TabIndex = 209;
             this.apellidoP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // numeroI
+            // 
+            this.numeroI.BorderColorFocused = System.Drawing.Color.Blue;
+            this.numeroI.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.numeroI.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.numeroI.BorderThickness = 1;
+            this.numeroI.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.numeroI.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.numeroI.ForeColor = System.Drawing.Color.Gray;
+            this.numeroI.isPassword = false;
+            this.numeroI.Location = new System.Drawing.Point(353, 96);
+            this.numeroI.Margin = new System.Windows.Forms.Padding(4);
+            this.numeroI.Name = "numeroI";
+            this.numeroI.Size = new System.Drawing.Size(285, 33);
+            this.numeroI.TabIndex = 209;
+            this.numeroI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // nombre
             // 
             this.nombre.BorderColorFocused = System.Drawing.Color.Blue;
@@ -506,6 +491,23 @@
             this.nombre.Size = new System.Drawing.Size(285, 33);
             this.nombre.TabIndex = 208;
             this.nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // calle
+            // 
+            this.calle.BorderColorFocused = System.Drawing.Color.Blue;
+            this.calle.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.calle.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.calle.BorderThickness = 1;
+            this.calle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.calle.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.calle.ForeColor = System.Drawing.Color.Gray;
+            this.calle.isPassword = false;
+            this.calle.Location = new System.Drawing.Point(353, 47);
+            this.calle.Margin = new System.Windows.Forms.Padding(4);
+            this.calle.Name = "calle";
+            this.calle.Size = new System.Drawing.Size(285, 33);
+            this.calle.TabIndex = 208;
+            this.calle.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label2
             // 

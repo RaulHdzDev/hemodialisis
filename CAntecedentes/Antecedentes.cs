@@ -29,14 +29,28 @@ namespace Talent
 
         private void btnAAgregar_Click(object sender, EventArgs e)
         {
-            RegistrarAntecedentes abrirRegistrarAntecedentes = new RegistrarAntecedentes();
+           /* RegistrarAntecedentes abrirRegistrarAntecedentes = new RegistrarAntecedentes();
             abrirRegistrarAntecedentes.Show();
+            */
+
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            /*
             ActualizarAntecedente abrirActualizar= new ActualizarAntecedente();
             abrirActualizar.Show();
+            */
+        }
+
+        private void btnLIniciarSesion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
