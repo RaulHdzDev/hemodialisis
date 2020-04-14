@@ -86,6 +86,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.panelVer = new System.Windows.Forms.Panel();
             this.panelSuperior.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -160,12 +161,13 @@
             // panelInferior
             // 
             this.panelInferior.AutoScroll = true;
+            this.panelInferior.Controls.Add(this.panelVer);
             this.panelInferior.Controls.Add(this.panel2);
             this.panelInferior.Controls.Add(this.panelInterno1);
             this.panelInferior.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelInferior.Location = new System.Drawing.Point(0, 208);
             this.panelInferior.Name = "panelInferior";
-            this.panelInferior.Size = new System.Drawing.Size(752, 390);
+            this.panelInferior.Size = new System.Drawing.Size(752, 372);
             this.panelInferior.TabIndex = 5;
             this.panelInferior.Paint += new System.Windows.Forms.PaintEventHandler(this.panelInferior_Paint);
             // 
@@ -196,8 +198,9 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 371);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(735, 386);
+            this.panel2.Size = new System.Drawing.Size(735, 380);
             this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // bunifuThinButton22
             // 
@@ -930,6 +933,14 @@
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAAgregar.Click += new System.EventHandler(this.btnAAgregar_Click);
             // 
+            // panelVer
+            // 
+            this.panelVer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelVer.Location = new System.Drawing.Point(0, 751);
+            this.panelVer.Name = "panelVer";
+            this.panelVer.Size = new System.Drawing.Size(735, 223);
+            this.panelVer.TabIndex = 2;
+            // 
             // RegistrarPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1019,5 +1030,6 @@
         private System.Windows.Forms.Label label9;
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox9;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
+        private System.Windows.Forms.Panel panelVer;
     }
 }

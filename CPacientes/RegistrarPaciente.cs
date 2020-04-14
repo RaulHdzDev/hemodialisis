@@ -16,6 +16,7 @@ namespace Talent
         public RegistrarPaciente()
         {
             InitializeComponent();
+            panelVer.Visible = false;
         }
 
         //codigo para poder arrastrar la ventana por la pantalla
@@ -157,6 +158,16 @@ namespace Talent
         }
 
         private void bunifuDatepicker2_onValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
