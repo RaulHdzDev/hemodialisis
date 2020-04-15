@@ -237,7 +237,7 @@
             this.btnAntecedentes.BackColor = System.Drawing.Color.Transparent;
             this.btnAntecedentes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAntecedentes.BorderRadius = 0;
-            this.btnAntecedentes.ButtonText = "Antecedentes";
+            this.btnAntecedentes.ButtonText = "Bitácora";
             this.btnAntecedentes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAntecedentes.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAntecedentes.Dock = System.Windows.Forms.DockStyle.Top;
@@ -263,7 +263,7 @@
             this.btnAntecedentes.selected = false;
             this.btnAntecedentes.Size = new System.Drawing.Size(180, 55);
             this.btnAntecedentes.TabIndex = 35;
-            this.btnAntecedentes.Text = "Antecedentes";
+            this.btnAntecedentes.Text = "Bitácora";
             this.btnAntecedentes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAntecedentes.Textcolor = System.Drawing.Color.Black;
             this.btnAntecedentes.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

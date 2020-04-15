@@ -33,13 +33,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnCancelarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnAgregarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,15 +47,17 @@
             this.label17 = new System.Windows.Forms.Label();
             this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.btnCancelarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnAgregarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -97,31 +97,6 @@
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::Talent.Properties.Resources.CerrarBlanco;
-            this.pictureBox5.Location = new System.Drawing.Point(793, 5);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Talent.Properties.Resources.MinimizarBlanco;
-            this.pictureBox2.Location = new System.Drawing.Point(762, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btnCancelarActualizar);
@@ -131,56 +106,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(832, 53);
             this.panel3.TabIndex = 248;
-            // 
-            // btnCancelarActualizar
-            // 
-            this.btnCancelarActualizar.ActiveBorderThickness = 1;
-            this.btnCancelarActualizar.ActiveCornerRadius = 20;
-            this.btnCancelarActualizar.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.ActiveForecolor = System.Drawing.Color.White;
-            this.btnCancelarActualizar.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.BackColor = System.Drawing.Color.White;
-            this.btnCancelarActualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelarActualizar.BackgroundImage")));
-            this.btnCancelarActualizar.ButtonText = "Cancelar";
-            this.btnCancelarActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelarActualizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarActualizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.IdleBorderThickness = 1;
-            this.btnCancelarActualizar.IdleCornerRadius = 20;
-            this.btnCancelarActualizar.IdleFillColor = System.Drawing.Color.White;
-            this.btnCancelarActualizar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.Location = new System.Drawing.Point(705, 7);
-            this.btnCancelarActualizar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnCancelarActualizar.Name = "btnCancelarActualizar";
-            this.btnCancelarActualizar.Size = new System.Drawing.Size(113, 41);
-            this.btnCancelarActualizar.TabIndex = 231;
-            this.btnCancelarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnAgregarActualizar
-            // 
-            this.btnAgregarActualizar.ActiveBorderThickness = 1;
-            this.btnAgregarActualizar.ActiveCornerRadius = 20;
-            this.btnAgregarActualizar.ActiveFillColor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.ActiveForecolor = System.Drawing.Color.White;
-            this.btnAgregarActualizar.ActiveLineColor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.BackColor = System.Drawing.Color.White;
-            this.btnAgregarActualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregarActualizar.BackgroundImage")));
-            this.btnAgregarActualizar.ButtonText = "Registrar";
-            this.btnAgregarActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregarActualizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarActualizar.ForeColor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.IdleBorderThickness = 1;
-            this.btnAgregarActualizar.IdleCornerRadius = 20;
-            this.btnAgregarActualizar.IdleFillColor = System.Drawing.Color.White;
-            this.btnAgregarActualizar.IdleForecolor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.IdleLineColor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.Location = new System.Drawing.Point(580, 7);
-            this.btnAgregarActualizar.Margin = new System.Windows.Forms.Padding(5);
-            this.btnAgregarActualizar.Name = "btnAgregarActualizar";
-            this.btnAgregarActualizar.Size = new System.Drawing.Size(113, 41);
-            this.btnAgregarActualizar.TabIndex = 230;
-            this.btnAgregarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel4
             // 
@@ -209,6 +134,29 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(832, 160);
             this.panel5.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(32, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 16);
+            this.label2.TabIndex = 269;
+            this.label2.Text = "Hora:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "08:00",
+            "12:00",
+            "16:00"});
+            this.comboBox4.Location = new System.Drawing.Point(32, 26);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(370, 21);
+            this.comboBox4.TabIndex = 268;
             // 
             // label5
             // 
@@ -295,28 +243,81 @@
             this.bunifuElipse1.ElipseRadius = 25;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // label2
+            // btnCancelarActualizar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(32, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 16);
-            this.label2.TabIndex = 269;
-            this.label2.Text = "Hora:";
+            this.btnCancelarActualizar.ActiveBorderThickness = 1;
+            this.btnCancelarActualizar.ActiveCornerRadius = 20;
+            this.btnCancelarActualizar.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnCancelarActualizar.ActiveForecolor = System.Drawing.Color.White;
+            this.btnCancelarActualizar.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnCancelarActualizar.BackColor = System.Drawing.Color.White;
+            this.btnCancelarActualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelarActualizar.BackgroundImage")));
+            this.btnCancelarActualizar.ButtonText = "Cancelar";
+            this.btnCancelarActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelarActualizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarActualizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnCancelarActualizar.IdleBorderThickness = 1;
+            this.btnCancelarActualizar.IdleCornerRadius = 20;
+            this.btnCancelarActualizar.IdleFillColor = System.Drawing.Color.White;
+            this.btnCancelarActualizar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnCancelarActualizar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.btnCancelarActualizar.Location = new System.Drawing.Point(705, 7);
+            this.btnCancelarActualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnCancelarActualizar.Name = "btnCancelarActualizar";
+            this.btnCancelarActualizar.Size = new System.Drawing.Size(113, 41);
+            this.btnCancelarActualizar.TabIndex = 231;
+            this.btnCancelarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCancelarActualizar.Click += new System.EventHandler(this.btnCancelarActualizar_Click_1);
             // 
-            // comboBox4
+            // btnAgregarActualizar
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "08:00",
-            "12:00",
-            "16:00"});
-            this.comboBox4.Location = new System.Drawing.Point(32, 26);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(370, 21);
-            this.comboBox4.TabIndex = 268;
+            this.btnAgregarActualizar.ActiveBorderThickness = 1;
+            this.btnAgregarActualizar.ActiveCornerRadius = 20;
+            this.btnAgregarActualizar.ActiveFillColor = System.Drawing.Color.Green;
+            this.btnAgregarActualizar.ActiveForecolor = System.Drawing.Color.White;
+            this.btnAgregarActualizar.ActiveLineColor = System.Drawing.Color.Green;
+            this.btnAgregarActualizar.BackColor = System.Drawing.Color.White;
+            this.btnAgregarActualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregarActualizar.BackgroundImage")));
+            this.btnAgregarActualizar.ButtonText = "Registrar";
+            this.btnAgregarActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarActualizar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarActualizar.ForeColor = System.Drawing.Color.Green;
+            this.btnAgregarActualizar.IdleBorderThickness = 1;
+            this.btnAgregarActualizar.IdleCornerRadius = 20;
+            this.btnAgregarActualizar.IdleFillColor = System.Drawing.Color.White;
+            this.btnAgregarActualizar.IdleForecolor = System.Drawing.Color.Green;
+            this.btnAgregarActualizar.IdleLineColor = System.Drawing.Color.Green;
+            this.btnAgregarActualizar.Location = new System.Drawing.Point(580, 7);
+            this.btnAgregarActualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnAgregarActualizar.Name = "btnAgregarActualizar";
+            this.btnAgregarActualizar.Size = new System.Drawing.Size(113, 41);
+            this.btnAgregarActualizar.TabIndex = 230;
+            this.btnAgregarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::Talent.Properties.Resources.CerrarBlanco;
+            this.pictureBox5.Location = new System.Drawing.Point(793, 5);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::Talent.Properties.Resources.MinimizarBlanco;
+            this.pictureBox2.Location = new System.Drawing.Point(762, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // RegistrarCita
             // 
@@ -336,12 +337,12 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -73,6 +73,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAlmacen\AgregarArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAlmacen\AgregarArticulo.Designer.cs">
+      <DependentUpon>AgregarArticulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="CAlmacen\ActualizarArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,9 @@
     </Compile>
     <EmbeddedResource Include="CAlmacen\ActualizarArticulo.resx">
       <DependentUpon>ActualizarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAlmacen\AgregarArticulo.resx">
+      <DependentUpon>AgregarArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAntecedentes\ActualizarAntecedente.resx">
       <DependentUpon>ActualizarAntecedente.cs</DependentUpon>
