@@ -15,9 +15,11 @@ namespace Talent
 {
     public partial class Registr : Form
     {
-        public Registr()
+        int empleados = 0;
+        public Registr(int empleados)
         {
             InitializeComponent();
+            this.empleados = empleados + 100;
         }
 
         //codigo para poder arrastrar la ventana por la pantalla
@@ -35,7 +37,15 @@ namespace Talent
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            Registrar();
+            if(!nombre.Text.Equals("") && !apellidoP.Text.Equals("") && !apellidoM.Text.Equals("") && !edad.Text.Equals("") && !calle.Text.Equals("") && !numeroE.Text.Equals("") && !numeroI.Text.Equals("") && !colonia.Text.Equals("") && !telefono.Text.Equals("") && !correo.Text.Equals("") && !tipoE.SelectedItem.ToString().Equals("") && !cedulaP.Text.Equals(""))
+            {
+                Registrar();
+            }
+            else
+            {
+                MessageBox.Show("Por favor rellene todos los campos");
+            }
+            
         }
 
         private void btnAAgregar_Click(object sender, EventArgs e)
@@ -49,7 +59,7 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("insert into empleados(nombre, ape_pat, ape_mat, edad, calle, num_ext, num_int, colonia, tipo_empleado, correo, cedula_prof, num_tel) values('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "'," + edad.Text + "," + calle.Text + "," + numeroE.Text + "," + numeroI.Text + "," + colonia.Text + ",'" + tipoE.SelectedItem.ToString() + "', '" + correo.Text + "', " + cedulaP.Text + ", "+telefono.Text+")", conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("insert into empleados (nombre,ape_pat,ape_mat,edad,calle,num_ext,num_int,colonia,num_tel,correo,tipo_empleado,cedula_prof) values ('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "'," + edad.Text + ",'" + calle.Text + "'," + numeroE.Text + "," + numeroI.Text + ",'" + colonia.Text + "','"+telefono.Text+"','"+correo.Text+"','"+tipoE.SelectedItem.ToString()+"','"+cedulaP.Text+"');", conexionBD.conectar);
 
                 comando.ExecuteNonQuery();
 
@@ -61,7 +71,7 @@ namespace Talent
             }
             catch (Exception e)
             {
-                MessageBox.Show("Error al solicitar el registro. Por favor intentelo mas tarde" + e.Message);
+                MessageBox.Show("Error al solicitar el registro. Por favor intentelo mas tarde");
             }
 
         }

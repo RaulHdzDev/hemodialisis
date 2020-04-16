@@ -41,7 +41,7 @@ namespace Talent
 
         private void btnAAgregar_Click(object sender, EventArgs e)
         {
-            Registr abrirEmpleados = new Registr();
+            Registr abrirEmpleados = new Registr(dt.Rows.Count);
             abrirEmpleados.Show();
         }
 
@@ -65,7 +65,14 @@ namespace Talent
 
         private void buscar_Click(object sender, EventArgs e)
         {
-            Buscar();
+            if(empleado.Text.Equals(""))
+            {
+                Cargar();
+            }
+            else
+            {
+                Buscar();
+            }     
         }
 
         public void Cargar()
