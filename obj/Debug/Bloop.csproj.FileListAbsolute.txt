@@ -307,7 +307,6 @@ C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Ta
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.ActualizarAntecedente.resources
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.ActualizarCita.resources
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.RegistrarAdmin.resources
-C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.ActualizarLugar.resources
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.ActualizarAlmacen.resources
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.Antecedentes.resources
 C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.aux.resources
@@ -338,3 +337,7 @@ C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.InformacionMedica.resou
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.InformacionCita.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.MostrarAntigenos.resources
 C:\Users\USER\Source\Repos\hemodialisis\obj\Debug\Talent.AgregarArticulo.resources
+C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.AgregarArticulo.resources
+C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.InformacionCita.resources
+C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.MostrarAntigenos.resources
+C:\Users\MARCOS\Documents\Proyectos Visual Studio 2019\hemodialisis\obj\Debug\Talent.InformacionMedica.resources

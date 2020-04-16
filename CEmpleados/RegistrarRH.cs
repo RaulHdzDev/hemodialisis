@@ -72,9 +72,21 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("insert into empleados(nombre, ape_pat, ape_mat, correo) values('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "', '" + correo.Text + "')", conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("insert into empleados(nombre, ape_pat, ape_mat,correo,tipo_empleado) values('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "', '" + correo.Text + "','Recursos humanos')", conexionBD.conectar);
 
                 comando.ExecuteNonQuery();
+
+                MySqlCommand comando2 = new MySqlCommand("select id_empleados from empleados where (correo = '"+correo.Text+"') AND (tipo_empleado = 'Recursos humanos')", conexionBD.conectar);
+
+                MySqlDataReader registros = comando2.ExecuteReader();
+
+                registros.Read();
+
+                MySqlCommand comando3 = new MySqlCommand("insert into usuarios(id_empleados,nombre,ape_pat,ape_mat,tipo_empleado,correo,contra_usuario) values("+registros["id_empleados"].ToString()+",'"+nombre.Text+"','"+apellidoP.Text+"','"+apellidoM.Text+"','Recursos humanos','"+correo.Text+"','"+password.Text+"')",conexionBD.conectar);
+
+                registros.Close();
+
+                comando3.ExecuteNonQuery();
 
                 conexionBD.cerrar();
 

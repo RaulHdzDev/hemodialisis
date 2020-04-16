@@ -64,7 +64,7 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("update empleados set nombre = '" + nombre.Text + "',ape_pat = '" + apellidoP.Text + "', ape_mat = '" + apellidoM.Text + "', edad = " + edad.Text + ", colonia = " + colonia.Text + ", calle = " + calle.Text + ", num_ext = " + numeroE.Text + ", num_int = " + numeroI.Text + ", tipo_empleado = '" + tipoE.SelectedItem.ToString() + "', correo = '" + correo.Text + "', cedula_prof = " + cedulaP.Text + ", num_tel = "+telefono.Text+" where id_empleados = " + idEmpleado, conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("update empleados set nombre = '" + nombre.Text + "',ape_pat = '" + apellidoP.Text + "', ape_mat = '" + apellidoM.Text + "', edad = " + edad.Text + ", colonia = '" + colonia.Text + "', calle = '" + calle.Text + "', num_ext = " + numeroE.Text + ", num_int = " + numeroI.Text + ", tipo_empleado = '" + tipoE.SelectedItem.ToString() + "', correo = '" + correo.Text + "', cedula_prof = '" + cedulaP.Text + "', num_tel = '"+telefono.Text+"' where id_empleados = " + idEmpleado, conexionBD.conectar);
 
                 comando.ExecuteNonQuery();
 
@@ -77,7 +77,7 @@ namespace Talent
             }
             catch (Exception e)
             {
-                MessageBox.Show("Error al solicitar el update. Por favor intentelo mas tarde " + e);
+                MessageBox.Show("Error al solicitar el update. Por favor intentelo mas tarde");
             }
 
         }
