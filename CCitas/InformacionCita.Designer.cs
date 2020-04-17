@@ -31,23 +31,23 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InformacionCita));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.nombrePaciente = new System.Windows.Forms.Label();
+            this.nomPaInfoCita = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.nombreEncargado = new System.Windows.Forms.Label();
+            this.nomEmpInfoCita = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.fecha = new System.Windows.Forms.Label();
-            this.hora = new System.Windows.Forms.Label();
-            this.camilla = new System.Windows.Forms.Label();
+            this.fechaInfoCita = new System.Windows.Forms.Label();
+            this.horaInfoCita = new System.Windows.Forms.Label();
+            this.camillaInfoCita = new System.Windows.Forms.Label();
             this.btnLIniciarSesion = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label10 = new System.Windows.Forms.Label();
-            this.IDPaciente = new System.Windows.Forms.Label();
+            this.IDPacienteInfoCita = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -67,6 +67,17 @@
             this.panel2.TabIndex = 237;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(5, 8);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(182, 21);
+            this.label6.TabIndex = 245;
+            this.label6.Text = "Información de la cita";
             // 
             // pictureBox5
             // 
@@ -103,15 +114,15 @@
             this.label1.TabIndex = 238;
             this.label1.Text = "Nombre del paciente:";
             // 
-            // nombrePaciente
+            // nomPaInfoCita
             // 
-            this.nombrePaciente.AutoSize = true;
-            this.nombrePaciente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombrePaciente.Location = new System.Drawing.Point(208, 90);
-            this.nombrePaciente.Name = "nombrePaciente";
-            this.nombrePaciente.Size = new System.Drawing.Size(157, 21);
-            this.nombrePaciente.TabIndex = 239;
-            this.nombrePaciente.Text = "Juan Carlos Lopezz";
+            this.nomPaInfoCita.AutoSize = true;
+            this.nomPaInfoCita.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomPaInfoCita.Location = new System.Drawing.Point(208, 90);
+            this.nomPaInfoCita.Name = "nomPaInfoCita";
+            this.nomPaInfoCita.Size = new System.Drawing.Size(157, 21);
+            this.nomPaInfoCita.TabIndex = 239;
+            this.nomPaInfoCita.Text = "Juan Carlos Lopezz";
             // 
             // label3
             // 
@@ -123,15 +134,15 @@
             this.label3.TabIndex = 240;
             this.label3.Text = "Engargado:";
             // 
-            // nombreEncargado
+            // nomEmpInfoCita
             // 
-            this.nombreEncargado.AutoSize = true;
-            this.nombreEncargado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombreEncargado.Location = new System.Drawing.Point(128, 130);
-            this.nombreEncargado.Name = "nombreEncargado";
-            this.nombreEncargado.Size = new System.Drawing.Size(147, 21);
-            this.nombreEncargado.TabIndex = 241;
-            this.nombreEncargado.Text = "Gerardo Joaquin ";
+            this.nomEmpInfoCita.AutoSize = true;
+            this.nomEmpInfoCita.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomEmpInfoCita.Location = new System.Drawing.Point(128, 130);
+            this.nomEmpInfoCita.Name = "nomEmpInfoCita";
+            this.nomEmpInfoCita.Size = new System.Drawing.Size(147, 21);
+            this.nomEmpInfoCita.TabIndex = 241;
+            this.nomEmpInfoCita.Text = "Gerardo Joaquin ";
             // 
             // label2
             // 
@@ -163,46 +174,35 @@
             this.label5.TabIndex = 244;
             this.label5.Text = "Camilla:";
             // 
-            // label6
+            // fechaInfoCita
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(5, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(182, 21);
-            this.label6.TabIndex = 245;
-            this.label6.Text = "Información de la cita";
+            this.fechaInfoCita.AutoSize = true;
+            this.fechaInfoCita.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fechaInfoCita.Location = new System.Drawing.Point(90, 174);
+            this.fechaInfoCita.Name = "fechaInfoCita";
+            this.fechaInfoCita.Size = new System.Drawing.Size(96, 21);
+            this.fechaInfoCita.TabIndex = 245;
+            this.fechaInfoCita.Text = "02/06/2020";
             // 
-            // fecha
+            // horaInfoCita
             // 
-            this.fecha.AutoSize = true;
-            this.fecha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fecha.Location = new System.Drawing.Point(90, 174);
-            this.fecha.Name = "fecha";
-            this.fecha.Size = new System.Drawing.Size(96, 21);
-            this.fecha.TabIndex = 245;
-            this.fecha.Text = "02/06/2020";
+            this.horaInfoCita.AutoSize = true;
+            this.horaInfoCita.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.horaInfoCita.Location = new System.Drawing.Point(78, 215);
+            this.horaInfoCita.Name = "horaInfoCita";
+            this.horaInfoCita.Size = new System.Drawing.Size(50, 21);
+            this.horaInfoCita.TabIndex = 246;
+            this.horaInfoCita.Text = "18:30";
             // 
-            // hora
+            // camillaInfoCita
             // 
-            this.hora.AutoSize = true;
-            this.hora.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hora.Location = new System.Drawing.Point(78, 215);
-            this.hora.Name = "hora";
-            this.hora.Size = new System.Drawing.Size(50, 21);
-            this.hora.TabIndex = 246;
-            this.hora.Text = "18:30";
-            // 
-            // camilla
-            // 
-            this.camilla.AutoSize = true;
-            this.camilla.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.camilla.Location = new System.Drawing.Point(100, 252);
-            this.camilla.Name = "camilla";
-            this.camilla.Size = new System.Drawing.Size(28, 21);
-            this.camilla.TabIndex = 247;
-            this.camilla.Text = "09";
+            this.camillaInfoCita.AutoSize = true;
+            this.camillaInfoCita.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.camillaInfoCita.Location = new System.Drawing.Point(100, 252);
+            this.camillaInfoCita.Name = "camillaInfoCita";
+            this.camillaInfoCita.Size = new System.Drawing.Size(28, 21);
+            this.camillaInfoCita.TabIndex = 247;
+            this.camillaInfoCita.Text = "09";
             // 
             // btnLIniciarSesion
             // 
@@ -229,6 +229,7 @@
             this.btnLIniciarSesion.Size = new System.Drawing.Size(123, 41);
             this.btnLIniciarSesion.TabIndex = 248;
             this.btnLIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLIniciarSesion.Click += new System.EventHandler(this.btnLIniciarSesion_Click);
             // 
             // bunifuThinButton21
             // 
@@ -267,15 +268,15 @@
             this.label10.TabIndex = 250;
             this.label10.Text = "ID del Paciente:";
             // 
-            // IDPaciente
+            // IDPacienteInfoCita
             // 
-            this.IDPaciente.AutoSize = true;
-            this.IDPaciente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IDPaciente.Location = new System.Drawing.Point(160, 52);
-            this.IDPaciente.Name = "IDPaciente";
-            this.IDPaciente.Size = new System.Drawing.Size(28, 21);
-            this.IDPaciente.TabIndex = 251;
-            this.IDPaciente.Text = "12";
+            this.IDPacienteInfoCita.AutoSize = true;
+            this.IDPacienteInfoCita.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDPacienteInfoCita.Location = new System.Drawing.Point(160, 52);
+            this.IDPacienteInfoCita.Name = "IDPacienteInfoCita";
+            this.IDPacienteInfoCita.Size = new System.Drawing.Size(28, 21);
+            this.IDPacienteInfoCita.TabIndex = 251;
+            this.IDPacienteInfoCita.Text = "12";
             // 
             // bunifuElipse1
             // 
@@ -288,19 +289,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(425, 351);
-            this.Controls.Add(this.IDPaciente);
+            this.Controls.Add(this.IDPacienteInfoCita);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.btnLIniciarSesion);
-            this.Controls.Add(this.camilla);
-            this.Controls.Add(this.hora);
-            this.Controls.Add(this.fecha);
+            this.Controls.Add(this.camillaInfoCita);
+            this.Controls.Add(this.horaInfoCita);
+            this.Controls.Add(this.fechaInfoCita);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.nombreEncargado);
+            this.Controls.Add(this.nomEmpInfoCita);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.nombrePaciente);
+            this.Controls.Add(this.nomPaInfoCita);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -324,19 +325,19 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label nombrePaciente;
+        private System.Windows.Forms.Label nomPaInfoCita;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label nombreEncargado;
+        private System.Windows.Forms.Label nomEmpInfoCita;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label fecha;
-        private System.Windows.Forms.Label hora;
-        private System.Windows.Forms.Label camilla;
+        private System.Windows.Forms.Label fechaInfoCita;
+        private System.Windows.Forms.Label horaInfoCita;
+        private System.Windows.Forms.Label camillaInfoCita;
         private Bunifu.Framework.UI.BunifuThinButton2 btnLIniciarSesion;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label IDPaciente;
+        private System.Windows.Forms.Label IDPacienteInfoCita;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

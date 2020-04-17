@@ -39,16 +39,16 @@
             this.btnCancelarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnAgregarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cbCamillaActCita = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbEmpActCita = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbPaciAntCita = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.dpFechaActCita = new Bunifu.Framework.UI.BunifuDatepicker();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cbHoraActCita = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -141,6 +141,7 @@
             this.bunifuThinButton21.Size = new System.Drawing.Size(113, 41);
             this.bunifuThinButton21.TabIndex = 244;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // btnCancelarActualizar
             // 
@@ -192,6 +193,7 @@
             this.btnAgregarActualizar.Size = new System.Drawing.Size(113, 41);
             this.btnAgregarActualizar.TabIndex = 242;
             this.btnAgregarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAgregarActualizar.Click += new System.EventHandler(this.btnAgregarActualizar_Click);
             // 
             // label5
             // 
@@ -203,14 +205,14 @@
             this.label5.TabIndex = 277;
             this.label5.Text = "Camillas disponibles:";
             // 
-            // comboBox3
+            // cbCamillaActCita
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(34, 332);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(370, 21);
-            this.comboBox3.TabIndex = 276;
+            this.cbCamillaActCita.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCamillaActCita.FormattingEnabled = true;
+            this.cbCamillaActCita.Location = new System.Drawing.Point(34, 332);
+            this.cbCamillaActCita.Name = "cbCamillaActCita";
+            this.cbCamillaActCita.Size = new System.Drawing.Size(370, 21);
+            this.cbCamillaActCita.TabIndex = 276;
             // 
             // label3
             // 
@@ -222,14 +224,14 @@
             this.label3.TabIndex = 275;
             this.label3.Text = "Encargados:";
             // 
-            // comboBox2
+            // cbEmpActCita
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(425, 285);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(370, 21);
-            this.comboBox2.TabIndex = 274;
+            this.cbEmpActCita.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbEmpActCita.FormattingEnabled = true;
+            this.cbEmpActCita.Location = new System.Drawing.Point(425, 285);
+            this.cbEmpActCita.Name = "cbEmpActCita";
+            this.cbEmpActCita.Size = new System.Drawing.Size(370, 21);
+            this.cbEmpActCita.TabIndex = 274;
             // 
             // label1
             // 
@@ -241,14 +243,14 @@
             this.label1.TabIndex = 273;
             this.label1.Text = "Pacientes:";
             // 
-            // comboBox1
+            // cbPaciAntCita
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(34, 285);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(370, 21);
-            this.comboBox1.TabIndex = 272;
+            this.cbPaciAntCita.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPaciAntCita.FormattingEnabled = true;
+            this.cbPaciAntCita.Location = new System.Drawing.Point(34, 285);
+            this.cbPaciAntCita.Name = "cbPaciAntCita";
+            this.cbPaciAntCita.Size = new System.Drawing.Size(370, 21);
+            this.cbPaciAntCita.TabIndex = 272;
             // 
             // label17
             // 
@@ -260,18 +262,18 @@
             this.label17.TabIndex = 271;
             this.label17.Text = "Fecha de solicitud:";
             // 
-            // bunifuDatepicker2
+            // dpFechaActCita
             // 
-            this.bunifuDatepicker2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuDatepicker2.BorderRadius = 0;
-            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker2.FormatCustom = null;
-            this.bunifuDatepicker2.Location = new System.Drawing.Point(425, 230);
-            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
-            this.bunifuDatepicker2.Size = new System.Drawing.Size(371, 34);
-            this.bunifuDatepicker2.TabIndex = 270;
-            this.bunifuDatepicker2.Value = new System.DateTime(2020, 3, 6, 21, 9, 22, 842);
+            this.dpFechaActCita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.dpFechaActCita.BorderRadius = 0;
+            this.dpFechaActCita.ForeColor = System.Drawing.Color.White;
+            this.dpFechaActCita.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dpFechaActCita.FormatCustom = null;
+            this.dpFechaActCita.Location = new System.Drawing.Point(425, 230);
+            this.dpFechaActCita.Name = "dpFechaActCita";
+            this.dpFechaActCita.Size = new System.Drawing.Size(371, 34);
+            this.dpFechaActCita.TabIndex = 270;
+            this.dpFechaActCita.Value = new System.DateTime(2020, 3, 6, 21, 9, 22, 842);
             // 
             // bunifuElipse1
             // 
@@ -288,18 +290,18 @@
             this.label2.TabIndex = 279;
             this.label2.Text = "Hora:";
             // 
-            // comboBox4
+            // cbHoraActCita
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cbHoraActCita.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbHoraActCita.FormattingEnabled = true;
+            this.cbHoraActCita.Items.AddRange(new object[] {
             "08:00",
             "12:00",
             "16:00"});
-            this.comboBox4.Location = new System.Drawing.Point(34, 230);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(370, 21);
-            this.comboBox4.TabIndex = 278;
+            this.cbHoraActCita.Location = new System.Drawing.Point(34, 230);
+            this.cbHoraActCita.Name = "cbHoraActCita";
+            this.cbHoraActCita.Size = new System.Drawing.Size(370, 21);
+            this.cbHoraActCita.TabIndex = 278;
             // 
             // ActualizarCita
             // 
@@ -308,15 +310,15 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(832, 471);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.cbHoraActCita);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.cbCamillaActCita);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cbEmpActCita);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbPaciAntCita);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.bunifuDatepicker2);
+            this.Controls.Add(this.dpFechaActCita);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.btnCancelarActualizar);
             this.Controls.Add(this.btnAgregarActualizar);
@@ -348,15 +350,15 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cbCamillaActCita;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbEmpActCita;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbPaciAntCita;
         private System.Windows.Forms.Label label17;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
+        private Bunifu.Framework.UI.BunifuDatepicker dpFechaActCita;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cbHoraActCita;
     }
 }
