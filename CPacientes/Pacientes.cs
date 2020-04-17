@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Talent.datos;
 
 namespace Talent
 {
@@ -15,6 +17,21 @@ namespace Talent
         public Paciente()
         {
             InitializeComponent();
+            try
+            {
+                using (MySqlCommand comando = new MySqlCommand("Select * From pacientes", conexionBD.conectar))
+                {
+                    MySqlDataAdapter msda = new MySqlDataAdapter();
+                    msda.SelectCommand = comando;
+                    DataTable dt = new DataTable();
+                    msda.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -64,6 +81,25 @@ namespace Talent
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void PictureBox2_Click_2(object sender, EventArgs e)
+        {
+            try
+            {
+                using (MySqlCommand comando = new MySqlCommand("Select * From pacientes where id_pacientes = " + txt_user.text, conexionBD.conectar))
+                {
+                    MySqlDataAdapter msda = new MySqlDataAdapter();
+                    msda.SelectCommand = comando;
+                    DataTable dt = new DataTable();
+                    msda.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
         }
     }
     }

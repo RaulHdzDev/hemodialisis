@@ -64,7 +64,7 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("update empleados set nombre = '" + nombre.Text + "',ape_pat = '" + apellidoP.Text + "', ape_mat = '" + apellidoM.Text + "', edad = " + edad.Text + ", colonia = '" + colonia.Text + "', calle = '" + calle.Text + "', num_ext = " + numeroE.Text + ", num_int = " + numeroI.Text + ", tipo_empleado = '" + tipoE.SelectedItem.ToString() + "', correo = '" + correo.Text + "', cedula_prof = '" + cedulaP.Text + "', num_tel = '"+telefono.Text+"' where id_empleados = " + idEmpleado, conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("update empleados set nombre = '" + nombre.Text + "',ape_pat = '" + apellidoP.Text + "', ape_mat = '" + apellidoM.Text + "', colonia = '" + colonia.Text + "', calle = '" + calle.Text + "', num_ext = " + numeroE.Text + ", num_int = " + numeroI.Text + ", tipo_empleado = '" + tipoE.SelectedItem.ToString() + "', correo = '" + correo.Text + "', cedula_prof = '" + cedulaP.Text + "', num_tel = '"+telefono.Text+"' where id_empleados = " + idEmpleado, conexionBD.conectar);
 
                 comando.ExecuteNonQuery();
 
@@ -73,7 +73,7 @@ namespace Talent
                 MessageBox.Show("Update exitoso");
 
                 label2.Text = nombre.Text;
-                label4.Text = edad.Text;
+                //label4.Text = edad.Text;
             }
             catch (Exception e)
             {
@@ -88,7 +88,7 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("select nombre,ape_pat,ape_mat,tipo_empleado,edad,colonia,num_ext,num_int,calle,correo,cedula_prof, num_tel from empleados where id_empleados = " + idEmpleado, conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("select nombre,ape_pat,ape_mat,tipo_empleado,colonia,num_ext,num_int,calle,correo,cedula_prof, num_tel from empleados where id_empleados = " + idEmpleado, conexionBD.conectar);
 
                 MySqlDataReader registros = comando.ExecuteReader();
 
@@ -99,7 +99,7 @@ namespace Talent
                     nombre.Text = registros["nombre"].ToString();
                     apellidoP.Text = registros["ape_pat"].ToString();
                     apellidoM.Text = registros["ape_mat"].ToString();
-                    edad.Text = registros["edad"].ToString();
+                    //edad.Text = registros["edad"].ToString();
                     colonia.Text = registros["colonia"].ToString();
                     calle.Text = registros["calle"].ToString();
                     numeroE.Text = registros["num_ext"].ToString();
@@ -110,7 +110,7 @@ namespace Talent
                     telefono.Text = registros["num_tel"].ToString();
 
                     label2.Text = nombre.Text;
-                    label4.Text = edad.Text;
+                    //label4.Text = edad.Text;
                 }
 
                 conexionBD.cerrar();
