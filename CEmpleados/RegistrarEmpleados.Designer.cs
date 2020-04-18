@@ -64,8 +64,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label33 = new System.Windows.Forms.Label();
-            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.edad = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panel1.SuspendLayout();
             this.panelInferior.SuspendLayout();
             this.panelInterno1.SuspendLayout();
@@ -105,7 +105,7 @@
             this.btnRegistrar.IdleForecolor = System.Drawing.Color.Green;
             this.btnRegistrar.IdleLineColor = System.Drawing.Color.Green;
             this.btnRegistrar.Location = new System.Drawing.Point(412, 3);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(5);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(113, 41);
             this.btnRegistrar.TabIndex = 22;
@@ -132,7 +132,7 @@
             this.btnAAgregar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.Location = new System.Drawing.Point(535, 3);
-            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5);
             this.btnAAgregar.Name = "btnAAgregar";
             this.btnAAgregar.Size = new System.Drawing.Size(113, 41);
             this.btnAAgregar.TabIndex = 21;
@@ -152,8 +152,8 @@
             // panelInterno1
             // 
             this.panelInterno1.BackColor = System.Drawing.Color.White;
-            this.panelInterno1.Controls.Add(this.label33);
-            this.panelInterno1.Controls.Add(this.bunifuDatepicker2);
+            this.panelInterno1.Controls.Add(this.label5);
+            this.panelInterno1.Controls.Add(this.edad);
             this.panelInterno1.Controls.Add(this.label10);
             this.panelInterno1.Controls.Add(this.telefono);
             this.panelInterno1.Controls.Add(this.label9);
@@ -204,7 +204,7 @@
             this.telefono.ForeColor = System.Drawing.Color.Gray;
             this.telefono.isPassword = false;
             this.telefono.Location = new System.Drawing.Point(353, 240);
-            this.telefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.telefono.Margin = new System.Windows.Forms.Padding(4);
             this.telefono.Name = "telefono";
             this.telefono.Size = new System.Drawing.Size(285, 33);
             this.telefono.TabIndex = 11;
@@ -291,7 +291,7 @@
             this.cedulaP.ForeColor = System.Drawing.Color.Gray;
             this.cedulaP.isPassword = false;
             this.cedulaP.Location = new System.Drawing.Point(353, 191);
-            this.cedulaP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cedulaP.Margin = new System.Windows.Forms.Padding(4);
             this.cedulaP.Name = "cedulaP";
             this.cedulaP.Size = new System.Drawing.Size(285, 33);
             this.cedulaP.TabIndex = 10;
@@ -338,7 +338,7 @@
             this.colonia.ForeColor = System.Drawing.Color.Gray;
             this.colonia.isPassword = false;
             this.colonia.Location = new System.Drawing.Point(26, 288);
-            this.colonia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.colonia.Margin = new System.Windows.Forms.Padding(4);
             this.colonia.Name = "colonia";
             this.colonia.Size = new System.Drawing.Size(285, 33);
             this.colonia.TabIndex = 6;
@@ -365,7 +365,7 @@
             this.correo.ForeColor = System.Drawing.Color.Gray;
             this.correo.isPassword = false;
             this.correo.Location = new System.Drawing.Point(26, 240);
-            this.correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.correo.Margin = new System.Windows.Forms.Padding(4);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(285, 33);
             this.correo.TabIndex = 5;
@@ -392,7 +392,7 @@
             this.apellidoM.ForeColor = System.Drawing.Color.Gray;
             this.apellidoM.isPassword = false;
             this.apellidoM.Location = new System.Drawing.Point(26, 143);
-            this.apellidoM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoM.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoM.Name = "apellidoM";
             this.apellidoM.Size = new System.Drawing.Size(285, 33);
             this.apellidoM.TabIndex = 3;
@@ -409,7 +409,7 @@
             this.numeroE.ForeColor = System.Drawing.Color.Gray;
             this.numeroE.isPassword = false;
             this.numeroE.Location = new System.Drawing.Point(353, 143);
-            this.numeroE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeroE.Margin = new System.Windows.Forms.Padding(4);
             this.numeroE.Name = "numeroE";
             this.numeroE.Size = new System.Drawing.Size(285, 33);
             this.numeroE.TabIndex = 9;
@@ -426,7 +426,7 @@
             this.apellidoP.ForeColor = System.Drawing.Color.Gray;
             this.apellidoP.isPassword = false;
             this.apellidoP.Location = new System.Drawing.Point(26, 96);
-            this.apellidoP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.apellidoP.Margin = new System.Windows.Forms.Padding(4);
             this.apellidoP.Name = "apellidoP";
             this.apellidoP.Size = new System.Drawing.Size(285, 33);
             this.apellidoP.TabIndex = 2;
@@ -443,7 +443,7 @@
             this.numeroI.ForeColor = System.Drawing.Color.Gray;
             this.numeroI.isPassword = false;
             this.numeroI.Location = new System.Drawing.Point(353, 96);
-            this.numeroI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numeroI.Margin = new System.Windows.Forms.Padding(4);
             this.numeroI.Name = "numeroI";
             this.numeroI.Size = new System.Drawing.Size(285, 33);
             this.numeroI.TabIndex = 8;
@@ -460,7 +460,7 @@
             this.nombre.ForeColor = System.Drawing.Color.Gray;
             this.nombre.isPassword = false;
             this.nombre.Location = new System.Drawing.Point(26, 47);
-            this.nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(285, 33);
             this.nombre.TabIndex = 1;
@@ -477,7 +477,7 @@
             this.calle.ForeColor = System.Drawing.Color.Gray;
             this.calle.isPassword = false;
             this.calle.Location = new System.Drawing.Point(353, 47);
-            this.calle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calle.Margin = new System.Windows.Forms.Padding(4);
             this.calle.Name = "calle";
             this.calle.Size = new System.Drawing.Size(285, 33);
             this.calle.TabIndex = 7;
@@ -560,28 +560,32 @@
             this.bunifuElipse1.ElipseRadius = 25;
             this.bunifuElipse1.TargetControl = this;
             // 
-            // label33
+            // label5
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(27, 179);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(127, 16);
-            this.label33.TabIndex = 312;
-            this.label33.Text = "Fecha de nacimiento:";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(26, 182);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 16);
+            this.label5.TabIndex = 312;
+            this.label5.Text = "Edad:";
             // 
-            // bunifuDatepicker2
+            // edad
             // 
-            this.bunifuDatepicker2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuDatepicker2.BorderRadius = 0;
-            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker2.FormatCustom = null;
-            this.bunifuDatepicker2.Location = new System.Drawing.Point(26, 191);
-            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
-            this.bunifuDatepicker2.Size = new System.Drawing.Size(285, 34);
-            this.bunifuDatepicker2.TabIndex = 311;
-            this.bunifuDatepicker2.Value = new System.DateTime(2020, 3, 6, 21, 9, 22, 842);
+            this.edad.BorderColorFocused = System.Drawing.Color.Blue;
+            this.edad.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.edad.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.edad.BorderThickness = 1;
+            this.edad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.edad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.edad.ForeColor = System.Drawing.Color.Gray;
+            this.edad.isPassword = false;
+            this.edad.Location = new System.Drawing.Point(26, 192);
+            this.edad.Margin = new System.Windows.Forms.Padding(4);
+            this.edad.Name = "edad";
+            this.edad.Size = new System.Drawing.Size(285, 33);
+            this.edad.TabIndex = 311;
+            this.edad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Registr
             // 
@@ -647,7 +651,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Label label33;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
+        private System.Windows.Forms.Label label5;
+        private Bunifu.Framework.UI.BunifuMetroTextbox edad;
     }
 }

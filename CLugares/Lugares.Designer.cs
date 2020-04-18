@@ -33,14 +33,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.txt_user = new Bunifu.Framework.UI.BunifuTextbox();
             this.btnAAgregar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lugar = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.buscar = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buscar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -90,29 +91,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(1168, 469);
             this.dataGridView1.TabIndex = 229;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Talent.Properties.Resources.buscar;
-            this.pictureBox2.Location = new System.Drawing.Point(254, 60);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(23, 22);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 232;
-            this.pictureBox2.TabStop = false;
-            // 
-            // txt_user
-            // 
-            this.txt_user.BackColor = System.Drawing.Color.White;
-            this.txt_user.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_user.BackgroundImage")));
-            this.txt_user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.txt_user.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.txt_user.Icon = ((System.Drawing.Image)(resources.GetObject("txt_user.Icon")));
-            this.txt_user.Location = new System.Drawing.Point(6, 54);
-            this.txt_user.Name = "txt_user";
-            this.txt_user.Size = new System.Drawing.Size(242, 31);
-            this.txt_user.TabIndex = 231;
-            this.txt_user.text = "";
             // 
             // btnAAgregar
             // 
@@ -167,15 +145,54 @@
             this.bunifuThinButton21.TabIndex = 242;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(6, 45);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(64, 16);
+            this.label14.TabIndex = 244;
+            this.label14.Text = "ID camilla:";
+            // 
+            // lugar
+            // 
+            this.lugar.BorderColorFocused = System.Drawing.Color.Blue;
+            this.lugar.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.lugar.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.lugar.BorderThickness = 1;
+            this.lugar.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.lugar.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.lugar.ForeColor = System.Drawing.Color.Gray;
+            this.lugar.isPassword = false;
+            this.lugar.Location = new System.Drawing.Point(6, 56);
+            this.lugar.Margin = new System.Windows.Forms.Padding(4);
+            this.lugar.Name = "lugar";
+            this.lugar.Size = new System.Drawing.Size(209, 33);
+            this.lugar.TabIndex = 243;
+            this.lugar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // buscar
+            // 
+            this.buscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buscar.Image = global::Talent.Properties.Resources.buscar;
+            this.buscar.Location = new System.Drawing.Point(220, 62);
+            this.buscar.Name = "buscar";
+            this.buscar.Size = new System.Drawing.Size(23, 22);
+            this.buscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.buscar.TabIndex = 245;
+            this.buscar.TabStop = false;
+            // 
             // Lugares
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1168, 630);
+            this.Controls.Add(this.buscar);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.lugar);
             this.Controls.Add(this.bunifuThinButton21);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.txt_user);
             this.Controls.Add(this.btnAAgregar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
@@ -186,8 +203,9 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buscar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -196,10 +214,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuTextbox txt_user;
         private Bunifu.Framework.UI.BunifuThinButton2 btnAAgregar;
         private System.Windows.Forms.DataGridView dataGridView1;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private System.Windows.Forms.Label label14;
+        private Bunifu.Framework.UI.BunifuMetroTextbox lugar;
+        private System.Windows.Forms.PictureBox buscar;
     }
 }
