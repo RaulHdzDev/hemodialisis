@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 using System.Runtime.InteropServices;
+using Talent.datos;
 
 namespace Talent
 {
@@ -62,6 +64,50 @@ namespace Talent
         private void btnCancelarActualizar_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void btnAgregarActualizar_Click(object sender, EventArgs e)
+        {
+            int numero;
+            bool comprobar = Int32.TryParse(cantidad.Text, out numero);
+
+            if (!nombre.Text.Equals("") && !cantidad.Text.Equals("") && comprobar == true)
+            {
+                Registrar();
+            }
+            else
+            {
+                MessageBox.Show("Por favor rellene todos los campos");
+            }
+        }
+
+        public void Registrar()
+        {
+            try
+            {
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("insert into articulos(nom_articulo,cant_articulo) values('" + nombre.Text + "'," + cantidad.Text + ")", conexionBD.conectar);
+
+                comando.ExecuteNonQuery();
+
+                conexionBD.cerrar();
+
+                MessageBox.Show("Registro exitoso");
+
+                Limpiar();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error al solicitar el registro. Por favor intentelo mas tarde");
+            }
+
+        }
+
+        public void Limpiar()
+        {
+            nombre.Text = "";
+            cantidad.Text = "";
         }
     }
 }

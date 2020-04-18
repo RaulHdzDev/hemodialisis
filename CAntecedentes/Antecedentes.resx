@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txt_user.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="id.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwAAAAB/CAYAAABYHaUHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUrSURBVHhe7dhbbltXEERRTSOTzMg9hwSyu2GaLvEBUeJl
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUrSURBVHhe7dhbbltXEERRTSOTzMg9hwSyu2GaLvEBUeJl
         YS1gf+Vcyp/VeXuEH//8+58kSZKkr23m93Okf5AkSZKk72lm+ddLf1ySJEnSc5qZ/njpj0mSJEk6RjPb
         HyP9AUmSJEnHaub756QfliRJknTMZsbfL/2YJEmSpNdoZv3t0o/c2/wUAABwh7St721+6jbpB641nwIA
         AF8gbfBrzaeXpQ8vNZ8BAADfIG3yS81nWfrgUvMZAADwzdI+/6j55G/pcWqeAwAAT5S2emqe/yk9TM1z
@@ -146,10 +146,10 @@
         9K+X/rgkSZKk72lm+XOkf5AkSZKkxzbz+xPe3v4HNA6s9REDj88AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="txt_user.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="id.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADnSURBVFhH7Y6xEcMwDMS8RpbM5NkhadAZciSapBrjDh3/
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADnSURBVFhH7Y6xEcMwDMS8RpbM5NkhadAZciSapBrjDh3/
         n8fDbj6v9/dKzvZgD5mc92KPzEi8HhufkXgdNroqVTXYYETq8rGxiNTlY2MRqcvHxiJSl4+NRaQuHxuL
         SF0+NrYqVTXYYETq8rGxiNTlY2MRqcvHxiJSl4+NrUhNHTa6IjX12PiMxOux8X8S7cEeuJJYL/bISCK9
         2CMjifRij4wkUo+Nr0pVDTYYkbr7WHm2TK1jZVUyOY+VdMj8NRbskhfGWKhT3hhjoW55xbHADnnnjB3v

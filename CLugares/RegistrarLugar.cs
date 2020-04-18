@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Talent.datos;
+using MySql.Data.MySqlClient;
 
 namespace Talent
 {
@@ -56,6 +58,42 @@ namespace Talent
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnAgregarActualizar_Click(object sender, EventArgs e)
+        {
+            if (!cantidad.Text.Equals(""))
+            {
+                for (int i = 0; i < Int32.Parse(cantidad.Text); i++)
+                {
+                    Registrar();
+                }
+
+                MessageBox.Show("Registro completado");
+                cantidad.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Por favor llene todos los campos");
+            }
+        }
+
+        public void Registrar()
+        {
+            try
+            {
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("insert into camillas(estado_lugar) values('Libre')", conexionBD.conectar);
+
+                comando.ExecuteNonQuery();
+
+                conexionBD.cerrar();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error al eliminar" + e);
+            }
         }
     }
 }

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Talent.datos;
+using MySql.Data.MySqlClient;
 
 namespace Talent
 {
@@ -16,6 +18,7 @@ namespace Talent
         public AgregarArticulo()
         {
             InitializeComponent();
+            Cargar();
         }
 
 
@@ -57,6 +60,100 @@ namespace Talent
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void btnAgregarActualizar_Click(object sender, EventArgs e)
+        {
+            int numero;
+            bool comprobar = Int32.TryParse(cantidad.Text, out numero);
+
+            if (!cantidad.Text.Equals("") && comprobar == true)
+            {
+                Agregar(Buscar());
+            }
+            else
+            {
+                MessageBox.Show("Por favor ingresa los datos necesarios");
+            }
+        }
+
+        public int Buscar()
+        {
+            try
+            {
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("select cant_articulo from articulos where nom_articulo = '" + nombre.SelectedItem.ToString() + "'", conexionBD.conectar);
+
+                MySqlDataReader registros = comando.ExecuteReader();
+
+                registros.Read();
+
+                int cantidad = Int32.Parse(registros["cant_articulo"].ToString());
+
+                conexionBD.cerrar();
+
+                return cantidad;
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error al buscar: " + e);
+                return 0;
+            }
+        }
+
+        public void Agregar(int cantidad)
+        {
+            try
+            {
+                cantidad = cantidad + Int32.Parse(this.cantidad.Text);
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("update articulos set cant_articulo = " + cantidad + " where nom_articulo = '" + nombre.SelectedItem.ToString() + "'", conexionBD.conectar);
+
+                comando.ExecuteNonQuery();
+
+                conexionBD.cerrar();
+
+                MessageBox.Show("Exito");
+
+                Limpiar();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error al solicitar el registro. Por favor intentelo mas tarde");
+            }
+        }
+
+        public void Cargar()
+        {
+            try
+            {
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("select nom_articulo from articulos", conexionBD.conectar);
+
+                MySqlDataReader registros = comando.ExecuteReader();
+
+                while (registros.Read())
+                {
+                    nombre.Items.Add(registros["nom_articulo"]);
+                }
+
+                conexionBD.cerrar();
+
+                nombre.SelectedIndex = 0;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error al solicitar informacion");
+            }
+        }
+
+        public void Limpiar()
+        {
+            cantidad.Text = "";
         }
     }
 }

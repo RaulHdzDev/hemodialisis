@@ -59,7 +59,7 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("insert into empleados (nombre,ape_pat,ape_mat,edad,calle,num_ext,num_int,colonia,num_tel,correo,tipo_empleado,cedula_prof) values ('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "'," + /*edad.Text +*/ ",'" + calle.Text + "'," + numeroE.Text + "," + numeroI.Text + ",'" + colonia.Text + "','"+telefono.Text+"','"+correo.Text+"','"+tipoE.SelectedItem.ToString()+"','"+cedulaP.Text+"');", conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("insert into empleados (nombre,ape_pat,ape_mat,edad,calle,num_ext,num_int,colonia,num_tel,correo,tipo_empleado,cedula_prof) values ('" + nombre.Text + "','" + apellidoP.Text + "','" + apellidoM.Text + "'," + edad.Text + ",'" + calle.Text + "'," + numeroE.Text + "," + numeroI.Text + ",'" + colonia.Text + "','"+telefono.Text+"','"+correo.Text+"','"+tipoE.SelectedItem.ToString()+"','"+cedulaP.Text+"');", conexionBD.conectar);
 
                 comando.ExecuteNonQuery();
 
@@ -81,7 +81,7 @@ namespace Talent
             nombre.Text = "";
             apellidoP.Text = "";
             apellidoM.Text = "";
-            //edad.Text = "";
+            edad.Text = "";
             calle.Text = "";
             numeroE.Text = "";
             numeroI.Text = "";
