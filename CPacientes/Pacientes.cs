@@ -14,6 +14,7 @@ namespace Talent
 {
     public partial class Paciente : Form
     {
+        int idBuscar;
         public Paciente()
         {
             InitializeComponent();
@@ -69,7 +70,8 @@ namespace Talent
 
         private void btnLIniciarSesion_Click(object sender, EventArgs e)
         {
-            InformacionPaciente AbrirInformacionPaciente = new InformacionPaciente();
+            idBuscar = Int32.Parse(txt_user.text);
+            InformacionPaciente AbrirInformacionPaciente = new InformacionPaciente(idBuscar);
             AbrirInformacionPaciente.Show();          
         }
 
@@ -100,6 +102,11 @@ namespace Talent
             {
                 ex.ToString();
             }
+        }
+
+        private void Txt_user_OnTextChange(object sender, EventArgs e)
+        {
+
         }
     }
     }

@@ -151,6 +151,7 @@
             this.txt_user.Size = new System.Drawing.Size(323, 38);
             this.txt_user.TabIndex = 47;
             this.txt_user.text = "";
+            this.txt_user.OnTextChange += new System.EventHandler(this.Txt_user_OnTextChange);
             // 
             // btnLIniciarSesion
             // 

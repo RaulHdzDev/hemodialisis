@@ -200,6 +200,7 @@
     <Compile Include="CCitas\MostrarAntigenos.Designer.cs">
       <DependentUpon>MostrarAntigenos.cs</DependentUpon>
     </Compile>
+    <Compile Include="negocios\actualizar.cs" />
     <Compile Include="negocios\MasterMailServer.cs" />
     <Compile Include="negocios\MetodoRecuperarContraseña.cs" />
     <Compile Include="negocios\SystemSupportMail.cs" />

@@ -39,6 +39,8 @@ namespace Talent
 
         private void btnAAgregar_Click(object sender, EventArgs e)
         {
+            conexionBD.abrir();
+
             foreach (string alergias in checkedListBox1.CheckedItems)
             {
                 int idAlergias = 0;
@@ -279,6 +281,7 @@ namespace Talent
                 }
             }
 
+            conexionBD.cerrar();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)

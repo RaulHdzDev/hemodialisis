@@ -55,6 +55,7 @@ namespace Talent
 
         private void eliminar_Click(object sender, EventArgs e)
         {
+
             Eliminar();
         }
 
