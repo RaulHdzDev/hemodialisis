@@ -39,7 +39,7 @@
             this.btnAgregarActualizar = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.cantidad = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -53,8 +53,9 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(398, 206);
+            this.panel1.Size = new System.Drawing.Size(531, 254);
             this.panel1.TabIndex = 241;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -65,8 +66,9 @@
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(398, 35);
+            this.panel2.Size = new System.Drawing.Size(531, 43);
             this.panel2.TabIndex = 232;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
@@ -76,9 +78,10 @@
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Talent.Properties.Resources.CerrarBlanco;
-            this.pictureBox5.Location = new System.Drawing.Point(367, 5);
+            this.pictureBox5.Location = new System.Drawing.Point(489, 6);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.Size = new System.Drawing.Size(33, 31);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -89,9 +92,10 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Talent.Properties.Resources.MinimizarBlanco;
-            this.pictureBox2.Location = new System.Drawing.Point(336, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(448, 6);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.Size = new System.Drawing.Size(33, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -102,9 +106,10 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(166)))), ((int)(((byte)(220)))));
             this.label4.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(3, 172);
+            this.label4.Location = new System.Drawing.Point(4, 212);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(240, 32);
+            this.label4.Size = new System.Drawing.Size(300, 40);
             this.label4.TabIndex = 231;
             this.label4.Text = "Registrar  camilla";
             // 
@@ -126,10 +131,10 @@
             this.btnCancelarActualizar.IdleFillColor = System.Drawing.Color.White;
             this.btnCancelarActualizar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnCancelarActualizar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnCancelarActualizar.Location = new System.Drawing.Point(192, 296);
-            this.btnCancelarActualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnCancelarActualizar.Location = new System.Drawing.Point(256, 364);
+            this.btnCancelarActualizar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnCancelarActualizar.Name = "btnCancelarActualizar";
-            this.btnCancelarActualizar.Size = new System.Drawing.Size(113, 41);
+            this.btnCancelarActualizar.Size = new System.Drawing.Size(151, 50);
             this.btnCancelarActualizar.TabIndex = 240;
             this.btnCancelarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnCancelarActualizar.Click += new System.EventHandler(this.btnCancelarActualizar_Click);
@@ -152,12 +157,13 @@
             this.btnAgregarActualizar.IdleFillColor = System.Drawing.Color.White;
             this.btnAgregarActualizar.IdleForecolor = System.Drawing.Color.Green;
             this.btnAgregarActualizar.IdleLineColor = System.Drawing.Color.Green;
-            this.btnAgregarActualizar.Location = new System.Drawing.Point(67, 296);
-            this.btnAgregarActualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnAgregarActualizar.Location = new System.Drawing.Point(89, 364);
+            this.btnAgregarActualizar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnAgregarActualizar.Name = "btnAgregarActualizar";
-            this.btnAgregarActualizar.Size = new System.Drawing.Size(113, 41);
+            this.btnAgregarActualizar.Size = new System.Drawing.Size(151, 50);
             this.btnAgregarActualizar.TabIndex = 239;
             this.btnAgregarActualizar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAgregarActualizar.Click += new System.EventHandler(this.btnAgregarActualizar_Click);
             // 
             // bunifuElipse1
             // 
@@ -168,42 +174,44 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(67, 226);
+            this.label2.Location = new System.Drawing.Point(89, 278);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 16);
+            this.label2.Size = new System.Drawing.Size(81, 19);
             this.label2.TabIndex = 261;
             this.label2.Text = "Cantidad:";
             // 
-            // bunifuMetroTextbox2
+            // cantidad
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderThickness = 1;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.Gray;
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(67, 237);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(238, 33);
-            this.bunifuMetroTextbox2.TabIndex = 260;
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.cantidad.BorderColorFocused = System.Drawing.Color.Blue;
+            this.cantidad.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
+            this.cantidad.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.cantidad.BorderThickness = 1;
+            this.cantidad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cantidad.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.cantidad.ForeColor = System.Drawing.Color.Gray;
+            this.cantidad.isPassword = false;
+            this.cantidad.Location = new System.Drawing.Point(89, 292);
+            this.cantidad.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cantidad.Name = "cantidad";
+            this.cantidad.Size = new System.Drawing.Size(317, 41);
+            this.cantidad.TabIndex = 260;
+            this.cantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // RegistrarLugar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(398, 370);
+            this.ClientSize = new System.Drawing.Size(531, 455);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.bunifuMetroTextbox2);
+            this.Controls.Add(this.cantidad);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCancelarActualizar);
             this.Controls.Add(this.btnAgregarActualizar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RegistrarLugar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Lugar";
@@ -229,6 +237,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
+        private Bunifu.Framework.UI.BunifuMetroTextbox cantidad;
     }
 }
