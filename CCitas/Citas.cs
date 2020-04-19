@@ -29,6 +29,7 @@ namespace Talent
             dt.Columns.Add("Hora");
             dataGV.DataSource = dt;
             Cargar();
+            
         }
 
         public void Cargar()

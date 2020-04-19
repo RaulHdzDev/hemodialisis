@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using MySql.Data.MySqlClient;
+using Talent.datos;
 
 namespace Talent
 {
@@ -33,21 +34,37 @@ namespace Talent
             eliminarCitas();
         }
 
-        public void eliminarCitas ()
+        public void eliminarCitas()
         {
-            using (MySqlCommand comando = new MySqlCommand ("Select id_pacientes from vista_citas_incompletas"))
+            conexionBD.abrir();
+            try
             {
-
-                MySqlDataReader reader = comando.ExecuteReader();
-                foreach (int idvista in reader)
+                using (MySqlCommand comando = new MySqlCommand("Select id_citas from vista_citas_incompletas", conexionBD.conectar))
                 {
-                    using (MySqlCommand comandoBorrar = new MySqlCommand ("delete from citas where id_citas = " + idvista))
+                    MySqlDataReader reader = comando.ExecuteReader();
+
+                    while (reader.Read())
                     {
-                        comandoBorrar.ExecuteNonQuery();
+
+                        int id = Int32.Parse(reader.GetString(0));
+                        reader.Close();
+                        using (MySqlCommand comandoBorrar = new MySqlCommand("delete from citas where id_citas = " + id, conexionBD.conectar))
+                        {
+                            comandoBorrar.ExecuteNonQuery();
+                        }
+                        if (reader != null)
+                        {
+                            reader.Close();
+                        }
                     }
                 }
-               
             }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
+
+            conexionBD.cerrar();
         }
 
         private void CargarPermisos()
@@ -301,6 +318,11 @@ namespace Talent
         }
 
         private void panelHora_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
         {
 
         }

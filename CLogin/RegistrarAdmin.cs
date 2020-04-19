@@ -87,7 +87,9 @@ namespace Talent
 
         private void BunifuThinButton21_Click(object sender, EventArgs e)
         {
-            conexionBD.abrir();
+            try
+            {
+                conexionBD.abrir();
 
             string nombre =          txtLUsuario.Text;
             string apeliidoPaterno = txtApellidoP.Text;
@@ -101,26 +103,59 @@ namespace Talent
             MySqlDataReader mysqldr = null;
             
                 using (MySqlCommand comando = new MySqlCommand("Insert Into usuarios (id_empleados, nombre, " +
-                    "ape_pat, ape_mat, tipo_empleado, correo, contra_usuario) Values (" + idempleado + 
+                    "ape_pat, ape_mat, tipo_empleado, correo, contra_usuario) Values (" + idempleado +
                     ",'" + nombre + "','" + apeliidoPaterno + "','" + apellidoMaterno + "','" + tipoEmpleado + "','"
-                    + correo + "','" + contraseña + "')", conexionBD.conectar)) {
+                    + correo + "','" + contraseña + "')", conexionBD.conectar))
+                {
 
-                mysqldr = comando.ExecuteReader();
+                        if (nombre == "")
+                        {
+                            MessageBox.Show("Ingrese un nombre");
+                        }
+                        else if (apeliidoPaterno == "") 
+                        {
+                            MessageBox.Show("Ingrese un apellido Paterno");
+                        }
+                        else if (apellidoMaterno == "")
+                        {
+                            MessageBox.Show("Ingrese un apellido Materno");
+                        }
+                        else if (tipoEmpleado == "")
+                        {
+                        MessageBox.Show("Ingrese el tipo de empleado");
+                        }
+                        else if (correo == "")
+                        {
+                            MessageBox.Show("Ingrese un correo electronico");
+                        }
+                        else if (contraseña == "")
+                        {
+                            MessageBox.Show("Ingrese una contraseña");
+                        }
+                        else if (numEmpleado == "")
+                        {
+                            MessageBox.Show("Ingrese un número de empleado");
+                        }
+                        else
+                        {
+                            mysqldr = comando.ExecuteReader();
 
-                    if (mysqldr.RecordsAffected == 1)
-                    {
-                        MessageBox.Show("Se a registrado con éxito");
-                        
-                        Login AbrirPrincipal = new Login();
-                        AbrirPrincipal.Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("No se pudo insertar");
+                        if (mysqldr.RecordsAffected == 1)
+                        {
+                            MessageBox.Show("Se a registrado con éxito");
+
+                            Login AbrirPrincipal = new Login();
+                            AbrirPrincipal.Show();
+                            this.Hide();
+                        }
                     }
                 }
-            
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
 
          }
     }
