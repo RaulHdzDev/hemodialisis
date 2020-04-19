@@ -201,7 +201,6 @@ C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarArticulo.resource
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarAntecedente.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarCita.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarAdmin.resources
-C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarLugar.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.ActualizarAlmacen.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Antecedentes.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.aux.resources
@@ -287,7 +286,6 @@ C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\D
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Bloop.csproj.CopyComplete
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Talent.exe
 C:\Users\reymi\Desktop\ABD\HEMODIALISIS\Proyecto Hemodialisis\hemodialisis\obj\Debug\Talent.pdb
-C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.AgregarPacientesEncargados.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.Registr.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.MenuInicioDoctor.resources
 C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.RegistrarRH.resources
@@ -387,3 +385,7 @@ C:\Users\usuario\Desktop\Apps\Repositorios\hemodialisis\bin\Debug\Google.Protobu
 C:\Users\usuario\Desktop\Apps\Repositorios\hemodialisis\bin\Debug\MySql.Data.xml
 C:\Users\usuario\Desktop\Apps\Repositorios\hemodialisis\bin\Debug\Renci.SshNet.xml
 C:\Users\usuario\Desktop\Apps\Repositorios\hemodialisis\obj\Debug\Bloop.csproj.CopyComplete
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.AgregarArticulo.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.InformacionCita.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.MostrarAntigenos.resources
+C:\Users\arman\Desktop\hemodialisis\obj\Debug\Talent.InformacionMedica.resources
