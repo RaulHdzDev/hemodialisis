@@ -69,10 +69,14 @@ namespace Talent
             {
                 Cargar();
             }
-            else
+            else if(!empleado.Text.Equals("1"))
             {
                 Buscar();
-            }     
+            }
+            else
+            {
+                MessageBox.Show("Informacion no disponible");
+            }
         }
 
         public void Cargar()
@@ -82,7 +86,7 @@ namespace Talent
             {
                 conexionBD.abrir();
 
-                MySqlCommand comando = new MySqlCommand("select id_empleados,nombre,ape_pat,ape_mat,tipo_empleado from empleados", conexionBD.conectar);
+                MySqlCommand comando = new MySqlCommand("select id_empleados,nombre,ape_pat,ape_mat,tipo_empleado from empleados where id_empleados > 1", conexionBD.conectar);
 
                 MySqlDataReader registros = comando.ExecuteReader();
 
