@@ -14,12 +14,67 @@ namespace Talent
     public partial class VentanaPrincipal : Form
     {
 
-        public VentanaPrincipal()
+        String TipoUsuario = "";
+        bool permisoCita = false;
+        bool permisoAnte = false;
+        bool permisoPaci = false;
+        bool permisoEmple = false;
+        bool permisoInicio = false;
+        bool permisoCami = false;
+        bool permisoAlmacen = false;
+        bool permisoBitacora = false;
+
+        public VentanaPrincipal(String id)
         {
             InitializeComponent();
+            TipoUsuario = id;
+            CargarPermisos();
         }
-    
 
+        private void CargarPermisos()
+        {
+            switch (TipoUsuario)
+            {
+                case "Doctor":
+                case "Enfermera":
+                    permisoCita = true;
+                    permisoPaci = true;
+                    permisoInicio = true;
+                    permisoAnte = true;
+                    break;
+                case "RH":
+                    permisoEmple = true;
+                    permisoInicio = true;
+                    break;
+                case "Pasante":
+                    permisoInicio = true;
+                    break;
+                case "Administrativo":
+                    permisoCami = true;
+                    permisoAlmacen = true;
+                    permisoInicio = true;
+                    break;
+                case "Secretaria":
+                case "Intendente":
+                    //permisoCami = true;
+                    //permisoAlmacen = true;
+                    //permisoInicio = true;
+                    break;
+                case "Seguridad":
+                    permisoInicio = true;
+                    break;
+                case "Administrador":
+                    permisoCita = true;
+                    permisoPaci = true;
+                    permisoInicio = true;
+                    permisoAnte = true;
+                    permisoEmple = true;
+                    permisoCami = true;
+                    permisoBitacora = true;
+                    permisoAlmacen = true;
+                    break;
+            }
+        }
 
         //Mostrar y ocultar botones
         public void BotonesAMostrar()
@@ -137,44 +192,93 @@ namespace Talent
         //botones Ventana Principal
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            abrirform(new MenuInicioDoctor());
-            ocultarPaneles();
+            if (permisoInicio == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new MenuInicioDoctor());
+                ocultarPaneles();
+            }
         }
 
         private void btnCitas_Click(object sender, EventArgs e)
         {
-            abrirform(new citas());
-            ocultarPaneles();
+            if (permisoCita == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new citas());
+                ocultarPaneles();
+            }
         }
 
         private void btnPacientes_Click(object sender, EventArgs e)
         {
-            abrirform(new Paciente());
-            ocultarPaneles();
+            if (permisoPaci == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new Paciente());
+                ocultarPaneles();
+            }
         }
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            abrirform(new Empleados());
-            ocultarPaneles();
+            if (permisoEmple == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new Empleados());
+                ocultarPaneles();
+            }
         }
 
         private void btnLugares_Click(object sender, EventArgs e)
         {
-            abrirform(new Lugares());
-            ocultarPaneles();
+            if (permisoCami == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new Lugares());
+                ocultarPaneles();
+            }
         }
 
         private void btnAlmacen_Click(object sender, EventArgs e)
         {
-            abrirform(new aux());
-            ocultarPaneles();
+            if (permisoAlmacen == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new aux());
+                ocultarPaneles();
+            }
         }
 
         private void btnAntecedentes_Click(object sender, EventArgs e)
         {
-            abrirform(new Antecedentes());
-            ocultarPaneles();
+            if (permisoBitacora == false)
+            {
+                MessageBox.Show("No tiene permiso");
+            }
+            else
+            {
+                abrirform(new Antecedentes());
+                ocultarPaneles();
+            }
         }
 
         private void panelHora_Paint(object sender, PaintEventArgs e)

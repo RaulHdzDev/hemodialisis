@@ -19,11 +19,14 @@ namespace Talent
     public partial class Login : Form
     {
         conexionBD obj = new conexionBD();
-        
+        String TipoUsuario = "";
+        string correo = "";
+        string contraseña = "";
+
         public Login()
         {
             InitializeComponent();
-            conexionBD.abrir();
+            //conexionBD.abrir();
         }
 
         //codigo para poder arrastrar la ventana por la pantalla
@@ -137,24 +140,52 @@ namespace Talent
         }
 
 
+        public void TipoUser()
+        {
+            try
+            {
+                conexionBD.abrir();
+
+                MySqlCommand comando = new MySqlCommand("SELECT tipo_empleado FROM usuarios WHERE " +
+                    "correo = '" + correo.Trim() + "' AND contra_usuario = '" + contraseña.Trim() + "'", conexionBD.conectar);
+
+                MySqlDataReader registros = comando.ExecuteReader();
+
+                while (registros.Read())
+                {
+                    TipoUsuario = registros["tipo_empleado"].ToString();
+                }
+
+                conexionBD.cerrar();
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error " + e);
+            }
+        }
+
         //iniciar sesion
         private void btnLIniciarSesion_Click(object sender, EventArgs e)
         {
-            string correo = txtLUsuario.Text;
-            string contraseña = txtLContraseña.Text;
+            correo = txtLUsuario.Text;
+            contraseña = txtLContraseña.Text;
 
-            MySqlDataReader msqldr = null;
+            TipoUser();
+
+            //MySqlDataReader msqldr = null;
 
             try
             {
-                using (MySqlCommand comando = new MySqlCommand("Select nombre, correo, contra_usuario from usuarios where " +
-                    "correo = '" + correo.Trim() + "' AND contra_usuario = '" + contraseña.Trim() + "'", conexionBD.conectar))
-                {
-                    msqldr = comando.ExecuteReader();
+                conexionBD.abrir();
+                MySqlCommand comando = new MySqlCommand("Select nombre, correo, contra_usuario from usuarios where " +
+                    "correo = '" + correo.Trim() + "' AND contra_usuario = '" + contraseña.Trim() + "'", conexionBD.conectar);
+                
+                    MySqlDataReader msqldr = comando.ExecuteReader();
 
                     if (msqldr.Read())
                     {
-                        VentanaPrincipal AbrirPrincipal = new VentanaPrincipal();
+                        VentanaPrincipal AbrirPrincipal = new VentanaPrincipal(TipoUsuario);
                         AbrirPrincipal.Show();
                         this.Hide();
                     }
@@ -166,8 +197,9 @@ namespace Talent
                     {
                         MessageBox.Show("Usuario o Contraseña incorrecta");
                     }
-                    msqldr.Close();
-                }
+                //msqldr.Close();
+                conexionBD.cerrar();
+
             } catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
