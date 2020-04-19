@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace Talent
 {
@@ -29,6 +30,24 @@ namespace Talent
             InitializeComponent();
             TipoUsuario = id;
             CargarPermisos();
+            eliminarCitas();
+        }
+
+        public void eliminarCitas ()
+        {
+            using (MySqlCommand comando = new MySqlCommand ("Select id_pacientes from vista_citas_incompletas"))
+            {
+
+                MySqlDataReader reader = comando.ExecuteReader();
+                foreach (int idvista in reader)
+                {
+                    using (MySqlCommand comandoBorrar = new MySqlCommand ("delete from citas where id_citas = " + idvista))
+                    {
+                        comandoBorrar.ExecuteNonQuery();
+                    }
+                }
+               
+            }
         }
 
         private void CargarPermisos()
