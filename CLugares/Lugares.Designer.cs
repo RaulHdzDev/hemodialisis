@@ -51,9 +51,8 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1557, 49);
+            this.panel1.Size = new System.Drawing.Size(1035, 40);
             this.panel1.TabIndex = 18;
             // 
             // label1
@@ -61,10 +60,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(51, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(38, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 32);
+            this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 17;
             this.label1.Text = "Camillas";
             // 
@@ -72,10 +70,9 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Talent.Properties.Resources.cerrarsesion;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(28, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
@@ -89,12 +86,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.datos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datos.Location = new System.Drawing.Point(0, 122);
-            this.datos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datos.Location = new System.Drawing.Point(0, 99);
             this.datos.Name = "datos";
             this.datos.ReadOnly = true;
             this.datos.RowHeadersWidth = 51;
-            this.datos.Size = new System.Drawing.Size(1557, 577);
+            this.datos.Size = new System.Drawing.Size(1168, 469);
             this.datos.TabIndex = 229;
             // 
             // btnAAgregar
@@ -116,10 +112,10 @@
             this.btnAAgregar.IdleFillColor = System.Drawing.Color.White;
             this.btnAAgregar.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.btnAAgregar.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.btnAAgregar.Location = new System.Drawing.Point(1359, 55);
-            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.btnAAgregar.Location = new System.Drawing.Point(881, 45);
+            this.btnAAgregar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnAAgregar.Name = "btnAAgregar";
-            this.btnAAgregar.Size = new System.Drawing.Size(191, 50);
+            this.btnAAgregar.Size = new System.Drawing.Size(143, 41);
             this.btnAAgregar.TabIndex = 230;
             this.btnAAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAAgregar.Click += new System.EventHandler(this.btnAAgregar_Click);
@@ -143,10 +139,10 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(25)))), ((int)(((byte)(110)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(19, 709);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(14, 576);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(145, 50);
+            this.bunifuThinButton21.Size = new System.Drawing.Size(109, 41);
             this.bunifuThinButton21.TabIndex = 242;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click_1);
@@ -155,10 +151,9 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(8, 55);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(6, 45);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(81, 19);
+            this.label14.Size = new System.Drawing.Size(64, 16);
             this.label14.TabIndex = 244;
             this.label14.Text = "ID camilla:";
             // 
@@ -172,10 +167,10 @@
             this.lugar.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.lugar.ForeColor = System.Drawing.Color.Gray;
             this.lugar.isPassword = false;
-            this.lugar.Location = new System.Drawing.Point(8, 69);
-            this.lugar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.lugar.Location = new System.Drawing.Point(6, 56);
+            this.lugar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lugar.Name = "lugar";
-            this.lugar.Size = new System.Drawing.Size(279, 41);
+            this.lugar.Size = new System.Drawing.Size(209, 33);
             this.lugar.TabIndex = 243;
             this.lugar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -183,10 +178,9 @@
             // 
             this.buscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buscar.Image = global::Talent.Properties.Resources.buscar;
-            this.buscar.Location = new System.Drawing.Point(293, 76);
-            this.buscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buscar.Location = new System.Drawing.Point(220, 62);
             this.buscar.Name = "buscar";
-            this.buscar.Size = new System.Drawing.Size(31, 27);
+            this.buscar.Size = new System.Drawing.Size(23, 22);
             this.buscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.buscar.TabIndex = 245;
             this.buscar.TabStop = false;
@@ -194,10 +188,10 @@
             // 
             // Lugares
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1557, 775);
+            this.ClientSize = new System.Drawing.Size(1035, 630);
             this.Controls.Add(this.buscar);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.lugar);
@@ -206,7 +200,6 @@
             this.Controls.Add(this.datos);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Lugares";
             this.Text = "Lugares";
             this.panel1.ResumeLayout(false);

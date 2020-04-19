@@ -41,5 +41,16 @@ namespace Talent
         {
 
         }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnAAgregar_Click(object sender, EventArgs e)
+        {
+            InformacionMedica abrirInformacionMedica = new InformacionMedica();
+            abrirInformacionMedica.Show();
+        }
     }
 }

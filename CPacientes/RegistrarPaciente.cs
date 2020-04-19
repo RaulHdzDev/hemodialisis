@@ -16,7 +16,7 @@ namespace Talent
         public RegistrarPaciente()
         {
             InitializeComponent();
-            panelVerNEmergencias.Visible = false;
+         
      
         }
 
@@ -187,15 +187,8 @@ namespace Talent
         {
        
 
-            if (panelVerNEmergencias.Visible == false)
-            {
-                panelVerNEmergencias.Visible = true;
-            }
-            else
-            {
-                panelVerNEmergencias.Visible = false;
             }
 
-        }
+
     }
 }
