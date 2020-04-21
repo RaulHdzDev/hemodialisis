@@ -67,6 +67,9 @@ namespace Talent
             conexionBD.cerrar();
         }
 
+
+
+
         private void CargarPermisos()
         {
             switch (TipoUsuario)
@@ -111,6 +114,9 @@ namespace Talent
                     break;
             }
         }
+
+
+
 
         //Mostrar y ocultar botones
         public void BotonesAMostrar()

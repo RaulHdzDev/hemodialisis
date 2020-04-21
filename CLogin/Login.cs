@@ -140,6 +140,8 @@ namespace Talent
         }
 
 
+
+
         public void TipoUser()
         {
             try
