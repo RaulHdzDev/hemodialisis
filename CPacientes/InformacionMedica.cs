@@ -15,11 +15,14 @@ namespace Talent
 {
     public partial class InformacionMedica : Form
     {
+        string nombreId = "";
         int id;
-        public InformacionMedica(int id)
+        public InformacionMedica(int idBuscar)
         {
             InitializeComponent();
-            this.id = id;
+
+            id = idBuscar;
+
         }
 
         //codigo para poder arrastrar la ventana por la pantalla
