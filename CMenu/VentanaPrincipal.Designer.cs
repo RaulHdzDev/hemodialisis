@@ -77,6 +77,10 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+=======
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1168, 34);
             this.panel1.TabIndex = 0;
@@ -86,7 +90,12 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Talent.Properties.Resources.logo_bloop_void;
+<<<<<<< HEAD
+            this.pictureBox6.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.pictureBox6.Location = new System.Drawing.Point(11, 6);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(26, 23);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -109,7 +118,12 @@
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Talent.Properties.Resources.cerrarApp;
+<<<<<<< HEAD
+            this.pictureBox5.Location = new System.Drawing.Point(1508, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.pictureBox5.Location = new System.Drawing.Point(1131, 3);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(25, 25);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +136,12 @@
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::Talent.Properties.Resources.maximizarAPP;
+<<<<<<< HEAD
+            this.pictureBox4.Location = new System.Drawing.Point(1467, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.pictureBox4.Location = new System.Drawing.Point(1100, 3);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(25, 25);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -135,7 +154,12 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Talent.Properties.Resources.mini;
+<<<<<<< HEAD
+            this.pictureBox2.Location = new System.Drawing.Point(1425, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.pictureBox2.Location = new System.Drawing.Point(1069, 3);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +173,12 @@
             this.PanelGeneral.Controls.Add(this.label1);
             this.PanelGeneral.Controls.Add(this.pictureBox3);
             this.PanelGeneral.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+            this.PanelGeneral.Location = new System.Drawing.Point(240, 42);
+            this.PanelGeneral.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.PanelGeneral.Location = new System.Drawing.Point(180, 34);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.PanelGeneral.Name = "PanelGeneral";
             this.PanelGeneral.Size = new System.Drawing.Size(988, 596);
             this.PanelGeneral.TabIndex = 10;
@@ -160,7 +189,12 @@
             this.panelHora.Controls.Add(this.fecha);
             this.panelHora.Controls.Add(this.hora);
             this.panelHora.Dock = System.Windows.Forms.DockStyle.Bottom;
+<<<<<<< HEAD
+            this.panelHora.Location = new System.Drawing.Point(0, 679);
+            this.panelHora.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.panelHora.Location = new System.Drawing.Point(0, 552);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.panelHora.Name = "panelHora";
             this.panelHora.Size = new System.Drawing.Size(988, 44);
             this.panelHora.TabIndex = 8;
@@ -206,6 +240,10 @@
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox3.Image = global::Talent.Properties.Resources.fondoSistem;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+=======
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(988, 596);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -227,7 +265,12 @@
             this.panelIzquierdo.Controls.Add(this.bunifuFlatButton1);
             this.panelIzquierdo.Controls.Add(this.panel2);
             this.panelIzquierdo.Dock = System.Windows.Forms.DockStyle.Left;
+<<<<<<< HEAD
+            this.panelIzquierdo.Location = new System.Drawing.Point(0, 42);
+            this.panelIzquierdo.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.panelIzquierdo.Location = new System.Drawing.Point(0, 34);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.panelIzquierdo.Name = "panelIzquierdo";
             this.panelIzquierdo.Size = new System.Drawing.Size(180, 596);
             this.panelIzquierdo.TabIndex = 9;
@@ -534,12 +577,17 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.BunifuFlatButton1_Click);
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+=======
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(180, 139);
             this.panel2.TabIndex = 8;
@@ -549,7 +597,12 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Talent.Properties.Resources.poster2_14_91331;
+<<<<<<< HEAD
+            this.pictureBox1.Location = new System.Drawing.Point(12, -2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+=======
             this.pictureBox1.Location = new System.Drawing.Point(9, -2);
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(155, 148);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -572,6 +625,10 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+<<<<<<< HEAD
+            this.Margin = new System.Windows.Forms.Padding(4);
+=======
+>>>>>>> a2e06baf0b637c612cdbaf5dd7537916989e11ec
             this.Name = "VentanaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VentanaPrincipal";

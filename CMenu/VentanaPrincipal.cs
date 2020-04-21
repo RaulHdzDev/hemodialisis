@@ -332,6 +332,13 @@ namespace Talent
         {
 
         }
+
+        private void BunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            Login cerrarSesion = new Login();
+            cerrarSesion.Show();
+            this.Hide();
+        }
     }
 
 }
