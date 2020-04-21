@@ -58,7 +58,14 @@ namespace Talent
 
         private void btnLIniciarSesion_Click(object sender, EventArgs e)
         {
-            Registrar();
+            if(!nombre.Text.Equals("") && !apellidoP.Text.Equals("") && !apellidoM.Text.Equals("") && !correo.Text.Equals("") && !password.Text.Equals(""))
+            {
+                Registrar();
+            }
+            else
+            {
+                MessageBox.Show("Por favor ingrese todos los datos");
+            }
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
