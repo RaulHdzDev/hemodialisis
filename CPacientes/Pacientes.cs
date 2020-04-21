@@ -14,6 +14,8 @@ namespace Talent
 {
     public partial class Paciente : Form
     {
+        int idBuscar;
+
         public Paciente()
         {
             InitializeComponent();
@@ -75,9 +77,45 @@ namespace Talent
 
         private void btnLIniciarSesion_Click(object sender, EventArgs e)
         {
-            int id = Int32.Parse(txt_user.text);
-            InformacionPaciente AbrirInformacionPaciente = new InformacionPaciente(id);
-            AbrirInformacionPaciente.Show();          
+            string nombreBuscar = txt_user.text;
+
+            try
+            {
+                if (nombreBuscar != "")
+                {
+                    conexionBD.abrir();
+
+                    using (MySqlCommand comandoBuscarId = new MySqlCommand("Select id_pacientes from pacientes where nombre = '" + nombreBuscar + "'",
+                        conexionBD.conectar))
+                    {
+                        MySqlDataReader reader = comandoBuscarId.ExecuteReader();
+                        if (reader.Read())
+                        {
+                            idBuscar = Int32.Parse(reader["id_pacientes"].ToString());
+
+                            InformacionPaciente AbrirInformacionPaciente = new InformacionPaciente(idBuscar);
+                            AbrirInformacionPaciente.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Ingrese un nombre válido");
+                        }
+                            
+                    }
+
+                    conexionBD.cerrar();
+
+                }
+                else
+                {
+                    MessageBox.Show("Ingrese un nombre");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ingrese un nombre");
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -94,7 +132,8 @@ namespace Talent
         {
             try
             {
-                using (MySqlCommand comando = new MySqlCommand("Select * From pacientes where id_pacientes = " + txt_user.text, conexionBD.conectar))
+                conexionBD.abrir();
+                using (MySqlCommand comando = new MySqlCommand("Select * From pacientes where nombre = '" + txt_user.text + "'", conexionBD.conectar))
                 {
                     MySqlDataAdapter msda = new MySqlDataAdapter();
                     msda.SelectCommand = comando;
@@ -107,6 +146,7 @@ namespace Talent
             {
                 ex.ToString();
             }
+            conexionBD.cerrar();
         }
     }
     }

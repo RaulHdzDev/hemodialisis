@@ -14,22 +14,23 @@ namespace Talent
 {
     public partial class InformacionPaciente : Form
     {
-        int idBuscar = 0;
-        public InformacionPaciente(int id)
+        int idBuscar;
+        public InformacionPaciente(int idBuscar)
         {
+            this.idBuscar = idBuscar;
             InitializeComponent();
-            idBuscar = id;
             mostrarPacientes();
             mostrarPadecimientos();
             mostrarEnfermedades();
             mostrarAlergias();
+
+            
         }
 
         public void mostrarAlergias()
         {
             int idAlergias = 0;
             conexionBD.abrir();
-
             using (MySqlCommand comandoAlergias = new MySqlCommand("Select id_alergias from alergias_pacientes where id_pacientes = " + idBuscar,
                     conexionBD.conectar))
             {
@@ -298,6 +299,7 @@ namespace Talent
 
         private void btnAAgregar_Click(object sender, EventArgs e)
         {
+
             InformacionMedica abrirInformacionMedica = new InformacionMedica(idBuscar);
             abrirInformacionMedica.Show();
         }

@@ -190,8 +190,7 @@ namespace Talent
 
         private void bunifuThinButton22_Click_2(object sender, EventArgs e)
         {
-            InformacionMedica abrirInformacionMedica = new InformacionMedica(id);
-            abrirInformacionMedica.Show();
+
         }
 
         private void btnAAgregar_Click(object sender, EventArgs e)
